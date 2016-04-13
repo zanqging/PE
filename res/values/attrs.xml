@@ -1,0 +1,1035 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Copyright 2015 Akexorcist
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <declare-styleable name="ShimmerFrameLayout">
+        <attr name="auto_start" format="boolean"/>
+        <attr name="base_alpha" format="float"/>
+        <attr name="durations" format="integer"/>
+        <attr name="repeat_count" format="integer"/>
+        <attr name="repeat_delay" format="integer"/>
+        <attr name="repeat_mode" format="enum">
+            <enum name="restart" value="1"/>
+            <enum name="reverse" value="2"/>
+        </attr>
+        <attr name="angle" format="enum">
+            <enum name="cw_0" value="0"/>
+            <enum name="cw_90" value="90"/>
+            <enum name="cw_180" value="180"/>
+            <enum name="cw_270" value="270"/>
+        </attr>
+        <attr name="dropoff" format="float"/>
+        <attr name="fixed_width" format="dimension"/>
+        <attr name="fixed_height" format="dimension"/>
+        <attr name="intensity" format="float"/>
+        <attr name="relative_width" format="float"/>
+        <attr name="relative_height" format="float"/>
+        <attr name="shape" format="enum">
+            <enum name="linear" value="0"/>
+            <enum name="radial" value="1"/>
+        </attr>
+        <attr name="tilt" format="float"/>
+    </declare-styleable>
+    <!--searhview-->
+    <declare-styleable name="MaterialMenuView">
+        <attr name="mm_color" format="color"/>
+        <attr name="mm_scale" format="integer"/>
+        <attr name="mm_transformDuration" format="integer"/>
+        <attr name="mm_pressedDuration" format="integer"/>
+        <attr name="mm_strokeWidth" format="integer"/>
+        <attr name="mm_rtlEnabled" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="DocumentView">
+
+        <attr name="documentView_insetPadding" format="dimension"/>
+        <attr name="documentView_insetPaddingLeft" format="dimension"/>
+        <attr name="documentView_insetPaddingRight" format="dimension"/>
+        <attr name="documentView_insetPaddingTop" format="dimension"/>
+        <attr name="documentView_insetPaddingBottom" format="dimension"/>
+
+        <attr name="documentView_offsetX" format="dimension"/>
+        <attr name="documentView_offsetY" format="dimension"/>
+        <attr name="documentView_wordSpacingMultiplier" format="float"/>
+        <attr name="documentView_lineHeightMultiplier" format="float"/>
+        <attr name="documentView_reverse" format="boolean"/>
+        <attr name="documentView_maxLines" format="integer"/>
+        <attr name="documentView_hyphen" format="string"/>
+        <attr name="documentView_textAlignment" format="enum">
+            <!--
+            Corresponds to
+            @link com.bluejamesbond.text.style.TextAlignment}
+            -->
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+            <enum name="justified" value="2"/>
+            <enum name="center" value="3"/>
+
+        </attr>
+        <attr name="documentView_textSize" format="dimension"/>
+        <attr name="documentView_textColor" format="color"/>
+        <attr name="documentView_antialias" format="boolean"/>
+        <attr name="documentView_text" format="string"/>
+        <attr name="documentView_textSubPixel" format="boolean"/>
+        <attr name="documentView_textTypefacePath" format="string"/>
+        <attr name="documentView_textStyle" format="integer">
+            <flag name="plain" value="0"/>
+            <flag name="bold" value="1"/>
+            <flag name="underline" value="2"/>
+            <flag name="strikeThru" value="4"/>
+        </attr>
+        <attr name="documentView_textFormat" format="enum">
+            <!--
+                Plain old text. Corresponds to
+                {@link com.bluejamesbond.text.DocumentView#PLAIN_TEXT}
+            -->
+            <enum name="plain" value="0"/>
+            <!--
+                Spannable text. Corresponds to
+                {@link com.bluejamesbond.text.DocumentView#FORMATTED_TEXT}.
+            -->
+            <enum name="formatted" value="1"/>
+        </attr>
+        <attr name="documentView_cacheConfig" format="enum">
+            <enum name="no_cache" value="0"/>
+            <enum name="auto_quality" value="1"/>
+            <enum name="low_quality" value="2"/>
+            <enum name="high_quality" value="3"/>
+            <enum name="grayscale" value="4"/>
+        </attr>
+
+        <attr name="documentView_progressBar" format="reference"/>
+        <attr name="documentView_fadeInAnimationStepDelay" format="integer"/>
+        <attr name="documentView_fadeInDuration" format="integer"/>
+        <attr name="documentView_disallowInterceptTouch" format="boolean"/>
+
+    </declare-styleable>
+    <declare-styleable name="materialAnimatedSwitch">
+        <attr name="icon_release"
+              format="reference"/>
+        <attr name="icon_press"
+              format="reference"/>
+        <attr name="base_release_color"
+              format="color"/>
+        <attr name="base_press_color"
+              format="color"/>
+        <attr name="ball_release_color"
+              format="color"/>
+        <attr name="ball_press_color"
+              format="color"/>
+    </declare-styleable>
+    <declare-styleable name="StickyListHeadersListView">
+        <attr name="stickyListHeadersListViewStyle" format="reference"/>
+
+        <!-- View attributes -->
+        <attr name="android:clipToPadding" />
+        <attr name="android:scrollbars" />
+        <attr name="android:overScrollMode" />
+        <attr name="android:padding" />
+        <attr name="android:paddingLeft" />
+        <attr name="android:paddingTop" />
+        <attr name="android:paddingRight" />
+        <attr name="android:paddingBottom" />
+
+        <!-- ListView attributes -->
+        <attr name="android:fadingEdgeLength" />
+        <attr name="android:requiresFadingEdge" />
+        <attr name="android:cacheColorHint" />
+        <attr name="android:choiceMode" />
+        <attr name="android:drawSelectorOnTop" />
+        <attr name="android:fastScrollEnabled" />
+        <attr name="android:fastScrollAlwaysVisible" />
+        <attr name="android:listSelector" />
+        <attr name="android:scrollingCache" />
+        <attr name="android:scrollbarStyle" />
+        <attr name="android:divider" />
+        <attr name="android:dividerHeight" />
+        <attr name="android:transcriptMode" />
+        <attr name="android:stackFromBottom" />
+
+        <!-- StickyListHeaders attributes -->
+        <attr name="hasStickyHeaders" format="boolean" />
+        <attr name="isDrawingListUnderStickyHeader" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="SwitchButton">
+        <attr name="onDrawable" format="reference" />
+        <attr name="offDrawable" format="reference" />
+        <attr name="thumbDrawable" format="reference" />
+        <attr name="thumb_margin" format="dimension|reference" />
+        <attr name="thumb_marginTop" format="dimension|reference" />
+        <attr name="thumb_marginBottom" format="dimension|reference" />
+        <attr name="thumb_marginLeft" format="dimension|reference" />
+        <attr name="thumb_marginRight" format="dimension|reference" />
+        <attr name="thumb_width" format="dimension|reference" />
+        <attr name="thumb_height" format="dimension|reference" />
+        <attr name="onColors" format="color|reference" />
+        <attr name="offColors" format="color|reference" />
+        <attr name="thumbColor" format="color|reference" />
+        <attr name="thumbPressedColor" format="color|reference" />
+        <attr name="animationVelocity" format="integer" />
+        <attr name="radius" format="integer" />
+        <attr name="measureFactor" format="float" />
+        <attr name="insetLeft" format="dimension|reference" />
+        <attr name="insetRight" format="dimension|reference" />
+        <attr name="insetTop" format="dimension|reference" />
+        <attr name="insetBottom" format="dimension|reference" />
+    </declare-styleable>
+    <declare-styleable name="CropImageViews">
+        <attr name="guidelines">
+            <enum name="on" value="2"/>
+            <enum name="onTouch" value="1"/>
+            <enum name="off" value="0"/>
+        </attr>
+        <attr name="fixAspectRatio" format="boolean"/>
+        <attr name="aspectRatioX" format="integer"/>
+        <attr name="aspectRatioY" format= "integer"/>
+        <attr name="imageResource" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="MovingImageView" >
+        <attr name="miv_speed" format="integer" />
+        <attr name="miv_repetitions" format="integer" />
+        <attr name="miv_max_relative_size" format="float" />
+        <attr name="miv_min_relative_offset" format="float" />
+        <attr name="miv_start_delay" format="integer" />
+        <attr name="miv_load_on_create" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="MovingImageViewTheme" >
+        <attr name="movingImageViewStyle" format="reference" />
+    </declare-styleable>
+    <attr name="arc_origin">
+        <!-- Value same as the android:gravity -->
+        <flag name="top" value="0x30"/>
+        <flag name="bottom" value="0x50"/>
+        <flag name="left" value="0x03"/>
+        <flag name="right" value="0x05"/>
+        <flag name="center_vertical" value="0x10"/>
+        <flag name="center_horizontal" value="0x01"/>
+        <flag name="center" value="0x11"/>
+        <flag name="start" value="0x00800003"/>
+        <flag name="end" value="0x00800005"/>
+    </attr>
+
+    <declare-styleable name="BGAMoocStyleRefreshView">
+        <attr name="mv_ultimateColor" format="reference|color"/>
+        <attr name="mv_originalImg" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="twowayview_TwoWayView">
+        <attr name="twowayview_layoutManager" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="twowayview_GridLayoutManager">
+        <attr name="twowayview_numColumns" format="integer"/>
+        <attr name="twowayview_numRows" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="twowayview_SpacingItemDecoration">
+        <attr name="android:verticalSpacing" tools:ignore="ResourceName"/>
+        <attr name="android:horizontalSpacing" tools:ignore="ResourceName"/>
+    </declare-styleable>
+
+    <declare-styleable name="twowayview_DividerItemDecoration">
+        <attr name="android:divider" tools:ignore="ResourceName"/>
+        <attr name="twowayview_verticalDivider" format="reference"/>
+        <attr name="twowayview_horizontalDivider" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="twowayview_StaggeredGridViewChild">
+        <attr name="twowayview_span" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="twowayview_SpannableGridViewChild">
+        <attr name="twowayview_colSpan" format="integer"/>
+        <attr name="twowayview_rowSpan" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="twowayview_TwoWayLayoutManager">
+        <attr name="android:orientation" tools:ignore="ResourceName"/>
+    </declare-styleable>
+
+    <declare-styleable name="arc_ArcLayout">
+        <attr name="arc_origin"/>
+        <attr name="arc_color" format="color"/>
+        <attr name="arc_radius" format="dimension"/>
+        <attr name="arc_axisRadius" format="dimension"/>
+        <attr name="arc_freeAngle" format="boolean"/>
+        <attr name="arc_reverseAngle" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="arc_ArcLayout_Layout">
+        <attr name="arc_origin"/>
+        <attr name="arc_angle" format="float"/>
+    </declare-styleable>
+
+    <declare-styleable name="NumberProgressBar">
+        <attr name="progress" format="integer"/>
+        <attr name="max" format="integer"/>
+
+        <attr name="progress_unreached_color" format="color"/>
+        <attr name="progress_reached_color" format="color"/>
+
+        <attr name="progress_reached_bar_height" format="dimension"/>
+        <attr name="progress_unreached_bar_height" format="dimension"/>
+
+        <attr name="progress_text_size" format="dimension"/>
+        <attr name="progress_text_color" format="color"/>
+
+        <attr name="progress_text_offset" format="dimension"/>
+
+        <attr name="progress_text_visibility" format="enum">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="Themes">
+        <attr name="numberProgressBarStyle" format="reference"/>
+    </declare-styleable>
+
+    <attr name="cropImageStyle" format="reference" />
+
+    <declare-styleable name="CropImageView">
+        <attr name="highlightColor" format="reference|color" />
+        <attr name="showThirds" format="boolean" />
+        <attr name="showCircle" format="boolean" />
+        <attr name="showHandles">
+            <enum name="changing" value="0" />
+            <enum name="always" value="1" />
+            <enum name="never" value="2" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="SwipyRefreshLayout">
+        <attr name="direction">
+            <enum name="top" value="0" />
+            <enum name="bottom" value="1" />
+            <enum name="both" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <!--tablan-->
+    <declare-styleable name="PagerSlidingTabStrip">
+        <attr name="pstsIndicatorColor" format="color" />
+        <attr name="pstsUnderlineColor" format="color" />
+        <attr name="pstsDividerColor" format="color" />
+        <attr name="pstsIndicatorHeight" format="dimension" />
+        <attr name="pstsUnderlineHeight" format="dimension" />
+        <attr name="pstsDividerPadding" format="dimension" />
+        <attr name="pstsTabPaddingLeftRight" format="dimension" />
+        <attr name="pstsScrollOffset" format="dimension" />
+        <attr name="pstsTabBackground" format="reference" />
+        <attr name="pstsShouldExpand" format="boolean" />
+        <attr name="pstsTextAllCaps" format="boolean" />
+    </declare-styleable>
+<!--圆形图片-->
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="border_overlay" format="boolean" />
+    </declare-styleable>
+
+
+    <declare-styleable name="MaterialEditText">
+        <!-- The base color of the line and the texts. Default is black. -->
+        <attr name="met_baseColor" format="color" />
+        <!-- The highlight color of the line, and the floating label if the highlightFloatingLabel is true. -->
+        <attr name="met_primaryColor" format="color" />
+        <!-- How the floating label should be shown. Default is none -->
+        <attr name="met_floatingLabel">
+            <enum name="none" value="0" />
+            <enum name="normal" value="1" />
+            <enum name="highlight" value="2" />
+        </attr>
+        <!-- The color for when something is wrong.(e.g. exceeding max characters) -->
+        <attr name="met_errorColor" format="color" />
+        <!-- Min characters count limit. 0 means no limit. -->
+        <attr name="met_minCharacters" format="integer" />
+        <!-- max Characters count limit. 0 means no limit. -->
+        <attr name="met_maxCharacters" format="integer" />
+        <!-- Whether to show the bottom ellipsis in singleLine mode -->
+        <attr name="met_singleLineEllipsis" format="boolean" />
+        <!-- Reserved bottom text lines count, no matter if there is some helper/error text. -->
+        <attr name="met_minBottomTextLines" format="integer" />
+        <!-- Helper text at the bottom -->
+        <attr name="met_helperText" format="string" />
+        <!-- Helper text color -->
+        <attr name="met_helperTextColor" format="color" />
+        <!-- Font of the paint used to draw accent texts -->
+        <attr name="met_accentTypeface" format="string" />
+        <!-- Font used on view -->
+        <attr name="met_typeface" format="string" />
+        <!-- Custom float label text -->
+        <attr name="met_floatingLabelText" format="string" />
+        <!-- spacing between the main text and the floating label -->
+        <attr name="met_floatingLabelPadding" format="dimension" />
+        <!-- Hide underline -->
+        <attr name="met_hideUnderline" format="boolean" />
+        <!-- Underline's color -->
+        <attr name="met_underlineColor" format="color" />
+        <!-- Auto validate -->
+        <attr name="met_autoValidate" format="boolean" />
+        <!-- Left icon -->
+        <attr name="met_iconLeft" format="reference" />
+        <!-- Right icon -->
+        <attr name="met_iconRight" format="reference" />
+        <!-- Padding between icon(s) and the main area. 8dp by default. -->
+        <attr name="met_iconPadding" format="dimension" />
+        <!-- Clear button -->
+        <attr name="met_clearButton" format="boolean" />
+        <!-- The floating label's text size. 12sp by default. -->
+        <attr name="met_floatingLabelTextSize" format="dimension" />
+        <!-- The floating label's text color. -1 by default. -->
+        <attr name="met_floatingLabelTextColor" format="color" />
+        <!-- The bottom texts' size. 12sp by default. -->
+        <attr name="met_bottomTextSize" format="dimension" />
+        <!-- Always show the floating label, instead of animating it in/out. False by default. -->
+        <attr name="met_floatingLabelAlwaysShown" format="boolean" />
+        <!-- Always show the helper text, no matter if the edit text is focused. False by default. -->
+        <attr name="met_helperTextAlwaysShown" format="boolean" />
+        <!-- Whether use animation to show/hide the floating label. True by default. -->
+        <attr name="met_floatingLabelAnimating" format="boolean"/>
+        <!-- Text color -->
+        <attr name="met_textColor" format="color" />
+        <!-- Hint Text Color -->
+        <attr name="met_textColorHint" format="color" />
+        <!-- Auto validate on focus lost. False by default. -->
+        <attr name="met_validateOnFocusLost" format="boolean"/>
+        <!-- Whether check the characters count at the beginning it's shown. True by default. -->
+        <attr name="met_checkCharactersCountAtBeginning" format="boolean"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="ScrollableLayout">
+        <attr name="scrollable_maxScroll"          format="dimension" />
+        <attr name="scrollable_scrollerFlywheel"   format="boolean" />
+        <attr name="scrollable_considerIdleMillis" format="integer" />
+        <attr name="scrollable_defaultCloseUp"     format="boolean" />
+        <attr name="scrollable_friction"           format="float" />
+
+        <attr name="scrollable_closeUpAnimationMillis" format="integer" />
+        <attr name="scrollable_closeUpAnimatorInterpolator" format="reference" />
+    </declare-styleable>
+    <!--放大缩小的scrollview-->
+    <declare-styleable name="PullToZoomView">
+        <attr name="headerView" format="reference" />
+        <attr name="contentView" format="reference" />
+        <attr name="zoomView" format="reference" />
+        <attr name="isHeaderParallax" format="boolean" />
+    </declare-styleable>
+    <!--最新的editext-->
+    <attr name="errorColor" format="color"/>
+    <attr name="maxCharacters" format="integer"/>
+
+    <declare-styleable name="materialEditText">
+        <!-- Highlight color of floating label text and underline. -->
+        <attr name="backgroundColor" format="color"/>
+        <!-- Error color of under line text and underline. -->
+        <attr name="errorColor"/>
+        <!-- Enable floating label text. -->
+        <attr name="floatingLabel" format="boolean"/>
+        <!-- Max characters count limit. 0 means no max. -->
+        <attr name="maxCharacters"/>
+        <!-- Icon (ImageView) associated to this EditText. -->
+        <attr name="withIcon" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="fullwidthEditText">
+        <!-- Error color of under line text and underline. -->
+        <attr name="errorColor"/>
+        <!-- Max characters count limit. 0 means no max. -->
+        <attr name="maxCharacters"/>
+    </declare-styleable>
+
+    <eat-comment/>
+
+    <!-- Use specific transition subclass names as the root tag of the XML resource that
+         describes a {@link android.transition.Transition Transition},
+         such as <code>changeBounds</code>, <code>fade</code>, and <code>transitionSet</code>. -->
+    <declare-styleable name="Transition">
+        <!-- Amount of time (in milliseconds) that the transition should run. -->
+        <attr name="android:duration"/>
+        <attr name="duration" format="integer"/>
+        <!-- Delay in milliseconds before the transition starts. -->
+        <attr name="startDelay" format="integer"/>
+        <!-- Interpolator to be used in the animations spawned by this transition. -->
+        <attr name="android:interpolator"/>
+        <attr name="interpolator" format="reference"/>
+        <!-- The match order to use for the transition. This is a comma-separated
+             list of values, containing one or more of the following:
+             id, itemId, name, instance. These correspond to
+             {@link android.transition.Transition#MATCH_ID},
+             {@link android.transition.Transition#MATCH_ITEM_ID},
+             {@link android.transition.Transition#MATCH_NAME}, and
+             {@link android.transition.Transition#MATCH_INSTANCE}, respectively.
+             This corresponds to {@link android.transition.Transition#setMatchOrder(int...)}. -->
+        <attr name="matchOrder" format="string"/>
+    </declare-styleable>
+
+    <!-- Use <code>fade</code>as the root tag of the XML resource that
+         describes a {@link android.transition.Fade Fade} transition.
+         The attributes of the {@link android.R.styleable#Transition Transition}
+         resource are available in addition to the specific attributes of Fade
+         described here. -->
+    <declare-styleable name="Fade">
+        <!-- Equivalent to <code>transitionVisibilityMode</code>, fadingMode works only
+             with the Fade transition. -->
+        <attr name="fadingMode">
+            <!-- Fade will only fade appearing items in. -->
+            <enum name="fade_in" value="1"/>
+            <!-- Fade will only fade disappearing items out. -->
+            <enum name="fade_out" value="2"/>
+            <!-- Fade will fade appearing items in and disappearing items out. -->
+            <enum name="fade_in_out" value="3"/>
+        </attr>
+    </declare-styleable>
+
+    <!-- Use <code>slide</code>as the root tag of the XML resource that
+         describes a {@link android.transition.Slide Slide} transition.
+         The attributes of the {@link android.R.styleable#Transition Transition}
+         resource are available in addition to the specific attributes of Slide
+         described here. -->
+    <declare-styleable name="Slide">
+        <attr name="slideEdge">
+            <!-- Slide to and from the left edge of the Scene. -->
+            <enum name="left" value="0x03"/>
+            <!-- Slide to and from the top edge of the Scene. -->
+            <enum name="top" value="0x30"/>
+            <!-- Slide to and from the right edge of the Scene. -->
+            <enum name="right" value="0x05"/>
+            <!-- Slide to and from the bottom edge of the Scene. -->
+            <enum name="bottom" value="0x50"/>
+        </attr>
+    </declare-styleable>
+
+    <!-- Use with {@link android.transition.Visibility} transitions, such as
+         <code>slide</code>, <code>explode</code>, and <code>fade</code> to mark which
+         views are supported. -->
+    <declare-styleable name="VisibilityTransition">
+        <!-- Changes whether the transition supports appearing and/or disappearing Views.
+             Corresponds to {@link android.transition.Visibility#setMode(int)}. -->
+        <attr name="transitionVisibilityMode">
+            <!-- Only appearing Views will be supported. -->
+            <flag name="mode_in" value="1"/>
+            <!-- Only disappearing Views will be supported. -->
+            <flag name="mode_out" value="2"/>
+        </attr>
+    </declare-styleable>
+    <!-- Use <code>target</code> as the root tag of the XML resource that
+     describes a {@link android.transition.Transition#addTarget(int)
+     targetId} of a transition. There can be one or more targets inside
+     a <code>targets</code> tag, which is itself inside an appropriate
+     {@link android.R.styleable#Transition Transition} tag.
+     -->
+    <declare-styleable name="TransitionTarget">
+        <!-- The id of a target on which this transition will animate changes. -->
+        <attr name="targetId" format="reference"/>
+        <!-- The id of a target to exclude from this transition. -->
+        <attr name="excludeId" format="reference"/>
+        <!-- The fully-qualified name of the Class to include in this transition. -->
+        <attr name="targetClass" format="string"/>
+        <!-- The fully-qualified name of the Class to exclude from this transition. -->
+        <attr name="excludeClass" format="string"/>
+        <!-- The transitionName of the target on which this transition will animation changes. -->
+        <attr name="targetName" format="string"/>
+        <!-- The transitionName of the target to exclude from this transition. -->
+        <attr name="excludeName" format="string"/>
+    </declare-styleable>
+
+    <!-- Use <code>set</code> as the root tag of the XML resource that
+         describes a {@link android.transition.TransitionSet
+         TransitionSet} transition. -->
+    <declare-styleable name="TransitionSet">
+        <attr name="transitionOrdering">
+            <!-- child transitions should be played together. -->
+            <enum name="together" value="0"/>
+            <!-- child transitions should be played sequentially, in the same order
+            as the xml. -->
+            <enum name="sequential" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <!-- Use <code>changeTransform</code> as the root tag of the XML resource that
+         describes a {@link android.transition.ChangeTransform} transition. -->
+    <declare-styleable name="ChangeTransform">
+        <!-- A parent change should use an overlay or affect the transform of the
+             transitionining View. Default is true. Corresponds to
+             {@link android.transition.ChangeTransform#setReparentWithOverlay(boolean)}. -->
+        <attr name="reparentWithOverlay" format="boolean"/>
+
+        <!-- Tells ChangeTransform to track parent changes. Default is true. Corresponds to
+             {@link android.transition.ChangeTransform#setReparent(boolean)}. -->
+        <attr name="reparent" format="boolean"/>
+    </declare-styleable>
+
+    <!-- Use <code>changeBounds</code>as the root tag of the XML resource that
+         describes a {@link android.transition.ChangeBounds} transition.
+         The attributes of the {@link android.R.styleable#Transition Transition}
+         resource are available in addition to the specific attributes of ChangeBounds
+         described here. -->
+    <declare-styleable name="ChangeBounds">
+        <!-- Resize the view by adjusting the clipBounds rather than changing the
+             dimensions of the view itself. The default value is false. -->
+        <attr name="resizeClip" format="boolean"/>
+    </declare-styleable>
+
+    <!-- Use <code>transitionManager</code> as the root tag of the XML resource that
+         describes a {@link android.transition.TransitionManager
+         TransitionManager}. -->
+    <declare-styleable name="TransitionManager">
+        <!-- The id of a transition to be used in a particular scene change. -->
+        <attr name="transition" format="reference"/>
+        <!-- The originating scene in this scene change. -->
+        <attr name="fromScene" format="reference"/>
+        <!-- The destination scene in this scene change. -->
+        <attr name="toScene" format="reference"/>
+    </declare-styleable>
+
+    <!-- Use <code>arcMotion</code> as the root tag of the XML resource that
+         describes a {@link android.transition.ArcMotion}. This must be used
+         within a transition with which the PathMotion should be associated. -->
+    <declare-styleable name="ArcMotion">
+        <!-- The minimum arc angle in degrees between the start and end points when
+             they are close to horizontal. -->
+        <attr name="minimumHorizontalAngle" format="float"/>
+        <!-- The minimum arc angle in degrees between the start and end points when
+             they are close to vertical. -->
+        <attr name="minimumVerticalAngle" format="float"/>
+        <!-- The maximum arc angle in degrees between the start and end points. -->
+        <attr name="maximumAngle" format="float"/>
+    </declare-styleable>
+
+    <!-- Use <code>patternPathMotion</code> as the root tag of the XML resource that
+         describes a {@link android.transition.PatternPathMotion}. This must be used
+         within a transition with which the PathMotion should be associated. -->
+    <declare-styleable name="PatternPathMotion">
+        <!-- The path string describing the pattern to use for the PathPathMotion. -->
+        <attr name="patternPathData" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="ShimmerView">
+        <attr name="reflectionColor" format="color"/>
+    </declare-styleable>
+
+    <!--悬浮按钮-->
+    <declare-styleable name="FloatingActionButton">
+        <attr name="fab_colorPressed" format="color"/>
+        <attr name="fab_colorDisabled" format="color"/>
+        <attr name="fab_colorNormal" format="color"/>
+        <attr name="fab_icon" format="reference"/>
+        <attr name="fab_size" format="enum">
+            <enum name="normal" value="0"/>
+            <enum name="mini" value="1"/>
+        </attr>
+        <attr name="fab_title" format="string"/>
+        <attr name="fab_stroke_visible" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="AddFloatingActionButton">
+        <attr name="fab_plusIconColor" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="FloatingActionsMenu">
+        <attr name="fab_addButtonColorPressed" format="color"/>
+        <attr name="fab_addButtonColorNormal" format="color"/>
+        <attr name="fab_addButtonSize" format="enum">
+            <enum name="normal" value="0"/>
+            <enum name="mini" value="1"/>
+        </attr>
+        <attr name="fab_addButtonPlusIconColor" format="color"/>
+        <attr name="fab_addButtonStrokeVisible" format="boolean"/>
+        <attr name="fab_labelStyle" format="reference"/>
+        <attr name="fab_labelsPosition" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+        </attr>
+        <attr name="fab_expandDirection" format="enum">
+            <enum name="up" value="0"/>
+            <enum name="down" value="1"/>
+            <enum name="left" value="2"/>
+            <enum name="right" value="3"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="RecyclerViewPager">
+        <attr name="triggerOffset" format="float" />
+        <attr name="flingFactor" format="float" />
+    </declare-styleable>
+
+
+    <declare-styleable name="ViewFlow">
+        <attr name="sidebuffer" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="CircleFlowIndicator">
+        <attr name="activeColor" format="color" />
+        <attr name="inactiveColor" format="color" />
+        <attr name="radiu" format="dimension" />
+        <attr name="centereds" format="boolean" />
+        <attr name="fadeOut" format="integer" />
+        <attr name="inactiveType">
+            <flag name="stroke" value="0" />
+            <flag name="fill" value="1" />
+        </attr>
+        <attr name="activeType">
+            <flag name="stroke" value="0" />
+            <flag name="fill" value="1" />
+        </attr>
+        <attr name="circleSeparation" format="dimension" />
+        <attr name="activeRadius" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="PullToRefreshView">
+        <attr name="ptrHeight" format="dimension" />
+        <attr name="ptrSpinnerMarginRight" format="dimension" />
+        <attr name="ptrArrowMarginRight" format="dimension" />
+        <attr name="ptrTextSize" format="dimension" />
+        <attr name="ptrLastUpdateTextSize" format="dimension" />
+    </declare-styleable>
+
+    <!-- Reference to a style for the menu drawer. -->
+    <attr name="menuDrawerStyle" format="reference" />
+
+    <!-- Styleables used for styling the menu drawer. -->
+    <declare-styleable name="MenuDrawer">
+
+        <!-- Drawable to use for the background of the content. -->
+        <attr name="mdContentBackground" format="reference" />
+
+        <!-- Drawable to use for the background of the menu. -->
+        <attr name="mdMenuBackground" format="reference" />
+
+        <!-- The size of the menu. -->
+        <attr name="mdMenuSize" format="dimension" />
+
+        <!-- Drawable used as indicator for the active view. -->
+        <attr name="mdActiveIndicator" format="reference" />
+
+        <!-- Defines whether the content will have a dropshadow onto the menu. Default is true. -->
+        <attr name="mdDropShadowEnabled" format="boolean" />
+
+        <!-- The size of the drop shadow. Default is 6dp -->
+        <attr name="mdDropShadowSize" format="dimension" />
+
+        <!-- The color of the drop shadow. Default is #FF000000. -->
+        <attr name="mdDropShadowColor" format="color" />
+
+        <!-- Drawable used for the drop shadow. -->
+        <attr name="mdDropShadow" format="reference" />
+
+        <!-- The touch bezel size. -->
+        <attr name="mdTouchBezelSize" format="dimension" />
+
+        <!-- Whether the indicator should be animated between active views. -->
+        <attr name="mdAllowIndicatorAnimation" format="boolean" />
+
+        <!-- The maximum animation duration -->
+        <attr name="mdMaxAnimationDuration" format="integer" />
+
+        <!-- Drawable that replaces the up indicator -->
+        <attr name="mdSlideDrawable" format="reference" />
+
+        <!-- String to use as the up indicators content description when the drawer is open -->
+        <attr name="mdDrawerOpenUpContentDescription" format="string" />
+
+        <!-- String to use as the up indicators content description when the drawer is closed -->
+        <attr name="mdDrawerClosedUpContentDescription" format="string" />
+
+        <!-- Whether an overlay should be drawn as the drawer is opened and closed -->
+        <attr name="mdDrawOverlay" format="boolean" />
+
+        <!-- The position of the drawer -->
+        <attr name="mdPosition" format="enum">
+            <enum name="left" value="0" />
+            <enum name="top" value="1" />
+            <enum name="right" value="2" />
+            <enum name="bottom" value="3" />
+            <enum name="start" value="4" />
+            <enum name="end" value="5" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="stl_SmartTabLayout">
+        <attr name="stl_indicatorAlwaysInCenter" format="boolean"/>
+        <attr name="stl_indicatorWithoutPadding" format="boolean"/>
+        <attr name="stl_indicatorInFront" format="boolean"/>
+        <attr name="stl_indicatorInterpolation" format="enum">
+            <enum name="smart" value="0"/>
+            <enum name="linear" value="1"/>
+        </attr>
+        <attr name="stl_indicatorGravity" format="enum">
+            <enum name="bottom" value="0"/>
+            <enum name="top" value="1"/>
+            <enum name="center" value="2"/>
+        </attr>
+        <attr name="stl_indicatorColor" format="color"/>
+        <attr name="stl_indicatorColors" format="reference"/>
+        <attr name="stl_indicatorThickness" format="dimension"/>
+        <attr name="stl_indicatorCornerRadius" format="dimension"/>
+        <attr name="stl_overlineColor" format="color"/>
+        <attr name="stl_overlineThickness" format="dimension"/>
+        <attr name="stl_underlineColor" format="color"/>
+        <attr name="stl_underlineThickness" format="dimension"/>
+        <attr name="stl_dividerColor" format="color"/>
+        <attr name="stl_dividerColors" format="reference"/>
+        <attr name="stl_dividerThickness" format="dimension"/>
+        <attr name="stl_defaultTabBackground" format="reference"/>
+        <attr name="stl_defaultTabTextAllCaps" format="boolean"/>
+        <attr name="stl_defaultTabTextColor" format="color|reference"/>
+        <attr name="stl_defaultTabTextSize" format="dimension"/>
+        <attr name="stl_defaultTabTextHorizontalPadding" format="dimension"/>
+        <attr name="stl_defaultTabTextMinWidth" format="dimension"/>
+        <attr name="stl_customTabTextLayoutId" format="reference"/>
+        <attr name="stl_customTabTextViewId" format="reference"/>
+        <attr name="stl_distributeEvenly" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="ExpandableTextView">
+        <attr name="maxCollapsedLines" format="integer"/>
+        <attr name="animDuration" format="integer"/>
+        <attr name="animAlphaStart" format="float"/>
+        <attr name="expandDrawable" format="reference"/>
+        <attr name="collapseDrawable" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="PolygonImageView" >
+        <attr name="poly_vertices" format="integer" />
+        <attr name="poly_rotation_angle" format="float" />
+        <attr name="poly_corner_radius" format="float" />
+        <attr name="poly_border" format="boolean" />
+        <attr name="poly_border_color" format="color" />
+        <attr name="poly_border_width" format="dimension" />
+        <attr name="poly_shadow" format="boolean" />
+        <attr name="poly_shadow_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="PolygonImageViewTheme" >
+        <attr name="polygonImageViewStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="ActionView">
+        <attr name="av_color" format="color"/>
+        <attr name="av_action" format="enum">
+            <enum name="drawer" value="0"/>
+            <enum name="back" value="1"/>
+            <enum name="close" value="2"/>
+            <enum name="plus" value="3"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="StepsViewIndicator">
+        <attr name="numOfSteps" format="integer" />
+    </declare-styleable>
+
+
+    <declare-styleable name="SwipeLayout">
+        <attr name="drag_edge">
+            <flag name="left" value="1" />
+            <flag name="right" value="2" />
+            <flag name="top" value="4" />
+            <flag name="bottom" value="8" />
+        </attr>
+        <attr name="leftEdgeSwipeOffset" format="dimension" />
+        <attr name="rightEdgeSwipeOffset" format="dimension" />
+        <attr name="topEdgeSwipeOffset" format="dimension" />
+        <attr name="bottomEdgeSwipeOffset" format="dimension" />
+        <attr name="show_mode" format="enum">
+            <enum name="lay_down" value="0" />
+            <enum name="pull_out" value="1" />
+        </attr>
+        <attr name="clickToClose" format="boolean" />
+    </declare-styleable>
+
+
+
+    <declare-styleable name="MultiSwipeRefreshLayout">
+        <attr name="foreground"
+              format="reference"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="TagGroup">
+        <!-- Whether the tag group is in append mode. -->
+        <attr name="atg_isAppendMode" format="boolean" />
+        <!-- If the tag group is in append mode, what the hint of input tag. -->
+        <attr name="atg_inputHint" format="string" />
+
+        <!-- The tag view outline border color. -->
+        <attr name="atg_borderColor" format="color" />
+        <!-- The tag view text color. -->
+        <attr name="atg_textColor" format="color" />
+        <!-- The tag view background color. -->
+        <attr name="atg_backgroundColor" format="color" />
+
+        <!-- The dash outline border color, when in append mode. -->
+        <attr name="atg_dashBorderColor" format="color" />
+        <!-- The input tag hint text color, when in append mode. -->
+        <attr name="atg_inputHintColor" format="color" />
+        <!-- The input tag type text color, when in append mode. -->
+        <attr name="atg_inputTextColor" format="color" />
+
+        <!-- The checked tag view outline border color. -->
+        <attr name="atg_checkedBorderColor" format="color" />
+        <!-- The checked text color. -->
+        <attr name="atg_checkedTextColor" format="color" />
+        <!-- The checked marker color. -->
+        <attr name="atg_checkedMarkerColor" format="color" />
+        <!-- The checked tag view background color. -->
+        <attr name="atg_checkedBackgroundColor" format="color" />
+
+        <!-- The tag view background color, when the tag view is being pressed. -->
+        <attr name="atg_pressedBackgroundColor" format="color" />
+
+        <!-- The tag view outline border stroke width. -->
+        <attr name="atg_borderStrokeWidth" format="dimension" />
+        <!-- The tag view text size. -->
+        <attr name="atg_textSize" format="dimension" />
+
+        <attr name="atg_horizontalSpacing" format="dimension" />
+        <attr name="atg_verticalSpacing" format="dimension" />
+        <attr name="atg_horizontalPadding" format="dimension" />
+        <attr name="atg_verticalPadding" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="Themes">
+        <attr name="tagGroupStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="MultiStateView">
+        <attr name="msv_loadingView" format="reference" />
+        <attr name="msv_emptyView" format="reference" />
+        <attr name="msv_errorView" format="reference" />
+        <attr name="msv_viewState" format="enum">
+            <enum name="content" value="0" />
+            <enum name="error" value="1" />
+            <enum name="empty" value="2" />
+            <enum name="loading" value="3" />
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="BadgeView">
+        <attr name="badgeText" format="string"/>
+        <attr name="badgeBitmap" format="reference"/>
+        <attr name="badgeBackgroundColor" format="color"/>
+        <attr name="badgeTextColor" format="color"/>
+        <attr name="badgeTextSize" format="dimension"/>
+        <attr name="badgePadding" format="dimension"/>
+        <attr name="badgeAnimationDuration" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="MaterialSearchView">
+        <attr name="searchBackground" format="integer" />
+        <attr name="searchVoiceIcon" format="integer" />
+        <attr name="searchCloseIcon" format="integer" />
+        <attr name="searchBackIcon" format="integer" />
+        <attr name="searchSuggestionIcon" format="integer" />
+        <attr name="searchSuggestionBackground" format="integer" />
+        <attr name="android:hint" />
+        <attr name="android:textColor" />
+        <attr name="android:textColorHint" />
+    </declare-styleable>
+
+    <declare-styleable name="GooeyMenu">
+
+        <attr name="no_of_menu" format="integer" />
+        <attr name="fab_radius" format="dimension" />
+        <attr name="menu_radius" format="dimension" />
+        <attr name="gap_between_menu_fab" format="dimension" />
+        <attr name="menu_drawable" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="Theme">
+        <attr name="discreteSeekBarStyle" format="reference"/>
+    </declare-styleable>
+    <declare-styleable name="DiscreteSeekBar">
+        <attr name="dsb_min" format="integer|dimension"/>
+        <attr name="dsb_max" format="integer|dimension"/>
+        <attr name="dsb_value" format="integer|dimension"/>
+        <attr name="dsb_mirrorForRtl" format="boolean"/>
+        <attr name="dsb_allowTrackClickToDrag" format="boolean"/>
+        <attr name="dsb_progressColor" format="color|reference"/>
+        <attr name="dsb_trackColor" format="color|reference"/>
+        <attr name="dsb_indicatorTextAppearance" format="reference"/>
+        <attr name="dsb_indicatorColor" format="color|reference"/>
+        <attr name="dsb_indicatorElevation" format="dimension"/>
+        <attr name="dsb_indicatorFormatter" format="string|reference"/>
+        <attr name="dsb_rippleColor" format="color|reference"/>
+        <attr name="dsb_indicatorPopupEnabled" format="boolean"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="CircleProgress">
+        <attr name="circle_progress" format="integer"/>
+        <attr name="circle_max" format="integer"/>
+
+        <attr name="circle_unfinished_color" format="color"/>
+        <attr name="circle_finished_color" format="color"/>
+
+        <attr name="circle_text_size" format="dimension"/>
+        <attr name="circle_text_color" format="color"/>
+
+        <attr name="circle_prefix_text" format="string"/>
+        <attr name="circle_suffix_text" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="DonutProgress">
+        <attr name="donut_progress" format="integer"/>
+        <attr name="donut_max" format="integer"/>
+
+        <attr name="donut_unfinished_color" format="color"/>
+        <attr name="donut_finished_color" format="color"/>
+
+        <attr name="donut_finished_stroke_width" format="dimension"/>
+        <attr name="donut_unfinished_stroke_width" format="dimension"/>
+
+        <attr name="donut_text_size" format="dimension"/>
+        <attr name="donut_text_color" format="color"/>
+
+        <attr name="donut_prefix_text" format="string"/>
+        <attr name="donut_suffix_text" format="string"/>
+        <attr name="donut_text" format="string"/>
+
+        <attr name="donut_background_color" format="color"/>
+
+        <attr name="donut_inner_bottom_text" format="string"/>
+        <attr name="donut_inner_bottom_text_size" format="dimension"/>
+        <attr name="donut_inner_bottom_text_color" format="color"/>
+
+        <attr name="donut_circle_starting_degree" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="ArcProgress">
+        <attr name="arc_progress" format="integer"/>
+        <attr name="arc_angles" format="float"/>
+        <attr name="arc_stroke_width" format="dimension"/>
+        <attr name="arc_max" format="integer"/>
+
+        <attr name="arc_unfinished_color" format="color"/>
+        <attr name="arc_finished_color" format="color"/>
+
+        <attr name="arc_text_size" format="dimension"/>
+        <attr name="arc_text_color" format="color"/>
+
+        <attr name="arc_suffix_text" format="string"/>
+        <attr name="arc_suffix_text_size" format="dimension"/>
+        <attr name="arc_suffix_text_padding" format="dimension"/>
+
+        <attr name="arc_bottom_text" format="string"/>
+        <attr name="arc_bottom_text_size" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="Themes">
+        <attr name="circleProgressStyle" format="reference"/>
+        <attr name="donutProgressStyle" format="reference"/>
+        <attr name="arcProgressStyle" format="reference"/>
+    </declare-styleable>
+</resources>

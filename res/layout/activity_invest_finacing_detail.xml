@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clipToPadding="false"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:background="@color/title_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="3dp"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:id="@+id/back"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/normal_margin"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/back" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/menu_item"
+            android:layout_width="65dp"
+            android:layout_height="@dimen/title_height"
+            android:layout_alignParentRight="true">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/detail_share" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <com.jinzht.pro.view.MultiStateView
+        android:id="@+id/multiStateView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/title_height"
+        android:layout_marginTop="@dimen/title_height"
+        app:msv_emptyView="@layout/empty_view"
+        app:msv_errorView="@layout/error_view"
+        app:msv_loadingView="@layout/loading_view"
+        app:msv_viewState="content">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp">
+
+                    <ImageView
+                        android:id="@+id/project_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY" />
+
+                    <ImageView
+                        android:id="@+id/play_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/play_btn" />
+
+                    <TextView
+                        android:id="@+id/stage"
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="22dp"
+                        android:ems="2"
+                        android:gravity="center"
+                        android:lineSpacingExtra="2dp"
+                        android:lineSpacingMultiplier="1.2"
+                        android:paddingBottom="4dp"
+                        android:paddingLeft="2dp"
+                        android:paddingRight="2dp"
+                        android:paddingTop="4dp"
+                        android:textColor="@color/white"
+                        android:textSize="10sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <include layout="@layout/layout_no_margin" />
+
+                <LinearLayout
+                    android:id="@+id/ll_money"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/get_money"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:singleLine="true"
+                            android:textColor="@color/detail_tv_title_color"
+                            android:textSize="16sp" />
+
+                        <include layout="@layout/layout_no_margin" />
+
+                        <TextView
+                            android:id="@+id/money_total"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:singleLine="true"
+                            android:textColor="@color/detail_tv_title_color"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/vertical_1dp" />
+
+                    <LinearLayout
+                        style="@style/both_wrap"
+                        android:layout_marginLeft="@dimen/home_margin"
+                        android:layout_marginRight="@dimen/home_margin"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.jinzht.pro.circleprogress.DonutProgress
+                            android:id="@+id/pro_day"
+                            android:layout_width="55dp"
+                            android:layout_height="55dp"
+                            app:donut_finished_color="#33C4D5"
+                            app:donut_finished_stroke_width="4dp"
+                            app:donut_unfinished_color="#7D7D7D"
+                            app:donut_unfinished_stroke_width="4dp" />
+
+                        <TextView
+                            style="@style/black_tv_title_16"
+                            android:layout_marginTop="8dp"
+                            android:text="剩余天数" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/both_wrap"
+                        android:layout_marginLeft="@dimen/home_margin"
+                        android:layout_marginRight="@dimen/home_margin"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.jinzht.pro.circleprogress.DonutProgress
+                            android:id="@+id/pro_status"
+                            android:layout_width="55dp"
+                            android:layout_height="55dp"
+                            app:donut_finished_color="#33C4D5"
+                            app:donut_finished_stroke_width="4dp"
+                            app:donut_unfinished_color="#7D7D7D"
+                            app:donut_unfinished_stroke_width="4dp" />
+
+                        <TextView
+                            android:id="@+id/tv_status"
+                            style="@style/black_tv_title_16"
+                            android:layout_marginTop="8dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <include layout="@layout/layout_no_margin" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/title_height"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical">
+
+                    <com.jinzht.pro.view.MarqueeTextView
+                        android:id="@+id/tv_invest_detail"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/home_margin"
+                        android:layout_marginRight="@dimen/home_margin"
+                        android:layout_weight="1"
+                        android:ellipsize="marquee"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center_vertical"
+                        android:marqueeRepeatLimit="marquee_forever"
+                        android:singleLine="true"
+                        android:textColor="@color/main_black"
+                        android:textSize="16sp" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_collect"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/title_height"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:id="@+id/iv_collect"
+                            android:layout_width="18dp"
+                            android:layout_height="18dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="@dimen/home_margin"
+                            android:scaleType="fitXY" />
+
+                        <CheckBox
+                            android:id="@+id/collect"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/transparent"
+                            android:button="@null"
+                            android:textColor="@color/gray1" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_love"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/title_height"
+                        android:layout_marginLeft="@dimen/normal_margin"
+                        android:layout_marginRight="@dimen/normal_margin"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:id="@+id/iv_love"
+                            android:layout_width="18dp"
+                            android:layout_height="18dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="@dimen/home_margin"
+                            android:scaleType="fitXY" />
+
+                        <CheckBox
+                            android:id="@+id/love"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/transparent"
+                            android:button="@null"
+                            android:textColor="@color/gray1" />
+                        <!--此处很诡异，假如不加background就会空出很多的空白，好无语。-->
+                    </LinearLayout>
+                </LinearLayout>
+
+                <include layout="@layout/layout_no_margin" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/money_plan"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:drawablePadding="15dp"
+                        android:drawableTop="@drawable/finace_plan"
+                        android:gravity="center"
+                        android:text="@string/money_plan"
+                        android:textColor="@color/main_black"
+                        android:textSize="14sp" />
+
+                    <View
+                        android:id="@+id/first_line"
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@color/new_back1dp" />
+
+                    <TextView
+                        android:id="@+id/invest_list"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:drawablePadding="10dp"
+                        android:drawableTop="@drawable/invest_list"
+                        android:gravity="center"
+                        android:text="@string/invest_list"
+                        android:textColor="@color/main_black"
+                        android:textSize="14sp" />
+
+                    <View
+                        android:id="@+id/second_line"
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@color/new_back1dp" />
+
+                    <TextView
+                        android:id="@+id/core_team"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:drawablePadding="15dp"
+                        android:drawableTop="@drawable/core_team"
+                        android:gravity="center"
+                        android:text="@string/core_team"
+                        android:textColor="@color/main_black"
+                        android:textSize="14sp" />
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@color/new_back1dp" />
+
+                    <TextView
+                        android:id="@+id/interaction"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="1"
+                        android:drawablePadding="19dp"
+                        android:drawableTop="@drawable/action_hu"
+                        android:gravity="center"
+                        android:text="@string/interaction"
+                        android:textColor="@color/main_black"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/normal_margin"
+                    android:background="@color/body_bg" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/normal_margin"
+                    android:layout_marginRight="@dimen/normal_margin"
+                    android:layout_marginTop="23dp"
+                    android:gravity="top"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        style="@style/height_match"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/company_intro" />
+
+                    <LinearLayout
+                        style="@style/width_match"
+                        android:layout_marginLeft="4dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_company_intro"
+                            style="@style/both_wrap"
+                            android:layout_marginRight="7dp"
+                            android:gravity="top|center_horizontal"
+                            android:text="@string/company_intro"
+                            android:textColor="@color/main_black"
+                            android:textSize="17sp" />
+
+                        <com.jinzht.pro.expandabletextview.ExpandableTextView
+                            xmlns:expandableTextView="http://schemas.android.com/apk/res-auto"
+                            android:id="@+id/company_intro"
+                            style="@style/width_match"
+                            expandableTextView:animDuration="200"
+                            expandableTextView:maxCollapsedLines="4">
+
+                            <TextView
+                                android:id="@id/expandable_text"
+                                style="@style/width_match"
+                                android:layout_marginRight="10dp"
+                                android:lineSpacingExtra="3dp"
+                                android:lineSpacingMultiplier="1.2"
+                                android:textColor="@color/main_black"
+                                android:textSize="14sp" />
+
+                            <ImageButton
+                                android:id="@id/expand_collapse"
+                                android:layout_width="50dp"
+                                android:layout_height="30dp"
+                                android:layout_gravity="right|center_vertical"
+                                android:background="@android:color/transparent" />
+                        </com.jinzht.pro.expandabletextview.ExpandableTextView>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/width_match"
+                    android:layout_marginLeft="@dimen/normal_margin"
+                    android:layout_marginRight="@dimen/normal_margin"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        style="@style/height_match"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/main_bussiness" />
+
+                    <LinearLayout
+                        style="@style/width_match"
+                        android:layout_marginLeft="4dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_main_business"
+                            style="@style/both_wrap"
+                            android:text="@string/main_business"
+                            android:textColor="@color/main_black"
+                            android:textSize="17sp" />
+
+                        <com.jinzht.pro.expandabletextview.ExpandableTextView
+                            xmlns:expandableTextView="http://schemas.android.com/apk/res-auto"
+                            android:id="@+id/main_business"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="10dp"
+                            expandableTextView:animDuration="200"
+                            expandableTextView:maxCollapsedLines="4">
+
+                            <TextView
+                                android:id="@id/expandable_text"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="10dp"
+                                android:lineSpacingExtra="3dp"
+                                android:lineSpacingMultiplier="1.2"
+                                android:textColor="@color/main_black"
+                                android:textSize="14sp" />
+
+                            <ImageButton
+                                android:id="@id/expand_collapse"
+                                android:layout_width="50dp"
+                                android:layout_height="30dp"
+                                android:layout_gravity="right|center_vertical"
+                                android:background="@android:color/transparent" />
+                        </com.jinzht.pro.expandabletextview.ExpandableTextView>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/width_match"
+                    android:layout_marginBottom="@dimen/home_margin"
+                    android:layout_marginLeft="@dimen/normal_margin"
+                    android:layout_marginRight="@dimen/normal_margin"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="top"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/business_model" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="0dp"
+                            android:layout_weight="1" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/width_match"
+                        android:layout_marginLeft="4dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_business_model"
+                            style="@style/both_wrap"
+                            android:paddingTop="4dp"
+                            android:text="@string/business_model"
+                            android:textColor="@color/main_black"
+                            android:textSize="17sp" />
+
+                        <com.jinzht.pro.expandabletextview.ExpandableTextView
+                            xmlns:expandableTextView="http://schemas.android.com/apk/res-auto"
+                            android:id="@+id/business_model"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            expandableTextView:animDuration="200"
+                            expandableTextView:maxCollapsedLines="4">
+
+                            <TextView
+                                android:id="@id/expandable_text"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:lineSpacingExtra="3dp"
+                                android:lineSpacingMultiplier="1.2"
+                                android:textColor="@color/main_black"
+                                android:textSize="14sp" />
+
+                            <ImageButton
+                                android:id="@id/expand_collapse"
+                                android:layout_width="50dp"
+                                android:layout_height="30dp"
+                                android:layout_gravity="right|center_vertical"
+                                android:background="@android:color/transparent" />
+                        </com.jinzht.pro.expandabletextview.ExpandableTextView>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/normal_margin"
+                    android:background="@color/body_bg" />
+
+                <LinearLayout
+                    android:id="@+id/ll_event"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/title_height"
+                        android:drawableLeft="@drawable/company_news"
+                        android:drawablePadding="9dp"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="25dp"
+                        android:text="@string/company_news"
+                        android:textColor="#868686" />
+
+                    <LinearLayout
+                        android:id="@+id/dash_line"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginRight="25dp"
+                        android:background="@drawable/dash_line"
+                        android:layerType="software"
+                        android:orientation="horizontal" />
+
+                    <TextView
+                        android:id="@+id/event_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:lineSpacingExtra="2dp"
+                        android:lineSpacingMultiplier="1.2"
+                        android:paddingLeft="@dimen/normal_margin"
+                        android:paddingRight="@dimen/normal_margin"
+                        android:textColor="#3f3f3f"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/time"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:layout_marginTop="3dp"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/normal_margin"
+                        android:textColor="@color/gray1"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <com.jinzht.pro.expandabletextview.ExpandableTextView
+                        xmlns:expandableTextView="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/event_context"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="30dp"
+                        android:paddingRight="30dp"
+                        expandableTextView:animDuration="200"
+                        expandableTextView:maxCollapsedLines="7">
+
+                        <TextView
+                            android:id="@id/expandable_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:lineSpacingExtra="3dp"
+                            android:lineSpacingMultiplier="1.2"
+                            android:textColor="#666666"
+                            android:textSize="16sp" />
+
+                        <ImageButton
+                            android:id="@id/expand_collapse"
+                            android:layout_width="50dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="right|center_vertical"
+                            android:background="@android:color/transparent" />
+                    </com.jinzht.pro.expandabletextview.ExpandableTextView>
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </com.jinzht.pro.view.MultiStateView>
+
+    <include
+        layout="@layout/layout_no_margin"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="55dp" />
+
+    <LinearLayout
+        android:id="@+id/ll_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/body_bg"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/telephone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/detail_bottom_btn"
+            android:drawableBottom="@drawable/detail_tel"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/telephone_us"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/bottom_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/detail_bottom_btn"
+            android:drawableBottom="@drawable/detail_comelocal"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/come_road"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+    </LinearLayout>
+</RelativeLayout>

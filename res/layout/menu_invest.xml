@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+    <ImageView
+            android:layout_width="@dimen/title_height"
+            android:background="@drawable/center_circle_add"
+            android:src="@drawable/want_roadshow"
+            android:scaleType="center"
+            android:layout_height="@dimen/title_height"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginTop="3dp"
+            android:text="@string/want_road_show"
+            android:layout_height="wrap_content"/>
+</LinearLayout>

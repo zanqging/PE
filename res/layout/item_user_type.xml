@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@color/white"
+                android:descendantFocusability="blocksDescendants"
+              android:layout_width="match_parent"
+                android:focusable="true"
+              android:focusableInTouchMode="true"
+              android:layout_height="match_parent">
+    <CheckBox
+        android:layout_width="match_parent"
+        android:id="@+id/user_checkbox"
+        android:drawableLeft="@drawable/checkboxbg"
+        android:textColor="@color/black"
+        android:button="@null"
+        android:gravity="left|center_vertical"
+        android:drawablePadding="5dp"
+        android:paddingLeft="20dp"
+        android:layout_height="@dimen/title_height"/>
+</LinearLayout>

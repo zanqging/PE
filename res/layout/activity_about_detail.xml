@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:fitsSystemWindows="true"
+              android:clipToPadding="false"
+              android:background="@color/body_bg"
+              android:layout_height="match_parent">
+    <include layout="@layout/title_project_details"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/context"
+            android:layout_margin="@dimen/home_margin"
+            android:textColor="@color/gray1"
+            android:lineSpacingExtra="2dp"
+            android:lineSpacingMultiplier="1.5"
+            android:background="@null"
+            android:paddingRight="@dimen/home_margin"
+            android:layout_height="match_parent"/>
+    </ScrollView>
+
+</LinearLayout>

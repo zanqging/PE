@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res/com.jinzht.pro"
+              android:orientation="vertical"
+              android:fitsSystemWindows="true"
+              android:clipToPadding="false"
+              style="@style/both_match">
+    <include layout="@layout/title_project_details"/>
+    <ScrollView
+            android:fadingEdge="none"
+            android:fillViewport="true"
+            style="@style/both_match">
+        <LinearLayout
+                android:orientation="vertical"
+                style="@style/both_match">
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:id="@+id/ll_person"
+                    android:background="@drawable/item_bg"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="@dimen/home_margin"
+                    android:layout_marginRight="@dimen/home_margin"
+                    android:layout_height="wrap_content">
+                <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:focusable="true"
+                        android:layout_marginLeft="@dimen/normal_margin"
+                        android:layout_marginRight="@dimen/normal_margin"
+                        android:focusableInTouchMode="true"
+                        android:layout_height="60dp">
+                    <TextView
+                            style="@style/black_tv_title_16"
+                            android:layout_marginTop="10dp"
+                            android:text="@string/true_name"/>
+                    <EditText
+                            android:layout_width="match_parent"
+                            android:id="@+id/ed_name"
+                            android:layout_marginBottom="4dp"
+                            android:layout_alignParentBottom="true"
+                            android:inputType="text"
+                            style="@style/MyWidget.InformationEdit"
+                            android:hint="@string/true_name_hint"
+                            android:layout_height="wrap_content" />
+                </RelativeLayout>
+                <include layout="@layout/layout_underline2"/>
+                <RelativeLayout
+                        style="@style/height_60"
+                        android:orientation="vertical"
+                        android:focusable="true"
+                        android:layout_marginLeft="@dimen/normal_margin"
+                        android:layout_marginRight="@dimen/normal_margin"
+                        android:focusableInTouchMode="true">
+
+                    <TextView
+                            style="@style/black_tv_title_16"
+                            android:layout_marginTop="10dp"
+                            android:text="@string/shenfen"/>
+                    <EditText
+                            android:layout_width="match_parent"
+                            android:id="@+id/ed_shenfen"
+                            android:layout_marginBottom="4dp"
+                            android:layout_alignParentBottom="true"
+                            android:digits="0123456789abcdefghigklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                            style="@style/MyWidget.InformationEdit"
+                            android:inputType="textEmailAddress"
+                            android:hint="@string/shenfen_hint"
+                            android:layout_height="wrap_content" />
+                </RelativeLayout>
+                <include layout="@layout/layout_underline2"/>
+                <RelativeLayout
+                        style="@style/height_60"
+                        android:focusable="true"
+                        android:layout_marginLeft="@dimen/normal_margin"
+                        android:layout_marginRight="@dimen/normal_margin"
+                        android:id="@+id/ll_addr">
+
+                    <TextView
+                            style="@style/black_tv_title_16"
+                            android:layout_marginTop="10dp"
+                            android:text="@string/now_addr"/>
+
+                    <TextView
+                            android:layout_width="match_parent"
+                            android:id="@+id/ed_addr"
+                            android:layout_marginBottom="4dp"
+                            android:layout_alignParentBottom="true"
+                            android:maxLength="11"
+                            style="@style/MyWidget.InformationEdit"
+                            android:hint="@string/now_addr_hint"
+                            android:layout_height="wrap_content" />
+                </RelativeLayout>
+                <include layout="@layout/layout_underline2"/>
+                <RelativeLayout
+                        style="@style/height_60"
+                        android:layout_marginLeft="@dimen/normal_margin"
+                        android:layout_marginRight="@dimen/normal_margin">
+
+
+                    <TextView
+                            style="@style/black_tv_title_16"
+                            android:layout_marginTop="10dp"
+                            android:text="@string/tv_company"/>
+
+                    <EditText
+                            android:layout_width="match_parent"
+                            android:id="@+id/ed_company"
+                            android:maxLength="11"
+                            android:layout_marginBottom="4dp"
+                            android:layout_alignParentBottom="true"
+                            style="@style/MyWidget.InformationEdit"
+                            android:hint="@string/tv_company_hint"
+                            android:layout_height="wrap_content" />
+                </RelativeLayout>
+                <include layout="@layout/layout_underline2"/>
+                <RelativeLayout
+                        style="@style/height_60"
+                        android:layout_marginBottom="@dimen/normal_margin"
+                        android:layout_marginLeft="@dimen/normal_margin"
+                        android:layout_marginRight="@dimen/normal_margin">
+
+                    <TextView
+                            style="@style/black_tv_title_16"
+                            android:layout_marginTop="10dp"
+                            android:text="@string/tv_position"/>
+                    <EditText
+                            android:layout_width="match_parent"
+                            android:id="@+id/ed_position"
+                            android:maxLength="11"
+                            android:layout_marginBottom="4dp"
+                            android:layout_alignParentBottom="true"
+                            style="@style/MyWidget.InformationEdit"
+                            android:hint="@string/tv_position_hint"
+                            android:layout_height="wrap_content" />
+                </RelativeLayout>
+            </LinearLayout>
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+            <RelativeLayout android:layout_width="match_parent"
+                          android:orientation="vertical"
+                          android:background="@color/white"
+                          android:layout_height="@dimen/title_height">
+                <include layout="@layout/layout_no_margin"/>
+                <Button
+                        android:layout_width="150dp"
+                        android:background="@drawable/new_bottom_btn"
+                        android:text="@string/post_information"
+                        android:id="@+id/btn_ok"
+                        android:layout_centerInParent="true"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:layout_height="35dp"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

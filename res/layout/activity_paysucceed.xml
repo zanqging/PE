@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clipToPadding="false"
+    android:fitsSystemWindows="true"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <include layout="@layout/title_no_back" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/bg_paysucceed">
+
+        <LinearLayout
+            android:id="@+id/paysucceed_ll_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:id="@+id/paysucceed_tv_flag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="151.5dp"
+                android:text="¥ "
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/paysucceed_tv_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="151.5dp"
+                android:layout_toRightOf="@id/paysucceed_tv_flag"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/paysucceed_ll_money"
+            android:layout_centerHorizontal="true"
+            android:text="恭喜！已成功支付"
+            android:textColor="@color/white"
+            android:textSize="21sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="245dp"
+            android:gravity="center_vertical">
+
+            <com.jinzht.pro.mycircleimage.PolygonImageView
+                android:id="@+id/paysucceed_iamge"
+                android:layout_width="66dp"
+                android:layout_height="66dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="7dp"
+                app:poly_border="true"
+                app:poly_border_color="#f3f3f3"
+                app:poly_border_width="5dp"
+                app:poly_corner_radius="5"
+                app:poly_rotation_angle="25"
+                app:poly_shadow="false"
+                app:poly_vertices="0" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/paysucceed_tv_projectname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/white"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/paysucceed_tv_companyname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/paysucceed_btn_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27.5dp"
+        android:background="@drawable/btn_paysucceed"
+        android:gravity="center"
+        android:text="确定"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+</LinearLayout>

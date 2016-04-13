@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/rl_recyclerview_refresh"
+        android:background="@color/body_bg"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <TextView
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:id="@+id/title"
+                android:textColor="@color/white"
+                android:background="@color/title_bg"
+                android:textSize="20sp"
+                android:layout_height="@dimen/title_height" />
+        <RelativeLayout android:layout_width="@dimen/title_height"
+                        android:layout_marginLeft="5dp"
+                        android:id="@+id/menu"
+                        android:layout_height="@dimen/title_height">
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:src="@drawable/menu"
+                        android:id="@+id/road_menu"
+                        android:layout_centerInParent="true"
+                        android:layout_height="wrap_content"/>
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:src="@drawable/white_circle"
+                        android:visibility="gone"
+                        android:layout_marginLeft="-1dp"
+                        android:id="@+id/white_circle"
+                        android:layout_toRightOf="@id/road_menu"
+                        android:layout_marginTop="12dp"
+                        android:layout_height="wrap_content"/>
+        </RelativeLayout>
+        <com.jinzht.pro.view.MultiStateView android:layout_width="match_parent"
+                                            android:id="@+id/multiStateView"
+                                            app:msv_errorView="@layout/error_view"
+                                            app:msv_emptyView="@layout/empty_view"
+                                            app:msv_loadingView="@layout/loading_view"
+                                            app:msv_viewState="content"
+                                            android:layout_height="match_parent">
+
+                <ScrollView
+                        style="@style/scrollview_style"
+                        android:layout_marginTop="@dimen/title_height"
+                        android:id="@+id/scroll_view">
+                        <LinearLayout
+                                android:id="@+id/framelayout"
+                                style="@style/both_match"
+                                android:orientation="vertical">
+                                <com.jinzht.pro.banner.ImageCycleView
+                                        android:id="@+id/ad_view"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="170dp" />
+                                <LinearLayout android:layout_width="match_parent"
+                                              android:orientation="horizontal"
+                                              android:background="@color/white"
+                                              android:gravity="center"
+                                              android:layout_height="100dp">
+                                    <RelativeLayout android:layout_width="0dp"
+                                                  android:layout_weight="1"
+                                                    android:id="@+id/lv_news"
+                                                  android:layout_height="match_parent">
+
+                                        <TextView
+                                                style="@style/homepage_tv_title"
+                                                android:layout_centerInParent="true"
+                                                android:drawablePadding="3dp"
+                                                android:drawableTop="@drawable/new_person"
+                                                android:id="@+id/tv_new"
+                                                android:text="新手指南"/>
+                                    </RelativeLayout>
+
+                                    <View android:layout_width="1dp"
+                                          android:background="@color/vertical_1dp"
+                                          android:layout_height="60dp"/>
+                                    <RelativeLayout android:layout_width="0dp"
+                                                    android:layout_weight="1"
+                                                    android:id="@+id/lv_record"
+                                                    android:layout_height="match_parent">
+                                        <TextView
+                                                style="@style/homepage_tv_title"
+                                                android:id="@+id/tv_record"
+                                                android:drawablePadding="3dp"
+                                                android:drawableTop="@drawable/record"
+                                                android:text="融资播报"
+                                                android:layout_centerInParent="true"/>
+                                    </RelativeLayout>
+
+                                    <View android:layout_width="1dp"
+                                          android:background="@color/vertical_1dp"
+                                          android:layout_height="60dp"/>
+                                    <RelativeLayout android:layout_width="0dp"
+                                                    android:layout_weight="1"
+                                                    android:id="@+id/lv_credit"
+                                                    android:layout_height="match_parent">
+                                        <TextView
+
+                                                style="@style/homepage_tv_title"
+                                                android:id="@+id/tv_credit"
+                                                android:drawablePadding="3dp"
+                                                android:drawableTop="@drawable/credit"
+                                                android:text="征信查询"
+                                                android:layout_centerInParent="true"/>
+                                    </RelativeLayout>
+                                </LinearLayout>
+                                <LinearLayout
+                                        android:layout_height="50dp"
+                                        android:gravity="center"
+                                        android:layout_marginTop="@dimen/home_margin"
+                                        android:background="@color/white"
+                                        android:layout_width="match_parent">
+                                    <TextView
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="1"
+                                            android:textSize="18sp"
+                                            android:drawablePadding="4dp"
+                                            android:text="@string/jin_one"
+                                            android:drawableBottom="@drawable/good_project"
+                                            android:gravity="center"
+                                            android:textColor="@color/detail_tv_title_color"/>
+
+                                    <View android:layout_width="1dp"
+                                          android:background="@color/vertical_1dp"
+                                          android:layout_height="50dp"/>
+                                    <com.jinzht.pro.shimmer.ShimmerTextView
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="1"
+                                            android:textSize="18sp"
+                                            android:id="@+id/tv_telephoe"
+                                            android:text="客服电话"
+                                            android:drawableBottom="@drawable/homepage_tel"
+                                            android:drawablePadding="4dp"
+                                            android:gravity="center"
+                                            app:reflectionColor="@color/white"
+                                            android:textColor="@color/detail_tv_title_color"/>
+                                </LinearLayout>
+                            <include layout="@layout/layout_no_margin"/>
+                                <com.jinzht.pro.view.MyListview android:layout_width="match_parent"
+                                                                android:id="@+id/main_lv"
+                                                                android:divider="@null"
+                                                                android:layout_height="match_parent">
+
+                                </com.jinzht.pro.view.MyListview>
+                        </LinearLayout>
+                </ScrollView>
+        </com.jinzht.pro.view.MultiStateView>
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/rl_perfect"
+            android:background="#50000000"
+            android:visibility="gone"
+            android:layout_marginTop="@dimen/title_height"
+            android:layout_height="40dp">
+        <LinearLayout
+                android:layout_marginLeft="@dimen/home_margin"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="@dimen/home_margin"
+                style="@style/width_match">
+            <TextView
+                    style="@style/both_wrap"
+                    android:textColor="#e69785"
+                    android:textSize="16sp"
+                    android:layout_centerVertical="true"
+                    android:text="您还未完善信息,"/>
+            <TextView
+                    style="@style/both_wrap"
+                    android:textSize="16sp"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/white"
+                    android:text="立即完善"/>
+        </LinearLayout>
+        <RelativeLayout
+                android:layout_alignParentRight="true"
+                android:id="@+id/rl_delete"
+                android:layout_width="@dimen/title_height"
+                android:layout_height="@dimen/title_height">
+
+            <ImageView
+                    android:src="@drawable/gray_delete"
+                    android:layout_centerInParent="true"
+                    style="@style/both_wrap"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>
+

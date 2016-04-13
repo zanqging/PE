@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+        style="@style/both_match">
+    <LinearLayout
+            android:orientation="horizontal"
+            android:background="@drawable/item_bg"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_marginLeft="@dimen/home_margin"
+            android:layout_marginRight="@dimen/home_margin"
+            android:layout_marginBottom="@dimen/home_margin">
+        <ImageView
+                android:id="@+id/iv_investor"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:scaleType="fitXY"/>
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginLeft="@dimen/home_margin"
+                android:layout_marginRight="9dp"
+                style="@style/width_match">
+            <TextView
+                    android:id="@+id/tv_investor"
+                    style="@style/invest_list_tv_black_title"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="2dp"/>
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_marginRight="9dp"
+                    android:background="@color/vertical_1dp"
+                    android:layout_height="1dp"/>
+            <TextView
+                    android:id="@+id/tv_intro"
+                    style="@style/invest_list_tv_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:drawablePadding="3dp"
+                    android:drawableLeft="@drawable/black_person"/>
+
+            <TextView
+                    android:id="@+id/tv_addr"
+                    style="@style/invest_list_tv_content"
+                    android:layout_marginLeft="5dp"
+                    android:drawablePadding="3dp"
+                    android:drawableLeft="@drawable/black_addr"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

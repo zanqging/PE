@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:toggle="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:fitsSystemWindows="true"
+              android:clipToPadding="false"
+              android:background="@color/body_bg"
+              android:layout_height="match_parent">
+    <include layout="@layout/title_project_details"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:fillViewport="true"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:background="@color/white"
+                    android:paddingRight="@dimen/home_margin"
+                    android:gravity="center"
+                    android:layout_height="@dimen/title_height">
+                <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        style="@style/MyWidget.RoadText"
+                        android:layout_marginLeft="@dimen/home_margin"
+                        android:text="@string/night_model"
+                        android:layout_height="match_parent"/>
+
+                <com.jinzht.pro.togglebutton.ToggleButton
+                        android:layout_width="54dp"
+                        android:id="@+id/night_model"
+                        android:layout_height="30dp" >
+                </com.jinzht.pro.togglebutton.ToggleButton>
+            </LinearLayout>
+        <!--    toggle:onColor="@color/detail_tv_title_color"
+            toggle:offColor="#ddd"
+            toggle:spotColor="#00f"
+            toggle:offBorderColor="#000"
+            toggle:borderWidth="1dp"-->
+            <include layout="@layout/layout_underline"/>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:background="@color/white"
+                    android:paddingRight="@dimen/home_margin"
+                    android:gravity="center"
+                    android:layout_height="@dimen/title_height">
+                <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        style="@style/MyWidget.RoadText"
+                        android:layout_marginLeft="@dimen/home_margin"
+                        android:text="@string/new_push"
+                        android:layout_height="match_parent"/>
+
+                <com.jinzht.pro.togglebutton.ToggleButton
+                        android:layout_width="54dp"
+                        android:id="@+id/push_btn"
+                        android:layout_height="30dp" >
+                </com.jinzht.pro.togglebutton.ToggleButton>
+                <!--app:base_release_color="@color/md_green_900"-->
+                <!--app:base_press_color="@color/md_green_50"-->
+                <!--app:ball_release_color="@color/md_green_500"-->
+                <!--app:ball_press_color="@color/md_white_1000"-->
+                <!--app:icon_release="@drawable/shield_with_sword_64"-->
+                <!--app:icon_press="@drawable/sword_in_vertical_position_64"-->
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@color/white"
+                android:visibility="gone"
+                android:paddingRight="@dimen/home_margin"
+                android:orientation="horizontal"
+                android:layout_height="@dimen/title_height">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    style="@style/MyWidget.RoadText"
+                    android:layout_marginLeft="@dimen/home_margin"
+                    android:text="@string/text_size"
+                    android:layout_height="match_parent"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="标准"
+                    android:gravity="center"
+                    android:drawableRight="@drawable/right_arrow"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@color/white"
+                android:paddingRight="@dimen/home_margin"
+                android:visibility="gone"
+                android:orientation="horizontal"
+                android:layout_height="@dimen/title_height">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    style="@style/MyWidget.RoadText"
+                    android:layout_marginLeft="@dimen/home_margin"
+                    android:text="@string/clear_cahe"
+                    android:layout_height="match_parent"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:drawableRight="@drawable/right_arrow"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:background="@color/new_back1dp"
+                android:layout_height="1dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:background="@color/body_bg"
+                android:layout_height="@dimen/home_margin"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@color/white"
+                android:id="@+id/ll_privacy_policy"
+                android:paddingRight="@dimen/home_margin"
+                android:orientation="horizontal"
+                android:layout_height="@dimen/title_height">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    style="@style/MyWidget.RoadText"
+                    android:layout_marginLeft="@dimen/home_margin"
+                    android:text="@string/privacy_policy"
+                    android:layout_height="match_parent"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:drawableRight="@drawable/right_arrow"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+
+
+            <include layout="@layout/layout_underline"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@color/white"
+                android:id="@+id/ll_free_back"
+                android:paddingRight="@dimen/home_margin"
+                android:orientation="horizontal"
+                android:layout_height="@dimen/title_height">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    style="@style/MyWidget.RoadText"
+                    android:layout_marginLeft="@dimen/home_margin"
+                    android:text="@string/free_back"
+                    android:layout_height="match_parent"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:drawableRight="@drawable/right_arrow"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@color/white"
+                android:paddingRight="@dimen/home_margin"
+                android:visibility="gone"
+                android:orientation="horizontal"
+                android:layout_height="@dimen/title_height">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    style="@style/MyWidget.RoadText"
+                    android:layout_marginLeft="@dimen/home_margin"
+                    android:text="@string/update_online"
+                    android:layout_height="match_parent"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:drawableRight="@drawable/right_arrow"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:paddingTop="50dp"
+                android:background="@color/body_bg"
+                android:gravity="top|center_horizontal"
+                android:layout_height="match_parent">
+                <Button
+                    android:layout_width="200dp"
+                    android:id="@+id/exit_login"
+                    android:background="@drawable/ok_normal_btn"
+                    android:text="@string/go_back"
+                    android:layout_marginTop="@dimen/home_margin"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:layout_height="40dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

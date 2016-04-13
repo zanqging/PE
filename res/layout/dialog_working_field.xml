@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@drawable/item_bg"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:textSize="16sp"
+            android:text="@string/select_work_field"
+            android:layout_marginLeft="@dimen/normal_margin"
+            android:textColor="@color/gray1"
+            android:layout_height="@dimen/title_height"/>
+    <include layout="@layout/layout_underline"/>
+    <ScrollView
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+            <com.jinzht.pro.view.MyGridview
+                    android:layout_width="match_parent"
+                    android:numColumns="2"
+                    android:layout_marginLeft="@dimen/normal_margin"
+                    android:verticalSpacing="@dimen/home_margin"
+                    android:layout_marginRight="@dimen/normal_margin"
+                    android:id="@+id/gridView"
+                    android:layout_height="match_parent">
+            </com.jinzht.pro.view.MyGridview>
+            <include layout="@layout/layout_underline"/>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="60dp">
+                <Button
+                        android:layout_width="120dp"
+                        android:id="@+id/dialog_ok"
+                        android:text="@string/ok"
+                        android:textSize="16sp"
+                        android:textColor="@color/main_yellow"
+                        android:background="@drawable/main_yellow_btn"
+                        android:layout_height="35dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

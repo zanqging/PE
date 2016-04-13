@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+                android:fitsSystemWindows="true"
+                android:clipToPadding="false"
+                android:background="@color/body_bg"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <include layout="@layout/title_project_details"/>
+    <TextView android:layout_width="60dp"
+              android:layout_alignParentRight="true"
+              android:layout_marginRight="@dimen/home_margin"
+              android:textColor="@color/white"
+              android:id="@+id/tv_pass"
+              android:gravity="center"
+              android:text="跳过"
+              android:textSize="18sp"
+              android:layout_height="@dimen/title_height"/>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/item_bg"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="@dimen/home_margin"
+            android:layout_marginRight="@dimen/home_margin"
+            android:layout_height="wrap_content">
+        <LinearLayout
+                style="@style/width_match"
+                android:orientation="vertical"
+                android:focusable="true"
+                android:layout_marginLeft="@dimen/normal_margin"
+                android:layout_marginRight="@dimen/normal_margin"
+                android:focusableInTouchMode="true">
+            <TextView
+                    style="@style/black_tv_title_16"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/send_word"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:id="@+id/ed_send_word"
+                    android:inputType="text"
+                    style="@style/person_invest_next_tv"
+                    android:hint="@string/send_word_hint"
+                    android:layout_height="wrap_content" />
+        </LinearLayout>
+        <include layout="@layout/layout_underline2"/>
+        <LinearLayout
+                style="@style/width_match"
+                android:orientation="vertical"
+                android:focusable="true"
+                android:layout_marginLeft="@dimen/normal_margin"
+                android:layout_marginRight="@dimen/normal_margin"
+                android:focusableInTouchMode="true">
+
+            <TextView
+                    style="@style/black_tv_title_16"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/invest_project"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:id="@+id/ed_invest_project"
+                    style="@style/person_invest_next_tv"
+                    android:inputType="text"
+                    android:hint="@string/invest_project_hint"
+                    android:layout_height="wrap_content" />
+        </LinearLayout>
+        <include layout="@layout/layout_underline2"/>
+        <LinearLayout
+                style="@style/width_match"
+                android:orientation="vertical"
+                android:focusable="true"
+                android:layout_marginLeft="@dimen/normal_margin"
+                android:layout_marginRight="@dimen/normal_margin">
+
+            <TextView
+                    style="@style/black_tv_title_16"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/invest_case"/>
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:id="@+id/ed_pro_invest_case"
+                    android:maxLength="11"
+                    style="@style/person_invest_next_tv"
+                    android:hint="@string/invest_case_hint"
+                    android:layout_height="wrap_content" />
+        </LinearLayout>
+        <include layout="@layout/layout_underline2"/>
+        <View android:layout_width="match_parent" android:layout_height="@dimen/normal_margin"/>
+    </LinearLayout>
+    <RelativeLayout
+            android:layout_alignParentBottom="true"
+            android:background="@color/white"
+            style="@style/height_title">
+        <include layout="@layout/layout_no_margin"/>
+        <TextView
+                android:layout_width="210dp"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:id="@+id/tv_post_information"
+                android:text="@string/post_information"
+                android:textColor="@color/white"
+                android:background="@drawable/new_bottom_btn"
+                android:layout_height="35dp"/>
+    </RelativeLayout>
+</RelativeLayout>

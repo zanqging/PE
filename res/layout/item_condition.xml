@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:descendantFocusability="blocksDescendants"
+              android:layout_height="match_parent">
+    <CheckBox
+            android:layout_width="match_parent"
+            android:id="@+id/check_condition"
+            android:textColor="@color/condition_color"
+            android:button="@null"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:gravity="left|center_vertical"
+            android:drawablePadding="@dimen/home_margin"
+            android:paddingTop="3dp"
+            android:lineSpacingExtra="2dp"
+            android:lineSpacingMultiplier="1.2"
+            android:paddingBottom="3dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"/>
+</LinearLayout>

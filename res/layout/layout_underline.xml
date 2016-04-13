@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/new_back1dp"
+        android:layout_marginLeft="@dimen/home_margin"
+        android:layout_marginRight="@dimen/home_margin"
+        android:layout_height="1dp"/>
+</merge>

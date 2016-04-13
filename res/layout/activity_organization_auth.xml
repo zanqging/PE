@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.jinzht.pro"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/body_bg"
+    android:clipToPadding="false"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/title_project_details" />
+
+    <ScrollView
+        style="@style/both_match"
+        android:fadingEdge="none">
+
+        <LinearLayout
+            style="@style/both_match"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/rl_identity"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_margin="@dimen/home_margin"
+                android:background="@drawable/item_bg">
+
+                <TextView
+                    android:id="@+id/tv_identity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:drawablePadding="5dp"
+                    android:drawableTop="@drawable/identity"
+                    android:gravity="center"
+                    android:text="@string/upload_people" />
+
+                <ImageView
+                    android:id="@+id/iv_identity"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:visibility="gone" />
+
+                <RelativeLayout
+                    android:layout_width="@dimen/title_height"
+                    android:layout_height="@dimen/title_height"
+                    android:layout_alignParentRight="true">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/card_delete"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_person"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/home_margin"
+                android:layout_marginRight="@dimen/home_margin"
+                android:background="@drawable/item_bg"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="47dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="110dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/organization_name"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/ed_organization_name"
+                        style="@style/MyWidget.InformationEdit"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="@string/organization_name_hint"
+                        android:inputType="text" />
+                </LinearLayout>
+
+                <include layout="@layout/layout_underline2" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="47dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="110dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/order_name"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/ed_order_name"
+                        style="@style/MyWidget.InformationEdit"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="@string/order_name_hint"
+                        android:maxLength="11" />
+                </LinearLayout>
+
+                <include layout="@layout/layout_underline2" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="47dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="110dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/money_scale"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/ed_scale_auth"
+                        style="@style/MyWidget.InformationEdit"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:hint="@string/money_scale_hint"
+                        android:inputType="number" />
+
+                    <TextView
+                        style="@style/MyWidget.InformationEdit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="@dimen/home_margin"
+                        android:text="@string/wan"
+                        android:textColor="@color/login_btn"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/home_margin"
+                android:background="@drawable/item_bg"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/home_margin"
+                    android:text="@string/invest_context_two"
+                    android:textColor="@color/gray1" />
+
+                <LinearLayout
+                    style="@style/width_match"
+                    android:layout_marginBottom="@dimen/home_margin"
+                    android:layout_marginLeft="@dimen/home_margin"
+                    android:layout_marginRight="@dimen/home_margin"
+                    android:background="@drawable/person_auth_square_bg"
+                    android:orientation="vertical">
+
+                    <com.jinzht.pro.view.MyListview
+                        android:id="@+id/lv_condition"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:divider="@null"
+                        android:padding="8dp"
+                        android:paddingBottom="@dimen/home_margin">
+
+                    </com.jinzht.pro.view.MyListview>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/home_margin"
+                        android:layout_marginLeft="@dimen/home_margin"
+                        android:layout_marginRight="@dimen/home_margin"
+                        android:text="@string/investor_des"
+                        android:textColor="#b7b7b6"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/home_margin"
+                    android:background="@null"
+                    android:button="@null"
+                    android:checked="true"
+                    android:drawableLeft="@drawable/new_check_btn"
+                    android:drawablePadding="4dp"
+                    android:text="@string/read_invest"
+                    android:textColor="@color/gray1"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/invest_toast"
+                    style="@style/MyWidget.InvestBlackRadio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/invest_toast"
+                    android:textColor="@color/login_btn"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_post"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="@dimen/home_margin"
+                android:background="@drawable/ok_normal_btn"
+                android:text="@string/sumbit_information2"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

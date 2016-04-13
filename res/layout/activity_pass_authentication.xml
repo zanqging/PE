@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:fitsSystemWindows="true"
+              android:clipToPadding="false"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <include layout="@layout/title_project_details"/>
+    <RadioGroup
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:id="@+id/radioGroup"
+            android:layout_height="@dimen/title_height">
+        <RadioButton
+                android:layout_width="0dp"
+                style="@style/MyWidget.Navigationbar"
+                android:id="@+id/progress_roadshow"
+                android:layout_weight="1"
+                android:drawableBottom="@drawable/my_collect_stringle"
+                android:checked="true"
+                android:text="@string/progress_roadshow"
+                android:layout_height="match_parent"/>
+
+
+        <RadioButton
+                android:layout_width="0dp"
+                style="@style/MyWidget.Navigationbar"
+                android:layout_weight="1"
+                android:id="@+id/progress_comelocale"
+                android:drawableBottom="@drawable/my_collect_stringle"
+                android:text="@string/progress_comelocale"
+                android:layout_height="match_parent"/>
+
+        <RadioButton
+                android:layout_width="0dp"
+                android:id="@+id/progress_investor"
+                android:drawableBottom="@drawable/my_collect_stringle"
+                style="@style/MyWidget.Navigationbar"
+                android:layout_weight="1"
+                android:text="@string/progress_investor"
+                android:layout_height="match_parent"/>
+
+    </RadioGroup>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="-10dp"
+            android:layout_height="wrap_content">
+        <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/one_line"
+                android:src="@drawable/small_strigle"
+                android:layout_height="wrap_content"/>
+        <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/two_line"
+                android:visibility="invisible"
+                android:src="@drawable/small_strigle"
+                android:layout_height="wrap_content"/>
+        <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/three_line"
+                android:visibility="invisible"
+                android:src="@drawable/small_strigle"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+</LinearLayout>

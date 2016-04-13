@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res/com.jinzht.pro"
+              android:orientation="vertical"
+              android:fitsSystemWindows="true"
+              android:clipToPadding="false"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <include layout="@layout/title_project_details"/>
+    <ScrollView
+            style="@style/both_match">
+        <LinearLayout
+                android:orientation="vertical"
+                style="@style/both_match">
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_margin="@dimen/home_margin"
+                    android:background="@drawable/item_bg"
+                    android:id="@+id/rl_identity"
+                    android:layout_height="170dp">
+
+                <ImageView
+                        style="@style/both_match"
+                        android:layout_margin="1dp"
+                        android:id="@+id/iv_identity"/>
+                <ImageView
+                        android:id="@+id/iv_auth_image"
+                        android:visibility="gone"
+                        android:layout_centerHorizontal="true"
+                        android:layout_alignParentBottom="true"
+                        style="@style/both_wrap"/>
+            </RelativeLayout>
+            <RelativeLayout
+                    android:layout_below="@id/rl_identity"
+                    style="@style/width_match">
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:background="@drawable/item_bg"
+                        android:layout_margin="@dimen/home_margin"
+                        android:orientation="vertical"
+                        android:layout_gravity="bottom"
+                        android:layout_height="wrap_content">
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="horizontal"
+                            android:layout_marginRight="@dimen/home_margin"
+                            android:layout_height="@dimen/title_height">
+
+                        <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="@string/auth_one"
+                                style="@style/MyWidget.InformationRightText"
+                                android:layout_height="@dimen/title_height"/>
+                        <TextView
+                                android:layout_width="0dp"
+                                android:layout_marginLeft="10dp"
+                                android:id="@+id/auth_one"
+                                android:layout_weight="2.3"
+                                android:gravity="center"
+                                style="@style/MyWidget.InformationEdit"
+                                android:textSize="16sp"
+                                android:layout_height="@dimen/title_height"/>
+
+                    </LinearLayout>
+                    <include layout="@layout/layout_underline2"/>
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="horizontal"
+                            android:layout_marginRight="@dimen/home_margin"
+                            android:layout_height="@dimen/title_height">
+
+                        <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="@string/auth_two"
+                                style="@style/MyWidget.InformationRightText"
+                                android:layout_height="@dimen/title_height"/>
+                        <TextView
+                                android:layout_width="0dp"
+                                android:layout_marginLeft="10dp"
+                                android:id="@+id/auth_two"
+                                android:layout_weight="2.3"
+                                android:gravity="center"
+                                style="@style/MyWidget.InformationEdit"
+                                android:textSize="16sp"
+                                android:layout_height="@dimen/title_height"/>
+
+                    </LinearLayout>
+                    <include layout="@layout/layout_underline2"/>
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="horizontal"
+                            android:layout_marginRight="@dimen/home_margin"
+                            android:layout_height="@dimen/title_height">
+
+                        <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="@string/auth_three"
+                                style="@style/MyWidget.InformationRightText"
+                                android:layout_height="@dimen/title_height"/>
+                        <TextView
+                                android:layout_width="0dp"
+                                android:layout_marginLeft="10dp"
+                                android:id="@+id/auth_three"
+                                android:layout_weight="2.3"
+                                android:gravity="center"
+                                style="@style/MyWidget.InformationEdit"
+                                android:textSize="16sp"
+                                android:layout_height="@dimen/title_height"/>
+
+                    </LinearLayout>
+                    <include layout="@layout/layout_underline2"/>
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="horizontal"
+                            android:layout_marginRight="@dimen/home_margin"
+                            android:layout_height="@dimen/title_height">
+
+                        <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="@string/auth_four"
+                                style="@style/MyWidget.InformationRightText"
+                                android:layout_height="@dimen/title_height"/>
+                        <TextView
+                                android:layout_width="0dp"
+                                android:layout_marginLeft="10dp"
+                                android:id="@+id/auth_four"
+                                android:layout_weight="2.3"
+                                android:gravity="center"
+                                style="@style/MyWidget.InformationEdit"
+                                android:textSize="16sp"
+                                android:layout_height="@dimen/title_height"/>
+
+                    </LinearLayout>
+                    <include layout="@layout/layout_underline2"/>
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="horizontal"
+                            android:layout_marginRight="@dimen/home_margin"
+                            android:layout_height="@dimen/title_height">
+
+                        <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="@string/auth_five"
+                                style="@style/MyWidget.InformationRightText"
+                                android:layout_height="@dimen/title_height"/>
+                        <TextView
+                                android:layout_width="0dp"
+                                android:layout_marginLeft="10dp"
+                                android:id="@+id/auth_five"
+                                android:layout_weight="2.3"
+                                android:gravity="center"
+                                style="@style/MyWidget.InformationEdit"
+                                android:textSize="16sp"
+                                android:layout_height="@dimen/title_height"/>
+
+                    </LinearLayout>
+                    <include layout="@layout/layout_underline2"/>
+                </LinearLayout>
+                <ImageView
+                        android:id="@+id/seal"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginRight="@dimen/home_margin"
+                        android:layout_marginBottom="@dimen/home_margin"
+                        style="@style/both_wrap"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

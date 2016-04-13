@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/both_match"
+    android:clipToPadding="false"
+    android:fadingEdge="none"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/both_match"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/lv_one"
+            style="@style/both_match"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <RelativeLayout
+                android:id="@+id/rl_identity"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_margin="@dimen/home_margin">
+
+                <ImageView
+                    android:id="@+id/iv_identity"
+                    style="@style/both_match"
+                    android:layout_margin="1dp" />
+
+                <ImageView
+                    android:id="@+id/iv_auth_image"
+                    style="@style/both_wrap"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                style="@style/width_match"
+                android:layout_below="@id/rl_identity">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_margin="@dimen/home_margin"
+                    android:background="@drawable/item_bg"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/title_height"
+                        android:layout_marginRight="@dimen/home_margin"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            style="@style/MyWidget.InformationRightText"
+                            android:layout_width="0dp"
+                            android:layout_height="@dimen/title_height"
+                            android:layout_weight="1"
+                            android:text="@string/auth_one" />
+
+                        <TextView
+                            android:id="@+id/auth_one"
+                            style="@style/MyWidget.InformationEdit"
+                            android:layout_width="0dp"
+                            android:layout_height="@dimen/title_height"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="2.3"
+                            android:gravity="center"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                    <include layout="@layout/layout_underline2" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/title_height"
+                        android:layout_marginRight="@dimen/home_margin"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            style="@style/MyWidget.InformationRightText"
+                            android:layout_width="0dp"
+                            android:layout_height="@dimen/title_height"
+                            android:layout_weight="1"
+                            android:text="@string/auth_two" />
+
+                        <TextView
+                            android:id="@+id/auth_two"
+                            style="@style/MyWidget.InformationEdit"
+                            android:layout_width="0dp"
+                            android:layout_height="@dimen/title_height"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="2.3"
+                            android:gravity="center"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                    <include layout="@layout/layout_underline2" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/title_height"
+                        android:layout_marginRight="@dimen/home_margin"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            style="@style/MyWidget.InformationRightText"
+                            android:layout_width="0dp"
+                            android:layout_height="@dimen/title_height"
+                            android:layout_weight="1"
+                            android:text="@string/auth_three" />
+
+                        <TextView
+                            android:id="@+id/auth_three"
+                            style="@style/MyWidget.InformationEdit"
+                            android:layout_width="0dp"
+                            android:layout_height="@dimen/title_height"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="2.3"
+                            android:gravity="center"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                    <include layout="@layout/layout_underline2" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/title_height"
+                        android:layout_marginRight="@dimen/home_margin"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            style="@style/MyWidget.InformationRightText"
+                            android:layout_width="0dp"
+                            android:layout_height="@dimen/title_height"
+                            android:layout_weight="1"
+                            android:text="@string/auth_four" />
+
+                        <TextView
+                            android:id="@+id/auth_four"
+                            style="@style/MyWidget.InformationEdit"
+                            android:layout_width="0dp"
+                            android:layout_height="@dimen/title_height"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="2.3"
+                            android:gravity="center"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                    <include layout="@layout/layout_underline2" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/title_height"
+                        android:layout_marginRight="@dimen/home_margin"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            style="@style/MyWidget.InformationRightText"
+                            android:layout_width="0dp"
+                            android:layout_height="@dimen/title_height"
+                            android:layout_weight="1"
+                            android:text="@string/auth_five" />
+
+                        <TextView
+                            android:id="@+id/auth_five"
+                            style="@style/MyWidget.InformationEdit"
+                            android:layout_width="0dp"
+                            android:layout_height="@dimen/title_height"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="2.3"
+                            android:gravity="center"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                    <include layout="@layout/layout_underline2" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/seal"
+                    style="@style/both_wrap"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="@dimen/home_margin"
+                    android:layout_marginRight="@dimen/home_margin" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lv_two"
+            style="@style/both_match"
+            android:gravity="center"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv_auth_status"
+                style="@style/both_wrap"
+                android:gravity="center"
+                android:lineSpacingExtra="2dp"
+                android:lineSpacingMultiplier="1.2"
+                android:padding="@dimen/home_margin"
+                android:text="@string/auth_look"
+                android:textColor="@color/main_black"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_modify"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="@dimen/main_margin"
+            android:background="@drawable/item_bg"
+            android:gravity="center"
+            android:text="@string/modify"
+            android:visibility="gone" />
+    </LinearLayout>
+</ScrollView>

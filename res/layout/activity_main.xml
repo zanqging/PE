@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:fitsSystemWindows="true"
+                android:clipToPadding="false"
+                xmlns:fab="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:id="@+id/rl_rootview"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_height="match_parent">
+
+    <RadioGroup
+            android:layout_width="match_parent"
+            android:background="#F9FAFB"
+            android:id="@+id/radioGroup"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_height="@dimen/title_height">
+        <RadioButton
+                android:layout_width="0dp"
+                android:id="@+id/homepage"
+                android:drawablePadding="0dp"
+                android:textSize="12sp"
+                android:drawableTop="@drawable/homepage"
+                android:checked="true"
+                android:text="@string/homepage"
+                style="@style/MyWidget.Navigationbar"
+                android:layout_height="wrap_content"/>
+        <RadioButton
+                android:layout_width="0dp"
+                android:id="@+id/road_show"
+                android:drawableTop="@drawable/radio_road_show"
+                android:text="@string/invest_finacing"
+                android:drawablePadding="0dp"
+                android:textSize="12sp"
+                style="@style/MyWidget.Navigationbar"
+                android:layout_height="wrap_content"/>
+        <View
+                android:layout_width="56dp"
+                android:layout_height="@dimen/title_height"/>
+
+        <RadioButton
+                android:layout_width="0dp"
+                android:id="@+id/invest"
+                android:drawableTop="@drawable/radio_invest"
+                android:text="@string/three_board"
+                android:drawablePadding="0dp"
+                android:textSize="12sp"
+                style="@style/MyWidget.Navigationbar"
+                android:layout_height="wrap_content"/>
+
+        <RadioButton
+                android:layout_width="0dp"
+                android:id="@+id/mine"
+                android:gravity="center"
+                android:drawableTop="@drawable/radio_knowledge"
+                android:text="@string/circle"
+                android:layout_gravity="center"
+                android:textSize="12sp"
+                style="@style/MyWidget.Navigationbar"
+                android:layout_height="wrap_content"/>
+    </RadioGroup>
+
+    <View
+            android:layout_width="match_parent"
+            android:background="#B7B7B6"
+            android:layout_above="@+id/radioGroup"
+            android:layout_height="1dp"/>
+
+    <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="@dimen/title_height"
+            android:layout_height="match_parent" />
+
+
+    <com.jinzht.pro.view.ClipRevealFrame
+            android:layout_width="match_parent"
+            android:id="@+id/menu_layout"
+            android:layout_height="match_parent"
+            android:background="@drawable/main_overlay_bg"
+            android:visibility="invisible"
+            >
+
+        <com.jinzht.pro.arclayout.ArcLayout  android:id="@+id/arc_layout"
+                                             android:layout_width="match_parent"
+                                             android:layout_marginTop="@dimen/title_height"
+                                             android:layout_height="match_parent"
+                                             android:layout_marginBottom="@dimen/title_height"
+                                             app:arc_axisRadius="114dp"
+                                             app:arc_freeAngle="true"
+                                             app:arc_origin="bottom"
+                                             app:arc_radius="140dp">
+
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:id="@+id/two"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    app:arc_angle="30"
+                    android:layout_height="wrap_content">
+                <ImageView android:layout_width="wrap_content"
+                           android:src="@drawable/two"
+                           android:scaleType="center"
+                           android:layout_height="wrap_content"/>
+                <TextView
+                        style="@style/MyWidget.Path"
+                        android:id="@+id/tv_two"
+                        android:text="@string/want_authion"
+                        />
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:id="@+id/four"
+                    app:arc_angle="90"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                <ImageView android:layout_width="wrap_content"
+                           android:src="@drawable/person_setting"
+                           android:scaleType="center"
+                           android:layout_height="wrap_content"/>
+                <TextView
+                        style="@style/MyWidget.Path"
+                        android:id="@+id/tv_four"
+                        android:text="@string/person_setting"/>
+            </LinearLayout>
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:id="@+id/one"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    app:arc_angle="150"
+                    android:layout_height="wrap_content">
+                <ImageView android:layout_width="wrap_content"
+                           android:src="@drawable/one"
+                           android:scaleType="center"
+                           android:layout_height="wrap_content"/>
+                <TextView
+                        style="@style/MyWidget.Path"
+                        android:id="@+id/tv_one"
+                        android:text="@string/want_road_show"
+                        />
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:id="@+id/three"
+                    android:visibility="gone"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    app:arc_angle="150"
+                    android:layout_height="wrap_content">
+                <ImageView android:layout_width="wrap_content"
+                           android:src="@drawable/three"
+                           android:background="@drawable/bottom_cricle"
+                           android:scaleType="center"
+                           android:layout_height="wrap_content"/>
+                <TextView
+                        style="@style/MyWidget.Path"
+                        android:id="@+id/tv_three"
+                        android:text="@string/want_sign_in"
+                        />
+            </LinearLayout>
+
+        </com.jinzht.pro.arclayout.ArcLayout>
+    </com.jinzht.pro.view.ClipRevealFrame>
+    <Button
+            android:layout_width="38dp"
+            android:layout_marginBottom="5dp"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/circle_button"
+            android:background="@drawable/main_add"
+            android:layout_centerHorizontal="true"
+            android:layout_height="38dp">
+    </Button>
+</RelativeLayout>

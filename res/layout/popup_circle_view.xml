@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+    <TextView
+            android:layout_width="wrap_content"
+            android:textColor="@color/white"
+            android:id="@+id/tv_love"
+            android:text="@string/zan"
+            android:drawableLeft="@drawable/love"
+            android:drawablePadding="5dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:layout_height="40dp"/>
+    <View
+            android:layout_width="1dp"
+            android:background="@color/white"
+            android:layout_height="20dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:textColor="@color/white"
+            android:id="@+id/tv_comment"
+            android:drawablePadding="5dp"
+            android:text="@string/comment"
+            android:drawableLeft="@drawable/comment"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textSize="14sp"
+            android:layout_height="40dp"/>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:descendantFocusability="blocksDescendants"
+              android:layout_height="match_parent">
+    <RadioButton
+        android:layout_width="match_parent"
+        style="@style/MyWidget.SelectRadio"
+        android:id="@+id/select_item"
+        android:clickable="false"
+        android:background="@drawable/select"
+        android:text="@string/trades_states2"
+        android:layout_height="30dp"/>
+</LinearLayout>

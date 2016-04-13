@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:background="@color/login_btn"
+              android:layout_height="@dimen/title_height">
+    <TextView
+            android:layout_width="wrap_content"
+            android:text="@string/want_road_show"
+            android:gravity="center"
+            android:id="@+id/want_roadshow"
+            android:drawablePadding="5dp"
+            android:textSize="16sp"
+            android:layout_marginLeft="12dp"
+            android:drawableLeft="@drawable/want_roadshow"
+            android:textColor="@color/white"
+            android:layout_height="match_parent"/>
+    <ImageView
+            android:layout_width="25dp"
+            android:src="@drawable/search"
+            android:layout_alignParentRight="true"
+            android:id="@+id/search"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/home_margin"
+            android:layout_height="25dp"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:textSize="20sp"
+            android:id="@+id/fragment_title"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_height="match_parent"/>
+</RelativeLayout>

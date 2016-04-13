@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:fitsSystemWindows="true"
+              android:clipToPadding="false"
+                android:background="@color/body_bg"
+              android:layout_height="match_parent">
+    <include layout="@layout/title_project_details"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:padding="@dimen/home_margin"
+            android:background="@color/white"
+            android:hint="@string/more_notice"
+            android:id="@+id/advice"
+            android:textSize="14sp"
+            android:textColor="@color/gray1"
+            android:lineSpacingMultiplier="1.2"
+            android:lineSpacingExtra="2dp"
+            android:gravity="left"
+            android:layout_marginTop="@dimen/home_margin"
+            android:layout_height="200dp"/>
+    <Button
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:id="@+id/send"
+            android:text="@string/send"
+            style="@style/MyWidget.BottomBtn"/>
+</LinearLayout>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:fitsSystemWindows="true"
+              android:clipToPadding="false"
+              android:background="@color/body_bg"
+              android:layout_height="match_parent">
+    <include layout="@layout/title_project_details"/>
+    <ScrollView
+            android:layout_width="match_parent"
+            android:fillViewport="true"
+            android:background="@color/body_bg"
+            android:layout_height="match_parent">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+            <LinearLayout
+                    style="@style/height_60"
+                    android:background="@color/white"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="@dimen/home_margin"
+                    android:paddingLeft="@dimen/normal_margin"
+                    android:paddingRight="@dimen/normal_margin"
+                    android:gravity="center_vertical">
+                <ImageView
+                        android:src="@drawable/money_max"
+                        style="@style/both_wrap"/>
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_marginLeft="3dp"
+                        style="@style/width_match">
+                    <TextView
+                            android:layout_marginLeft="4dp"
+                            android:id="@+id/financing_sum"
+                            style="@style/money_plan_single_content"
+                            android:text="@string/financing_sum"
+                            android:layout_marginBottom="2dp"/>
+                    <include layout="@layout/layout_no_margin"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                    style="@style/height_60"
+                    android:background="@color/white"
+                    android:layout_marginBottom="@dimen/home_margin"
+                    android:orientation="horizontal"
+                    android:paddingLeft="@dimen/normal_margin"
+                    android:paddingRight="@dimen/normal_margin"
+                    android:gravity="center_vertical">
+                <ImageView
+                        android:src="@drawable/money_way"
+                        style="@style/both_wrap"/>
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_marginLeft="3dp"
+                        style="@style/width_match">
+                    <TextView
+                            android:layout_marginLeft="4dp"
+                            android:id="@+id/financing_way"
+                            style="@style/money_plan_single_content"
+                            android:text="@string/financing_way"
+                            android:layout_marginBottom="2dp"/>
+                    <include layout="@layout/layout_no_margin"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                    style="@style/height_60"
+                    android:layout_marginBottom="@dimen/home_margin"
+                    android:background="@color/white"
+                    android:orientation="horizontal"
+                    android:paddingLeft="@dimen/normal_margin"
+                    android:paddingRight="@dimen/normal_margin"
+                    android:gravity="center_vertical">
+                <ImageView
+                        android:src="@drawable/release_scale"
+                        style="@style/both_wrap"/>
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_marginLeft="3dp"
+                        style="@style/width_match">
+                    <TextView
+                            android:layout_marginLeft="4dp"
+                            android:id="@+id/releasing_proportion"
+                            style="@style/money_plan_single_content"
+                            android:text="@string/releasing_proportion"
+                            android:layout_marginBottom="2dp"/>
+                    <include layout="@layout/layout_no_margin"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/home_margin"
+                    android:padding="@dimen/normal_margin"
+                    android:background="@color/white"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+                <ImageView
+                        android:src="@drawable/funds_use"
+                        android:layout_gravity="top"
+                        style="@style/both_wrap"/>
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_marginLeft="3dp"
+                        style="@style/width_match">
+                    <TextView
+                            android:layout_marginLeft="4dp"
+                            style="@style/money_plan_single_content"
+                            android:text="@string/fund_use"
+                            android:layout_marginBottom="2dp"/>
+                    <include layout="@layout/layout_no_margin"/>
+
+                    <TextView
+                            android:layout_marginLeft="8dp"
+                            android:id="@+id/fund_use"
+                            android:layout_marginTop="6dp"
+                            style="@style/both_wrap"
+                            android:textColor="@color/main_black"
+                            android:textSize="13sp"
+                            android:layout_marginBottom="2dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                    style="@style/height_60"
+                    android:background="@color/white"
+                    android:orientation="horizontal"
+                    android:paddingLeft="@dimen/normal_margin"
+                    android:paddingRight="@dimen/normal_margin"
+                    android:gravity="center_vertical">
+                <ImageView
+                        android:src="@drawable/release_scale"
+                        style="@style/both_wrap"/>
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_marginLeft="3dp"
+                        style="@style/width_match">
+                    <TextView
+                            android:layout_marginLeft="4dp"
+                            android:id="@+id/exit_way"
+                            style="@style/money_plan_single_content"
+                            android:text="@string/exit_way"
+                            android:layout_marginBottom="2dp"/>
+                    <include layout="@layout/layout_no_margin"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

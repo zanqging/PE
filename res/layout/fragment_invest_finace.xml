@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical"
+              android:background="@color/body_bg"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <RadioGroup
+            android:layout_width="match_parent"
+            android:background="@color/title_bg"
+            android:orientation="horizontal"
+            android:id="@+id/rg_invest"
+            android:gravity="center"
+            android:layout_height="@dimen/title_height">
+        <RadioButton
+                android:text="@string/invest_one"
+                android:id="@+id/rb_one"
+                android:checked="true"
+                style="@style/invest_radio"/>
+
+        <RadioButton
+                android:text="@string/invest_three"
+                android:layout_marginLeft="@dimen/normal_margin"
+                android:id="@+id/rb_three"
+                style="@style/invest_radio"/>
+    </RadioGroup>
+
+    <RelativeLayout android:layout_width="@dimen/title_height"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/menu"
+                    android:layout_height="@dimen/title_height">
+        <ImageView
+                android:layout_width="wrap_content"
+                android:src="@drawable/menu"
+                android:id="@+id/road_menu"
+                android:layout_centerInParent="true"
+                android:layout_height="wrap_content"/>
+        <ImageView
+                android:layout_width="wrap_content"
+                android:src="@drawable/white_circle"
+                android:visibility="gone"
+                android:layout_marginLeft="-1dp"
+                android:id="@+id/iv_invest"
+                android:layout_toRightOf="@id/road_menu"
+                android:layout_marginTop="12dp"
+                android:layout_height="wrap_content"/>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="@dimen/title_height"
+                    android:id="@+id/rl_search"
+                    android:layout_alignParentRight="true"
+                    android:layout_height="@dimen/title_height">
+        <ImageView
+                android:src="@drawable/white_search"
+                android:layout_centerInParent="true"
+                style="@style/both_wrap"/>
+    </RelativeLayout>
+    <com.jinzht.pro.view.MultiStateView style="@style/both_match"
+                                        android:id="@+id/multiStateView"
+                                        android:layout_marginTop="@dimen/title_height"
+                                        app:msv_errorView="@layout/error_view"
+                                        app:msv_emptyView="@layout/empty_view"
+                                        app:msv_loadingView="@layout/loading_view"
+                                        app:msv_viewState="content">
+        <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/ll_project"
+                style="@style/both_match">
+
+            <com.jinzht.pro.smarttablayout.SmartTabLayout android:layout_width="match_parent"
+                                                          android:id="@+id/viewpagertab"
+                                                          android:background="@color/white"
+                                                          app:stl_defaultTabTextColor="@color/black_oriange_bg"
+                                                          app:stl_distributeEvenly="true"
+                                                          android:layout_gravity="center"
+                                                          app:stl_indicatorColor="@color/detail_tv_title_color"
+                                                          app:stl_indicatorCornerRadius="1.5dp"
+                                                          app:stl_indicatorInterpolation="smart"
+                                                          app:stl_indicatorThickness="4dp"
+                                                          app:stl_underlineColor="@color/vertical_1dp"
+                                                          app:stl_underlineThickness="1dp"
+                                                          android:layout_height="@dimen/title_height">
+
+            </com.jinzht.pro.smarttablayout.SmartTabLayout>
+            <android.support.v4.view.ViewPager
+                    android:id="@+id/viewpagers"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/ll_investor"
+                style="@style/both_match">
+
+            <com.jinzht.pro.smarttablayout.SmartTabLayout android:layout_width="match_parent"
+                                                          android:id="@+id/viewpagertabs"
+                                                          android:background="@color/white"
+                                                          app:stl_defaultTabTextColor="@color/black_oriange_bg"
+                                                          app:stl_distributeEvenly="true"
+                                                          android:layout_gravity="center"
+                                                          app:stl_indicatorColor="@color/detail_tv_title_color"
+                                                          app:stl_indicatorCornerRadius="1.5dp"
+                                                          app:stl_indicatorInterpolation="smart"
+                                                          app:stl_indicatorThickness="4dp"
+                                                          app:stl_underlineColor="@color/vertical_1dp"
+                                                          app:stl_underlineThickness="1dp"
+                                                          android:layout_height="@dimen/title_height">
+
+            </com.jinzht.pro.smarttablayout.SmartTabLayout>
+            <android.support.v4.view.ViewPager
+                    android:id="@+id/viewpagerss"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+        </LinearLayout>
+    </com.jinzht.pro.view.MultiStateView>
+</RelativeLayout>

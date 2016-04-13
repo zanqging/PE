@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="mcv_pager" type="id" />
+
+    <item name="banner_pointContainerId" type="id" />
+    <item type="id" name="tabs"/>
+    <item type="id" name="header"/>
+    <item type="id" name="viewpager"/>
+    <item type="id" name="layout"/>
+
+    <item type="id" name="scrollviews"/>
+
+    <item type="id" name="current_scene"/>
+    <item type="id" name="transitionPosition" />
+    <item type="id" name="transitionTransform" />
+    <item type="id" name="transitionName" />
+    <item type="id" name="parentMatrix" />
+    <item type="id" name="scene_layoutid_cache"/>
+    <item type="id" name="group_layouttransition_cache"/>
+        <!--悬浮按钮-->
+    <item name="fab_expand_menu_button" type="id"/>
+    <item name="fab_label" type="id"/>
+
+    <item
+            type="id"
+            name="scrapped_view" />
+    <!-- ID used when defining the content layout in XML. -->
+    <item name="mdContent" type="id" />
+
+    <!-- ID used when defining the menu layout in XML. -->
+    <item name="mdMenu" type="id" />
+
+    <!-- The ID of the content container. -->
+    <item name="md__content" type="id" />
+
+    <!-- The ID of the menu container. -->
+    <item name="md__menu" type="id" />
+
+    <!-- The ID of the drawer. -->
+    <item name="md__drawer" type="id" />
+
+    <!-- Used with View#setTag(int) to specify a position for the active view. -->
+    <item name="mdActiveViewPosition" type="id" />
+
+    <item name="md__translationX" type="id" />
+
+    <item name="md__translationY" type="id" />
+
+    <item type="id" name="expandable_text"/>
+    <item type="id" name="expand_collapse"/>
+
+    <item name="twowayview_item_click_support" type="id"/>
+    <item name="twowayview_item_selection_support" type="id"/>
+
+</resources>

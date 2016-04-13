@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:gravity="center"
+              android:background="#ececeb"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <View
+            android:layout_width="match_parent"
+            android:background="@color/vertical_1dp"
+            android:layout_marginBottom="@dimen/home_margin"
+            android:layout_height="1dp"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            style="@style/width_match">
+
+        <TextView
+                style="@style/share_title"
+                android:id="@+id/jinzht"
+                android:layout_marginRight="@dimen/normal_margin"
+                android:text="@string/circle"
+                android:drawableTop="@drawable/share_circle"/>
+        <TextView
+                style="@style/share_title"
+                android:id="@+id/wechat"
+                android:layout_marginRight="@dimen/normal_margin"
+                android:drawableTop="@drawable/weixin"
+                android:text="@string/weichat"/>
+        <TextView
+                style="@style/share_title"
+                android:id="@+id/wechat_moment"
+                android:layout_marginRight="@dimen/normal_margin"
+                android:text="朋友圈"
+                android:drawableTop="@drawable/pengyouquan"/>
+        <TextView
+                style="@style/share_title"
+                android:id="@+id/qq"
+                android:layout_marginRight="@dimen/normal_margin"
+                android:text="QQ"
+                android:drawableTop="@drawable/tx_qq"/>
+        <TextView
+                style="@style/share_title"
+                android:id="@+id/message"
+                android:text="短信"
+                android:drawableTop="@drawable/duanxin"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/home_margin"
+        android:background="@color/vertical_1dp"
+        android:layout_height="1dp"/>
+</LinearLayout>

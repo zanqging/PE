@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<set xmlns:android="http://schemas.android.com/apk/res/android">-->
+    <!--进来的时候从上到下，实际上一个dialog，就是全屏的，所以相对父容器从-100%p到0%P-->
+    <translate xmlns:android="http://schemas.android.com/apk/res/android"
+            android:fromYDelta="-100%p"
+            android:interpolator="@android:anim/anticipate_overshoot_interpolator"
+            android:duration="500"
+            android:toYDelta="0%p"
+            />
+    <!--bounce_interpolator,到达终点产生弹球效果，弹几下回到终点-->
+    <!--anticipate_overshoot_interpolator,到达终点超出一小步然后回到终点-->
+    <!--overshoot_interpolator：快速到达终点超出一小步然后回到终点-->
+    <!--anticipate_interpolator: 先后退一小步然后向前加速-->
+    <!--accelerate_interpolator： 越来越快-->
+    <!--decelerate_interpolator：越来越慢-->
+    <!-- startoff延迟-->
+<!--</set>-->

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="rcv_animationDurationHide">420</integer>
+    <integer name="rcv_animationDurationReveal">420</integer>
+    <integer name="av_animationDuration">340</integer>
+
+    <item type="id" name="tag_viewHolder"/>
+    <item type="id" name="tag_SparseArray"/>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+                android:fitsSystemWindows="true"
+                android:clipToPadding="false"
+              android:background="@color/body_bg"
+              android:layout_height="match_parent">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical"
+                    android:background="@color/title_bg"
+                    android:layout_width="match_parent" android:layout_height="@dimen/title_height">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:id="@+id/back"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_height="@dimen/title_height">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:src="@drawable/back"
+                android:layout_marginLeft="@dimen/normal_margin"
+                android:layout_marginRight="10dp"
+                android:layout_centerInParent="true"
+                android:layout_height="wrap_content" />
+            <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:id="@+id/title"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:layout_height="@dimen/title_height" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="60dp"
+            android:textColor="@color/white"
+            android:layout_marginRight="@dimen/home_margin"
+            android:id="@+id/update_ok"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:layout_alignParentRight="true"
+            android:text="@string/complete"
+            android:layout_height="match_parent"/>
+    </RelativeLayout>
+    <com.jinzht.pro.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:id="@+id/submit_edit"
+            android:inputType="text"
+            android:layout_marginTop="80dp"
+            android:focusableInTouchMode="true"
+            style="@style/RegisterEdit"
+            android:hint="@string/username"
+            android:layout_height="@dimen/title_height" />
+
+</RelativeLayout>

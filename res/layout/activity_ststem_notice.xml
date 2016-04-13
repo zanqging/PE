@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:fitsSystemWindows="true"
+              android:clipToPadding="false"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_height="match_parent">
+    <include layout="@layout/title_project_details"/>
+    <com.jinzht.pro.swipyrefreshlayout.SwipyRefreshLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/title_height"
+            android:id="@+id/swipyrefreshlayout"
+            app:direction="both"
+            android:layout_height="match_parent">
+        <ListView
+                android:layout_width="match_parent"
+                android:fadingEdge="none"
+                android:divider="@null"
+                android:overScrollMode="never"
+                android:cacheColorHint="#00000000"
+                android:id="@+id/list"
+                android:scrollbars="none"
+                android:layout_height="match_parent">
+
+        </ListView>
+    </com.jinzht.pro.swipyrefreshlayout.SwipyRefreshLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/title_height"
+            android:gravity="center"
+            android:visibility="gone"
+            android:id="@+id/ll_no_context"
+            android:layout_height="match_parent">
+        <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/tv_no_context"
+                android:gravity="center"
+                android:drawablePadding="@dimen/home_margin"
+                android:layout_marginBottom="30dp"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.jinzht.pro"
+    xmlns:shimmer="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/body_bg"
+    android:clipToPadding="false"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/title_project_details" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/title_height"
+        android:cacheColorHint="#00000000"
+        android:divider="@null"
+        android:fadingEdge="none"
+        android:fillViewport="true"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:id="@+id/radioGroup_title"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/title_height"
+                android:layout_marginTop="10dp"
+                android:background="@color/body_bg"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/want_lingtou"
+                    style="@style/MyWidget.InvestNa"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="@dimen/normal_margin"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:drawableLeft="@drawable/lingtou_bg"
+                    android:drawablePadding="-20dp"
+                    android:gravity="center"
+                    android:paddingLeft="30dp"
+                    android:text="@string/want_lingtou"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/want_gentou"
+                    style="@style/MyWidget.InvestNa"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="30dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/want_gentou_bg"
+                    android:drawablePadding="-20dp"
+                    android:paddingLeft="30dp"
+                    android:text="@string/want_gentou"
+                    android:textColor="@color/investor_gentou_color">
+
+                </RadioButton>
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/home_margin"
+                android:background="@drawable/item_bg"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/choice_identity"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/title_height"
+                    android:gravity="center"
+                    android:text="@string/choice_identity"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:visibility="gone" />
+
+                <include layout="@layout/layout_underline2" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/title_height"
+                    android:layout_marginRight="@dimen/home_margin"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/MyWidget.InformationRightText"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/title_height"
+                        android:layout_weight="1"
+                        android:text="@string/invest_max" />
+
+                    <EditText
+                        android:id="@+id/money_num"
+                        style="@style/MyWidget.InformationEdit"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/title_height"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="2.3"
+                        android:gravity="center"
+                        android:hint="@string/invest_max_hint"
+                        android:inputType="numberDecimal"
+                        android:textSize="16sp" />
+
+                    <com.jinzht.pro.shimmer.ShimmerTextView
+                        android:id="@+id/wan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/wan"
+                        android:textColor="@color/detail_tv_title_color"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        shimmer:reflectionColor="@color/white" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_person"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/title_height"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/MyWidget.LeftGrayTv"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/title_height"
+                        android:layout_weight="1"
+                        android:text="@string/investor_type" />
+
+                    <TextView
+                        android:id="@+id/investor_type"
+                        style="@style/MyWidget.GrayTv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="2.3" />
+                </LinearLayout>
+
+                <include layout="@layout/layout_underline2" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/title_height"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/MyWidget.LeftGrayTv"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/title_height"
+                        android:layout_weight="1"
+                        android:text="@string/true_name" />
+
+                    <TextView
+                        android:id="@+id/name"
+                        style="@style/MyWidget.GrayTv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="2.3" />
+                </LinearLayout>
+
+                <include layout="@layout/layout_underline2" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/title_height"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/MyWidget.LeftGrayTv"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/title_height"
+                        android:layout_weight="1"
+                        android:text="@string/telephone" />
+
+                    <TextView
+                        android:id="@+id/telephone"
+                        style="@style/MyWidget.GrayTv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="2.3" />
+                </LinearLayout>
+
+                <include layout="@layout/layout_underline2" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/title_height"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/MyWidget.LeftGrayTv"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/title_height"
+                        android:layout_weight="1"
+                        android:text="@string/company_name" />
+
+                    <TextView
+                        android:id="@+id/company_name"
+                        style="@style/MyWidget.GrayTv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="2.3" />
+                </LinearLayout>
+
+                <include layout="@layout/layout_underline2" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/title_height"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/MyWidget.LeftGrayTv"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/title_height"
+                        android:layout_weight="1"
+                        android:text="@string/your_area" />
+
+                    <TextView
+                        android:id="@+id/your_area"
+                        style="@style/MyWidget.GrayTv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="2.3" />
+                </LinearLayout>
+
+                <include layout="@layout/layout_underline2" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/title_height"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/MyWidget.LeftGrayTv"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/title_height"
+                        android:layout_weight="1"
+                        android:text="@string/position" />
+
+                    <TextView
+                        android:id="@+id/your_position"
+                        style="@style/MyWidget.GrayTv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="2.3" />
+                </LinearLayout>
+
+                <include layout="@layout/layout_underline2" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_organization"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/title_height"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/MyWidget.LeftGrayTv"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/title_height"
+                        android:layout_weight="1"
+                        android:text="@string/investor_type" />
+
+                    <TextView
+                        android:id="@+id/investor_type_org"
+                        style="@style/MyWidget.GrayTv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="2.3" />
+                </LinearLayout>
+
+                <include layout="@layout/layout_underline2" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/title_height"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/MyWidget.LeftGrayTv"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/title_height"
+                        android:layout_weight="1"
+                        android:text="@string/company_name" />
+
+                    <TextView
+                        android:id="@+id/company_name_org"
+                        style="@style/MyWidget.GrayTv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="2.3"
+                        android:singleLine="true" />
+                </LinearLayout>
+
+                <include layout="@layout/layout_underline2" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/title_height"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/MyWidget.LeftGrayTv"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/title_height"
+                        android:layout_weight="1"
+                        android:text="@string/invest_area" />
+
+                    <TextView
+                        android:id="@+id/invest_area"
+                        style="@style/MyWidget.GrayTv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="2.3" />
+                </LinearLayout>
+
+                <include layout="@layout/layout_underline2" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/title_height"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <TextView
+                        style="@style/MyWidget.LeftGrayTv"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/title_height"
+                        android:layout_weight="1"
+                        android:text="@string/invest_smaple" />
+
+                    <TextView
+                        android:id="@+id/invest_smaple"
+                        style="@style/MyWidget.GrayTv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="2.3" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/title_height"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/MyWidget.LeftGrayTv"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/title_height"
+                        android:layout_weight="1"
+                        android:text="@string/fund" />
+
+                    <TextView
+                        android:id="@+id/fund"
+                        style="@style/MyWidget.GrayTv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="2.3" />
+                </LinearLayout>
+
+                <include layout="@layout/layout_underline2" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/body_bg"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/sumbit_information"
+            android:layout_width="230dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/new_bottom_btn"
+            android:gravity="center"
+            android:text="立即支付"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/telephone_us"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="@dimen/home_margin"
+            android:layout_toRightOf="@id/sumbit_information"
+            android:background="@drawable/telephone_us" />
+    </RelativeLayout>
+</RelativeLayout>

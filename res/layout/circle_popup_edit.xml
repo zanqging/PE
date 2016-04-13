@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/ll_reply"
+        android:background="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/vertical_1dp"/>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+        <EditText
+                android:layout_width="0dp"
+                android:id="@+id/ed_message"
+                android:layout_weight="1"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="8dp"
+                android:minHeight="35dp"
+                android:textColorHint="#aaaaaa"
+                android:hint="@string/write_context"
+                android:background="@drawable/circle_ed_bg"
+                android:textColor="@color/main_black"
+                android:layout_height="wrap_content"/>
+        <TextView
+                android:layout_width="60dp"
+                android:layout_marginRight="5dp"
+                android:layout_gravity="center"
+                android:id="@+id/send"
+                android:gravity="center"
+                android:background="@drawable/invest_editbg"
+                android:text="@string/send_"
+                android:layout_height="35dp"/>
+    </LinearLayout>
+
+</LinearLayout>

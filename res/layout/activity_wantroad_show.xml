@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.jinzht.pro"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clipToPadding="false"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/title_project_details" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/title_height"
+        android:cacheColorHint="#00000000"
+        android:divider="@null"
+        android:fadingEdge="none"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/height_title"
+                android:gravity="center"
+                android:text="商业计划书"
+                android:textColor="@color/detail_tv_title_color"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#a3a3a3" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/upload_bg" />
+
+            <ImageView
+                android:id="@+id/iv_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/home_margin"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/upload_email" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/item_bg">
+
+                <LinearLayout
+                    android:id="@+id/ll_uploading"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:id="@+id/loadingIv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center" />
+
+                    <com.jinzht.pro.numberprogressbar.NumberProgressBar
+                        android:id="@+id/numberPro"
+                        style="@style/NumberProgressBar_Funny_Orange"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/home_margin"
+                        android:layout_marginRight="@dimen/home_margin"
+                        android:layout_marginTop="8dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/home_margin"
+                        android:text="loading..."
+                        android:textColor="@color/login_btn"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_prepare"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/video_upload"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/normal_margin"
+                        android:drawableTop="@drawable/uploading_video" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:text="@string/vcr"
+                        android:textColor="@color/main_black"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_horizontal"
+                        android:text="@string/vcr_context"
+                        android:textColor="@color/login_btn"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_video_successful"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="10dp"
+                        android:drawableTop="@drawable/vido_successful"
+                        android:gravity="center"
+                        android:text="@string/video_success"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_delete"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentRight="true"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/card_delete" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/home_margin"
+                android:background="@drawable/item_bg"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/normal_margin"
+                    android:layout_marginRight="@dimen/normal_margin"
+                    android:layout_marginTop="@dimen/normal_margin"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/MyWidget.InformationRightText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/company_input" />
+
+                    <EditText
+                        android:id="@+id/select_company"
+                        style="@style/MyWidget.InformationEdit"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:hint="@string/select_company_hint"
+                        android:paddingTop="5dp" />
+                </LinearLayout>
+
+                <include layout="@layout/layout_underline2" />
+
+                <TextView
+                    style="@style/MyWidget.InformationRightText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/normal_margin"
+                    android:layout_marginTop="@dimen/home_margin"
+                    android:layout_weight="1"
+                    android:text="项目介绍" />
+
+                <EditText
+                    android:id="@+id/ed_intro"
+                    style="@style/width_match"
+                    android:layout_marginLeft="@dimen/normal_margin"
+                    android:layout_marginRight="@dimen/normal_margin"
+                    android:background="@null"
+                    android:gravity="left"
+                    android:hint="@string/project_intro"
+                    android:minHeight="60dp"
+                    android:paddingBottom="@dimen/home_margin"
+                    android:paddingTop="@dimen/home_margin"
+                    android:textColor="@color/main_black"
+                    android:textColorHint="@color/gray1"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/home_margin"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/title_height"
+                    android:layout_marginRight="@dimen/home_margin"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/MyWidget.InformationRightText"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/title_height"
+                        android:layout_weight="1.1"
+                        android:text="@string/working_field" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="2.3"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/type"
+                            style="@style/MyWidget.InformationEdit"
+                            android:layout_width="0dp"
+                            android:layout_height="@dimen/title_height"
+                            android:layout_weight="1"
+                            android:hint="@string/select_company_hint" />
+
+                        <Button
+                            android:layout_width="70dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/main_yellow_btn"
+                            android:drawableLeft="@drawable/yellew_add"
+                            android:gravity="center"
+                            android:paddingLeft="15dp"
+                            android:text="@string/edit"
+                            android:textColor="@color/main_yellow"
+                            android:textSize="12sp"
+                            android:visibility="gone" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/title_height"
+                    android:layout_marginRight="@dimen/home_margin"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <TextView
+                        style="@style/MyWidget.InformationRightText"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/title_height"
+                        android:layout_weight="1"
+                        android:text="@string/weichat" />
+
+                    <EditText
+                        style="@style/MyWidget.InformationEdit"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/title_height"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="2.3"
+                        android:hint="@string/weichat_hint" />
+                </LinearLayout>
+
+                <include layout="@layout/layout_underline" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/title_height"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginRight="@dimen/home_margin"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/MyWidget.InformationRightText"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/title_height"
+                        android:layout_weight="1.1"
+                        android:text="@string/company_register" />
+
+                    <TextView
+                        android:id="@+id/company_register"
+                        style="@style/MyWidget.InformationEdit"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/title_height"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="2.3"
+                        android:hint="@string/company_register_hint" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/title_height"
+                    android:layout_marginRight="@dimen/home_margin"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/MyWidget.InformationRightText"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/title_height"
+                        android:layout_weight="1.1"
+                        android:text="@string/company_states" />
+
+                    <TextView
+                        android:id="@+id/company_states"
+                        style="@style/MyWidget.InformationEdit"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/title_height"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="2.3"
+                        android:hint="@string/company_states" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/title_height"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:checked="true"
+                    android:drawableLeft="@drawable/new_check_btn"
+                    android:drawablePadding="5dp"
+                    android:text="@string/read"
+                    android:textColor="@color/gray1" />
+
+                <TextView
+                    android:id="@+id/about_road_show"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/project_xieyi"
+                    android:textColor="@color/detail_tv_title_color" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/post_information"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/new_bottom_btn"
+                android:gravity="center"
+                android:text="@string/post_information"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

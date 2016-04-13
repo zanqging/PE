@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sex_dialog">
+        <item>保密</item>
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+
+    <string-array name="image_dialog">
+        <item>照相机打开</item>
+        <item>相册打开</item>
+    </string-array>
+   <string-array name="user_type">
+       <item>企业</item>
+       <item>个人投资者</item>
+       <item>券商</item>
+       <item>机构投资者</item>
+       <item>律师</item>
+       <item>会计师</item>
+   </string-array>
+    <string-array name="childvalues">
+        <item>全部</item>
+        <item>互联网</item>
+        <item>美容</item>
+        <item>服装</item>
+        <item>美食</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="childvalues1">
+        <item>全部</item>
+        <item>北京</item>
+        <item>上海</item>
+        <item>陕西</item>
+        <item>四川</item>
+        <item>新疆</item>
+        <item>重庆</item>
+        <item>河北</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="childvalues2">
+        <item>全部</item>
+        <item>已挂牌新三板</item>
+        <item>拟挂牌新三板</item>
+        <item>已挂牌上股交</item>
+        <item>拟挂牌上股交</item>
+    </string-array>
+    <string-array name="search_type">
+        <item>路演预告</item>
+        <item>路演完成</item>
+        <item>智囊团</item>
+    </string-array>
+    <string-array name="advance">
+        <item>项目概览</item>
+        <item>融资计划</item>
+        <item>公司重大新闻</item>
+    </string-array>
+    <string-array name="complete">
+        <item>项目概览</item>
+        <item>融资计划</item>
+        <item>互动专栏</item>
+        <item>投资列表</item>
+    </string-array>
+    <string-array name="three_borad_lib">
+        <item>财务管理</item>
+        <item>股权分配</item>
+        <item>融资</item>
+        <item>投资</item>
+        <item>测试</item>
+        <item>测试1</item>
+        <item>测试2</item>
+        <item>测试3</item>
+    </string-array>
+    <string-array name="invest_array">
+        <item> 待融资 </item>
+        <item> 融资中 </item>
+        <item> 已融资 </item>
+        <item>预选项目</item>
+    </string-array>
+    <array name="drawable_array">
+
+        <item>@drawable/item_selector</item>
+        <item>@drawable/selector_video</item>
+        <item>@drawable/selector_audio</item>
+        <item>@drawable/selector_photo</item>
+        <item>@drawable/selector_doc</item>
+    </array>
+
+    <string-array name="collect_invest_array">
+        <item>待融资</item>
+        <item>融资中</item>
+        <item>已融资</item>
+        <item>预选</item>
+    </string-array>
+    <string-array name="invest_three">
+        <item>个人投资者</item>
+        <item>机构投资者</item>
+        <item>智囊团</item>
+    </string-array>
+    <string-array name="invest_more">
+        <item>我投资的项目</item>
+        <item>我上传的项目</item>
+    </string-array>
+
+
+    <string-array name="query_suggestions">
+        <item>Android</item>
+        <item>iOS</item>
+        <item>SCALA</item>
+        <item>Ruby</item>
+        <item>JavaScript</item>
+        <item>C#</item>
+        <item>Python</item>
+        <item>C</item>
+        <item>C++</item>
+        <item>PHP</item>
+        <item>Go</item>
+        <item>Perl</item>
+        <item>Bash</item>
+        <item>Lua</item>
+        <item>R</item>
+        <item>TCL</item>
+        <item>Haskell</item>
+        <item>Objective C</item>
+        <item>Swift</item>
+        <item>Kotlin</item>
+        <item>jQuery</item>
+        <item>Development</item>
+        <item>Web</item>
+        <item>Ajax</item>
+        <item>Test</item>
+        <item>Testing</item>
+        <item>CookBook</item>
+        <item>Beagle</item>
+        <item>VMware</item>
+        <item>Less.js</item>
+        <item>IDE</item>
+        <item>Arduino</item>
+        <item>Xamarin</item>
+        <item>UI</item>
+        <item>Microsoft</item>
+        <item>Application</item>
+        <item>Development</item>
+        <item>JUnit</item>
+        <item>SQL</item>
+        <item>Beagle</item>
+    </string-array>
+
+    <string-array name="banks">
+        <item>交通银行</item>
+        <item>中国光大银行</item>
+        <item>上海浦发发展银行</item>
+        <item>中国农业银行</item>
+        <item>中信银行</item>
+        <item>中国建设银行</item>
+        <item>中国民生银行</item>
+        <item>中国平安银行</item>
+        <item>中国邮政储蓄</item>
+        <item>招商银行</item>
+        <item>兴业银行</item>
+        <item>中国工商银行</item>
+        <item>中国银行</item>
+        <item>北京银行</item>
+        <item>广发银行</item>
+        <item>华夏银行</item>
+        <item>西安市商业银行</item>
+        <item>上海银行</item>
+        <item>天津市商业银行</item>
+        <item>深圳农村商业银行</item>
+        <item>北京农商银行</item>
+        <item>杭州市商业银行</item>
+        <item>昆仑银行</item>
+        <item>郑州银行</item>
+        <item>温州银行</item>
+        <item>汉口银行</item>
+        <item>南京银行</item>
+        <item>厦门银行</item>
+        <item>南昌银行</item>
+        <item>江苏银行</item>
+        <item>东亚银行</item>
+        <item>成都银行</item>
+        <item>宁波银行</item>
+        <item>长沙银行</item>
+        <item>河北银行</item>
+        <item>广州银行</item>
+    </string-array>
+</resources>

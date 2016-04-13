@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clipToPadding="false"
+    android:fitsSystemWindows="true"
+    android:gravity="center_horizontal">
+
+    <include layout="@layout/title_project_details" />
+
+
+    <RelativeLayout
+        android:id="@+id/account_card"
+        android:layout_width="347dp"
+        android:layout_height="210dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="71.5dp"
+        android:background="@drawable/background_accound_card"
+        android:clickable="true">
+
+        <TextView
+            android:id="@+id/account_bank_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="21dp"
+            android:layout_marginTop="19dp"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/account_bank_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/account_bank_name"
+            android:layout_marginLeft="21dp"
+            android:layout_marginTop="21.5dp"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:id="@+id/ll_count_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/account_bank_no"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/account_yue"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="余  额"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/account_keyongyue"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="可用余额"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/account_dongjieyue"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="冻结余额"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_count_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll_count_type"
+            android:layout_marginTop="9.5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/account_yue_no"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:maxEms="10"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/account_keyongyue_no"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/account_dongjieyue_no"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/account_line"
+            android:layout_width="336dp"
+            android:layout_height="0.8dp"
+            android:layout_below="@id/ll_count_number"
+            android:layout_marginLeft="5.5dp"
+            android:layout_marginTop="9.5dp"
+            android:background="@color/white" />
+
+        <LinearLayout
+            android:id="@+id/ll_no_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/account_platformUserNo"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:maxWidth="10dp"
+                    android:singleLine="true"
+                    android:text="用户编号"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/account_platformPhone"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="手机"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/account_btn_bind_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/account_card"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/btn_orange"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="绑定银行卡"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/account_btn_withdraw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/account_btn_bind_2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/btn_orange"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="提  现"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/account_btn_unbind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/account_btn_withdraw"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/btn_orange"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="解绑银行卡"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/account_btn_transfer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/account_btn_withdraw"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/btn_orange"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="余额转出"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+</RelativeLayout>

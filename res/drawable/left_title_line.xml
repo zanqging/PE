@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:bottom="32dp">
+        <shape>
+            <solid android:color="@color/login_btn"/>
+            <size android:width="2dp" android:height="12dp"/>
+        </shape>
+    </item>
+    <item android:bottom="34dp" android:top="34dp">
+        <shape android:shape="oval" >
+            <solid android:color="@android:color/transparent"/>
+            <stroke android:color="@color/background_tab_pressed" android:width="2dp"/>
+            <size android:width="15dp" android:height="15dp"/>
+        </shape>
+    </item>
+    <item android:top="48dp">
+        <shape>
+            <solid android:color="@color/backgd_1dp"/>
+            <size android:width="2dp" android:height="12dp"/>
+        </shape>
+    </item>
+</layer-list>

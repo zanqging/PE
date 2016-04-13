@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <com.jinzht.pro.view.BorderScrollView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:overScrollMode="always"
+            android:id="@+id/scrollview"
+            android:focusableInTouchMode="true"
+            android:isScrollContainer="true"
+            android:fillViewport="true"
+            android:focusable="true"
+            android:layout_height="0dp">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+            <FrameLayout
+                    android:id="@+id/framelayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="170dp"
+
+                    android:background="#ffffff" >
+                <com.jinzht.pro.banner.ImageCycleView
+                        android:id="@+id/ad_view"
+                        android:layout_width="fill_parent"
+                        android:layout_height="170dip" />
+            </FrameLayout>
+            <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rv_recyclerview_data"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scrollbars="none" />
+
+        </LinearLayout>
+    </com.jinzht.pro.view.BorderScrollView>
+</LinearLayout>

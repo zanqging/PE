@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app1="http://schemas.android.com/apk/res/com.jinzht.pro"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:fitsSystemWindows="true"
+                android:clipToPadding="false"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:background="@color/body_bg"
+                android:layout_height="match_parent">
+
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:background="@color/title_bg"
+            android:focusable="true"
+            android:gravity="center_vertical"
+            android:focusableInTouchMode="true"
+            android:layout_height="@dimen/title_height">
+        <RelativeLayout
+                android:layout_width="@dimen/title_height"
+                android:id="@+id/rl_back"
+                android:layout_height="@dimen/title_height">
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:id="@+id/search_back"
+                    android:layout_marginLeft="15dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/back"
+                    android:layout_height="wrap_content"/>
+        </RelativeLayout>
+        <RelativeLayout
+                android:layout_width="@dimen/title_height"
+                android:id="@+id/rl_search"
+                android:layout_alignParentRight="true"
+                android:layout_height="@dimen/title_height">
+            <ImageView
+                    android:src="@drawable/white_search"
+                    android:layout_centerInParent="true"
+                    style="@style/both_wrap"/>
+        </RelativeLayout>
+
+        <com.jinzht.pro.materialsearchview.MaterialSearchView
+                android:id="@+id/search_view"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/title_height" />
+    </RelativeLayout>
+    <com.jinzht.pro.view.MultiStateView android:layout_width="match_parent"
+
+                                        android:id="@+id/multiStateView"
+                                        app:msv_errorView="@layout/error_view"
+                                        app:msv_emptyView="@layout/empty_view"
+                                        app:msv_loadingView="@layout/loading_view"
+                                        app:msv_viewState="content"
+                                        android:layout_height="match_parent">
+
+        <com.jinzht.pro.swipyrefreshlayout.SwipyRefreshLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="60dp"
+                android:id="@+id/swipyrefreshlayout"
+                app:direction="both"
+                android:layout_height="wrap_content">
+
+            <ListView
+                    android:layout_width="match_parent"
+                    android:fadingEdge="none"
+                    android:divider="@null"
+                    android:overScrollMode="never"
+                    android:cacheColorHint="#00000000"
+                    android:id="@+id/list"
+                    android:scrollbars="none"
+                    android:layout_height="match_parent">
+
+            </ListView>
+        </com.jinzht.pro.swipyrefreshlayout.SwipyRefreshLayout>
+    </com.jinzht.pro.view.MultiStateView>
+</RelativeLayout>

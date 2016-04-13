@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+
+                android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_width="300dp"
+            android:layout_marginTop="55dp"
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/dialog_bg"
+            android:layout_height="wrap_content">
+
+        <com.jinzht.pro.numberprogressbar.NumberProgressBar
+                android:layout_width="match_parent"
+                android:layout_marginTop="70dp"
+                android:layout_marginLeft="@dimen/home_margin"
+                android:layout_marginRight="@dimen/home_margin"
+                android:layout_marginBottom="@dimen/home_margin"
+                android:id="@+id/numberPro"
+                style="@style/NumberProgressBar_Funny_Orange"
+                android:layout_height="wrap_content"/>
+        <View
+                android:layout_width="match_parent"
+                android:background="@color/new_back1dp"
+                android:layout_height="1dp"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="@dimen/title_height">
+            <TextView
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:id="@+id/houtai_btn"
+                    android:textSize="18sp"
+                    android:text="@string/houtai_btn"
+                    android:textColor="@color/login_btn"
+                    android:layout_height="@dimen/title_height"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:src="@drawable/dialog_logo"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"/>
+</RelativeLayout>

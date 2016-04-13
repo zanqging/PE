@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:fitsSystemWindows="true"
+              android:clipToPadding="false"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:background="@drawable/login_bg"
+              android:layout_height="match_parent">
+    <ScrollView
+            android:layout_width="match_parent"
+            android:fillViewport="true"
+            android:layout_height="match_parent">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:layout_height="match_parent">
+
+            <TextView
+                    android:layout_width="250dp"
+                    style="@style/MyWidget.LoginBtn"
+                    android:id="@+id/register_num"
+                    android:layout_marginTop="100dp"
+                    android:text="@string/go_register"
+                    android:layout_height="@dimen/title_height"/>
+
+            <TextView
+                    android:layout_width="250dp"
+                    android:id="@+id/login_btn"
+                    style="@style/MyWidget.LoginBtn"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/login_btn"
+                    android:layout_height="@dimen/title_height"/>
+
+            <TextView
+                    android:layout_width="250dp"
+                    android:id="@+id/wechat_btn"
+                    style="@style/MyWidget.LoginBtn"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/wechat_btn"
+                    android:layout_height="@dimen/title_height"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

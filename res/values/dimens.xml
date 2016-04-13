@@ -1,0 +1,113 @@
+<resources>
+
+
+
+  <dimen name="loading_view_progress_size">50dp</dimen>
+  <dimen name="loading_view_margin_layout">10dp</dimen>
+  <dimen name="loading_view_margin_right">5dp</dimen>
+  <dimen name="toast_hover">64dp</dimen>
+  <dimen name="buttontoast_hover">24dp</dimen>
+  <dimen name="buttontoast_x_padding">12dp</dimen>
+  <dimen name="cardtoast_margin">4dp</dimen>
+  <dimen name="checked_size">22sp</dimen>
+  <dimen name="search_icon_padding">12dp</dimen>
+  <dimen name="search_view_text_padding">65dp</dimen>
+  <dimen name="login_edit_margin">15dp</dimen>
+  <dimen name="title_height">48dp</dimen>
+  <dimen name="home_margin">12dp</dimen>
+  <dimen name="normal_margin">18dp</dimen>
+  <dimen name="main_margin">10dp</dimen>
+  <dimen name="max_homepage_header">233dp</dimen>
+  <dimen name="homepage_header">185dp</dimen>
+
+  <dimen name="exitXAnimationStart">-15dp</dimen>
+  <dimen name="exitYAnimatorFinish">34dp</dimen>
+  <dimen name="enterYAnimationStart">-30dp</dimen>
+  <dimen name="enterAnimationStartValue">-25dp</dimen>
+  <dimen name="exitAnimationExitValue">25dp</dimen>
+  <dimen name="icon_size">11dp</dimen>
+  <dimen name="margin">14dp</dimen>
+  <dimen name="ball_radius">11dp</dimen>
+  <dimen name="ball_start_position">12dp</dimen>
+
+  <dimen name="crop__bar_height">56dp</dimen>
+
+
+  <integer name="mcv_default_tile_size">44</integer>
+
+  <dimen name="default_padding_top">8dp</dimen>
+  <dimen name="default_padding_bottom">8dp</dimen>
+  <dimen name="inner_padding_left">0dp</dimen>
+  <dimen name="inner_padding_right">0dp</dimen>
+  <dimen name="floating_label_text_size">12sp</dimen>
+  <dimen name="bottom_text_size">12sp</dimen>
+  <dimen name="inner_components_spacing">8dp</dimen>
+  <dimen name="bottom_ellipsis_height">4dp</dimen>
+  <dimen name="tabs_height">48dp</dimen>
+  <dimen name="viewpager_header_height">370dp</dimen>
+  <dimen name="space_middle">24dp</dimen>
+
+  <dimen name="historyscore_tb">10dp</dimen>
+
+  <dimen name="fab_size_normal">56dp</dimen>
+  <dimen name="fab_size_mini">40dp</dimen>
+
+  <dimen name="fab_icon_size">24dp</dimen>
+
+  <dimen name="fab_plus_icon_size">14dp</dimen>
+  <dimen name="fab_plus_icon_stroke">2dp</dimen>
+
+  <dimen name="fab_shadow_offset">3dp</dimen>
+  <dimen name="fab_shadow_radius">9dp</dimen>
+
+  <dimen name="fab_stroke_width">1dp</dimen>
+
+  <dimen name="fab_actions_spacing">16dp</dimen>
+  <dimen name="fab_labels_margin">8dp</dimen>
+  <dimen name="indicator_right_padding">10dp</dimen>
+  <dimen name="indicator_corner_radius">12dp</dimen>
+  <dimen name="indicator_internal_padding">4dp</dimen>
+  <dimen name="header_footer_left_right_padding">24dp</dimen>
+  <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+
+  <dimen name="action_button_size">72dp</dimen>
+  <dimen name="action_button_content_margin">16dp</dimen>
+  <dimen name="action_button_margin">12dp</dimen>
+  <dimen name="action_menu_radius">96dp</dimen>
+
+  <dimen name="sub_action_button_size">36dp</dimen>
+  <dimen name="sub_action_button_content_margin">6dp</dimen>
+
+
+  <dimen name="radius_large">120dp</dimen>
+  <dimen name="radius_small">30dp</dimen>
+  <dimen name="radius_medium">72dp</dimen>
+
+  <!-- Default screen margins, per the Android Design guidelines. -->
+  <dimen name="activity_horizontal_margin">16dp</dimen>
+  <dimen name="activity_vertical_margin">16dp</dimen>
+  <!-- Album相关 -->
+  <dimen name="albumitem_height">100dp</dimen>
+  <dimen name="albumitem_content_height">80dp</dimen>
+  <dimen name="albumitem_image_height">20dp</dimen>
+
+  <!-- CheckBox相关 -->
+  <dimen name="checkbox_height">25dp</dimen>
+
+  <!-- Title 相关高度 -->
+  <dimen name="layout_title_heigh">45dp</dimen>
+  <dimen name="layout_title_content_heigh">30dp</dimen>
+  <dimen name="layout_title_mini_textsize">16sp</dimen>
+
+  <!-- 图片选择界面Item相关 -->
+  <dimen name="sticky_item_horizontalSpacing">2dp</dimen>
+  <dimen name="sticky_item_verticalSpacing">2dp</dimen>
+  <dimen name="collection_photo_toolbar_height">45dp</dimen>
+
+  <dimen name="project_iv_width">150dp</dimen>
+  <dimen name="min_height">160dp</dimen>
+  <dimen name="big_circle_radius">40dp</dimen>
+  <dimen name="small_circle_radius">20dp</dimen>
+
+  <dimen name="min_gap">80dp</dimen>
+</resources>

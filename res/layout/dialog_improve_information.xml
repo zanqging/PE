@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:background="@drawable/item_bg"
+              android:layout_height="match_parent">
+    <TextView
+            android:textSize="18sp"
+            android:text="请您完善资料!"
+            android:layout_margin="@dimen/home_margin"
+            android:textColor="@color/main_black"
+            android:textStyle="bold"
+            style="@style/width_match"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="@dimen/home_margin"
+            android:gravity="right"
+            style="@style/width_match">
+        <TextView
+                android:text="@string/crop__cancel"
+                android:textSize="14sp"
+                android:id="@+id/tv_cancel"
+                android:padding="@dimen/home_margin"
+                android:layout_marginRight="@dimen/home_margin"
+                android:textColor="@color/login_btn"
+                style="@style/both_wrap"/>
+        <TextView
+                android:text="@string/crop__done"
+                android:textSize="14sp"
+                android:id="@+id/tv_submit"
+                android:padding="@dimen/home_margin"
+                android:textColor="@color/login_btn"
+                style="@style/both_wrap"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@color/body_bg"
+              android:layout_width="match_parent"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_height="match_parent">
+
+
+    <com.jinzht.pro.view.MultiStateView style="@style/both_match"
+                                        android:id="@+id/multiStateView"
+                                        app:msv_errorView="@layout/error_view"
+                                        app:msv_emptyView="@layout/empty_view"
+                                        app:msv_loadingView="@layout/loading_view"
+                                        app:msv_viewState="content">
+
+        <com.jinzht.pro.swipyrefreshlayout.SwipyRefreshLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/home_margin"
+                android:layout_height="match_parent"
+                android:background="@color/body_bg"
+                android:id="@+id/swipyrefreshlayout"
+                app:direction="both">
+            <ListView
+                    android:layout_width="match_parent"
+                    android:fadingEdge="none"
+                    android:divider="@null"
+                    android:overScrollMode="never"
+                    android:cacheColorHint="#00000000"
+                    android:id="@+id/list"
+                    android:scrollbars="none"
+                    android:layout_height="match_parent">
+
+            </ListView>
+        </com.jinzht.pro.swipyrefreshlayout.SwipyRefreshLayout>
+    </com.jinzht.pro.view.MultiStateView>
+</LinearLayout>

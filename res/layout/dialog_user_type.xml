@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:gravity="center"
+              android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="300dp"
+        android:orientation="vertical"
+
+        android:background="@drawable/dialog_bg"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:text="@string/think"
+            android:textColor="@color/main_black"
+            android:textStyle="bold"
+            android:layout_height="@dimen/title_height"/>
+        <View
+            android:layout_width="match_parent"
+            android:background="@color/main_yellow"
+            android:layout_height="2dp"/>
+       <GridView
+           android:layout_width="match_parent"
+           android:layout_marginLeft="@dimen/normal_margin"
+           android:layout_marginRight="@dimen/normal_margin"
+           android:id="@+id/user_type"
+           android:numColumns="2"
+           android:verticalSpacing="5dp"
+           android:choiceMode="multipleChoice"
+           android:scrollbars="none"
+           android:layout_height="wrap_content">
+
+       </GridView>
+        <View
+                android:layout_width="match_parent"
+                android:background="@color/new_back1dp"
+                android:layout_height="1dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:id="@+id/submit"
+            android:textSize="18sp"
+            android:text="@string/submit"
+            android:textColor="@color/login_btn"
+            android:layout_height="@dimen/title_height"/>
+    </LinearLayout>
+</LinearLayout>

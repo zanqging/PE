@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+                android:fitsSystemWindows="true"
+                android:clipToPadding="false"
+    android:layout_height="match_parent"
+    android:background="@android:color/white" >
+
+    <com.jinzht.pro.view.MyViewPager
+        android:id="@+id/vp_base_app"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:id="@+id/layout_top_app"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_title_heigh"
+        android:layout_alignParentTop="true"
+        android:background="@color/title_bg" >
+
+        <ImageButton
+            android:id="@+id/btn_back_app"
+            android:layout_width="60dp"
+            android:layout_height="@dimen/title_height"
+            android:layout_centerVertical="true"
+            android:src="@drawable/back"
+            android:background="@null"
+            android:scaleType="centerInside" />
+
+
+        <TextView
+            android:id="@+id/tv_percent_app"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="80dp"
+            android:layout_centerVertical="true"
+            android:paddingRight="10dp"
+            android:textColor="@android:color/white" />
+
+        <TextView
+                android:id="@+id/tv_save"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:text="@string/save_btn"
+                android:gravity="center"
+                android:textColor="@color/white" />
+    </RelativeLayout>
+
+</RelativeLayout>

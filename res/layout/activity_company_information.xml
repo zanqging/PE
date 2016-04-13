@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:fitsSystemWindows="true"
+              android:clipToPadding="false"
+              android:layout_height="match_parent">
+    <include layout="@layout/title_project_details"/>
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:focusableInTouchMode="true"
+                    android:focusable="true"
+                    android:background="@drawable/item_bg"
+                    android:layout_margin="@dimen/home_margin"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="@dimen/home_margin"
+                        android:layout_height="@dimen/title_height">
+
+                    <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1.1"
+                            android:text="@string/company_name"
+                            style="@style/MyWidget.InformationRightText"
+                            android:layout_height="@dimen/title_height"/>
+                    <EditText
+                            android:layout_width="0dp"
+                            android:layout_marginLeft="10dp"
+                            android:hint="@string/company_name_hint"
+                            android:id="@+id/company_name"
+                            android:layout_weight="2.3"
+                            style="@style/MyWidget.InformationEdit"
+                            android:layout_height="@dimen/title_height"/>
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="@dimen/home_margin"
+                        android:layout_height="@dimen/title_height">
+
+                    <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1.1"
+                            android:text="@string/working_field"
+                            style="@style/MyWidget.InformationRightText"
+                            android:layout_height="@dimen/title_height"/>
+                    <TextView
+                            android:layout_width="0dp"
+                            android:id="@+id/working_field"
+                            android:layout_marginLeft="10dp"
+                            android:hint="@string/working_field_hint"
+                            android:layout_weight="2.3"
+                            style="@style/MyWidget.InformationEdit"
+                            android:layout_height="@dimen/title_height"/>
+                </LinearLayout>
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:visibility="gone"
+                        android:layout_marginRight="@dimen/home_margin"
+                        android:layout_height="@dimen/title_height">
+
+                    <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:text="@string/weichat"
+                            style="@style/MyWidget.InformationRightText"
+                            android:layout_height="@dimen/title_height"/>
+                    <EditText
+                            android:layout_width="0dp"
+                            android:layout_marginLeft="10dp"
+                            android:hint="@string/weichat_hint"
+                            android:layout_weight="2.3"
+                            style="@style/MyWidget.InformationEdit"
+                            android:layout_height="@dimen/title_height"/>
+                </LinearLayout>
+
+                <include layout="@layout/layout_underline"/>
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginRight="@dimen/home_margin"
+                        android:layout_height="@dimen/title_height">
+
+                    <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1.1"
+                            android:text="@string/company_register"
+                            style="@style/MyWidget.InformationRightText"
+                            android:layout_height="@dimen/title_height"/>
+                    <TextView
+                            android:layout_width="0dp"
+                            android:layout_marginLeft="10dp"
+                            android:hint="@string/company_register_hint"
+                            android:layout_weight="2.3"
+                            android:id="@+id/company_register"
+                            style="@style/MyWidget.InformationEdit"
+                            android:layout_height="@dimen/title_height"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:background="@drawable/item_bg"
+                    android:layout_margin="@dimen/home_margin"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+                    <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:text="@string/company_states"
+                            style="@style/MyWidget.InformationRightText"
+                            android:layout_height="@dimen/title_height"/>
+                    <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="2.3"
+                            android:orientation="vertical"
+                            android:layout_marginLeft="10dp"
+                            android:layout_height="wrap_content">
+
+                        <com.jinzht.pro.view.MyListview android:layout_width="match_parent"
+                                                        android:choiceMode="singleChoice"
+                                                        android:descendantFocusability="beforeDescendants"
+                                                        android:id="@+id/company_state"
+                                                        android:layout_height="wrap_content">
+
+                        </com.jinzht.pro.view.MyListview>
+
+                        <LinearLayout
+                                android:layout_width="match_parent"
+                                android:visibility="gone"
+                                android:orientation="horizontal"
+                                android:layout_height="@dimen/title_height">
+
+                            <RadioButton
+                                    android:layout_width="wrap_content"
+                                    android:text="@string/state5"
+                                    android:id="@+id/other"
+                                    android:drawablePadding="5dp"
+                                    android:drawableLeft="@drawable/checkboxbg"
+                                    style="@style/MyWidget.RoadShowRadioBtn"
+                                    android:layout_height="@dimen/title_height">
+
+                            </RadioButton>
+                            <EditText
+                                    android:layout_width="0dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:background="@drawable/normal_edit_bg"
+                                    android:layout_weight="2.3"
+                                    style="@style/MyWidget.InformationEdit"
+                                    android:layout_marginRight="@dimen/home_margin"
+                                    android:layout_height="wrap_content"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="40dp"
+                    android:id="@+id/submit_add"
+                    android:background="@drawable/ok_normal_btn"
+                    android:text="@string/submit_add"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:layout_height="40dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
