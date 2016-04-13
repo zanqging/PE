@@ -1,0 +1,1656 @@
+AGGREGATED OVER LAST 24 HOURS:
+  * com.lenovo.lightsettings / 1000 / v1001008:
+           TOTAL: 100% (3.3MB-5.8MB-6.8MB/4.8MB-8.9MB-9.8MB over 255)
+      Persistent: 100% (3.3MB-5.8MB-6.8MB/4.8MB-8.9MB-9.8MB over 255)
+  * system / 1000 / v21:
+           TOTAL: 100% (78MB-95MB-117MB/228MB-238MB-251MB over 233)
+      Persistent: 100% (78MB-95MB-117MB/228MB-238MB-251MB over 233)
+  * com.lenovo.lsf / u0a10 / v6002275:
+           TOTAL: 100% (2.1MB-7.4MB-12MB/2.3MB-13MB-14MB over 256)
+          Imp Fg: 100% (2.1MB-7.4MB-12MB/2.3MB-13MB-14MB over 256)
+  * com.android.systemui / u0a27 / v2051336:
+           TOTAL: 100% (35MB-48MB-62MB/35MB-66MB-80MB over 252)
+      Persistent: 100% (35MB-48MB-62MB/35MB-66MB-80MB over 252)
+  * com.android.server.telecom / 1001 / v21:
+           TOTAL: 100% (1.0MB-5.5MB-11MB/1.5MB-16MB-19MB over 255)
+      Persistent: 100% (1.0MB-5.5MB-11MB/1.5MB-16MB-19MB over 255)
+  * com.lenovo.coverapp.script / u0a49 / v1000067:
+           TOTAL: 100% (4.1MB-13MB-24MB/4.1MB-23MB-28MB over 1008)
+             Top: 41% (13MB-17MB-24MB/13MB-23MB-28MB over 270)
+          Imp Fg: 59% (4.1MB-11MB-22MB/4.1MB-23MB-27MB over 738)
+        Receiver: 0.01%
+  * com.baidu.input / u0a35 / v102:
+           TOTAL: 100% (11MB-20MB-31MB/12MB-33MB-39MB over 258)
+             Top: 0.00%
+          Imp Fg: 0.80% (27MB-27MB-27MB/38MB-39MB-39MB over 2)
+          Imp Bg: 99% (11MB-20MB-31MB/12MB-33MB-39MB over 256)
+  * com.mediatek.nlpservice / u0a60 / v1:
+           TOTAL: 100% (0.98MB-2.9MB-4.8MB/1.4MB-6.7MB-7.5MB over 256)
+      Persistent: 100% (0.98MB-2.9MB-4.8MB/1.4MB-6.7MB-7.5MB over 256)
+  * com.android.phone / 1001 / v21:
+           TOTAL: 100% (18MB-22MB-28MB/18MB-32MB-37MB over 255)
+      Persistent: 100% (18MB-22MB-28MB/18MB-32MB-37MB over 255)
+  * com.amap.android.location / u0a0 / v349:
+           TOTAL: 100% (4.0MB-6.8MB-10MB/5.1MB-8.8MB-11MB over 259)
+          Imp Bg: 100% (4.0MB-6.8MB-10MB/5.1MB-8.8MB-11MB over 259)
+  * com.android.incallui / u0a19 / v30000214:
+           TOTAL: 100% (2.1MB-9.5MB-34MB/1.9MB-35MB-45MB over 256)
+      Persistent: 100% (2.1MB-9.5MB-34MB/1.9MB-35MB-45MB over 256)
+  * com.lenovo.systemdaemonservice / 1000 / v2007:
+           TOTAL: 100% (821KB-2.5MB-4.2MB/552KB-5.9MB-6.5MB over 256)
+      Persistent: 100% (821KB-2.5MB-4.2MB/552KB-5.9MB-6.5MB over 256)
+  * com.dolby / 1000 / v1:
+           TOTAL: 100% (0.92MB-3.1MB-4.6MB/1.1MB-7.1MB-7.6MB over 254)
+      Persistent: 100% (0.92MB-3.1MB-4.6MB/1.1MB-7.1MB-7.6MB over 254)
+  * com.lenovo.gesture / 1001 / v21:
+           TOTAL: 100% (1.0MB-2.7MB-4.5MB/752KB-7.0MB-7.9MB over 257)
+          Imp Fg: 100% (1.0MB-2.7MB-4.5MB/752KB-7.0MB-7.9MB over 257)
+  * com.lenovo.ue.service / u0a11 / v101:
+           TOTAL: 100% (4.7MB-7.7MB-11MB/4.7MB-13MB-16MB over 256)
+      Persistent: 100% (4.7MB-7.7MB-11MB/4.7MB-13MB-16MB over 256)
+  * com.lenovo.ideafriend / u0a33 / v4003221:
+           TOTAL: 100% (3.2MB-17MB-68MB/6.3MB-16MB-61MB over 325)
+             Top: 5.8% (23MB-28MB-33MB/21MB-25MB-28MB over 44)
+          Imp Fg: 0.01%
+         Service: 92% (3.2MB-15MB-68MB/6.3MB-14MB-61MB over 281)
+      Service Rs: 1.9%
+        Receiver: 0.01%
+  * com.lenovo.security / u0a23 / v70010013:
+           TOTAL: 100% (2.6MB-10MB-36MB/7.2MB-9.0MB-30MB over 249)
+             Top: 0.05% (29MB-32MB-36MB/25MB-27MB-30MB over 3)
+          Imp Fg: 0.00%
+         Service: 94% (2.6MB-9.9MB-25MB/7.2MB-8.8MB-22MB over 246)
+      Service Rs: 5.6%
+  * com.lenovo.calendar:push / u0a48 / v5040048:
+           TOTAL: 100% (4.4MB-6.1MB-16MB/4.5MB-6.3MB-14MB over 990)
+          Imp Fg: 1.4% (4.8MB-6.2MB-7.2MB/6.2MB-6.5MB-6.8MB over 3)
+         Service: 99% (4.4MB-6.1MB-16MB/4.5MB-6.3MB-14MB over 987)
+      Service Rs: 0.04%
+  * com.lenovo.lsf.device / u0a9 / v405061583:
+           TOTAL: 100% (3.6MB-5.7MB-8.3MB/2.9MB-6.2MB-8.7MB over 246)
+         Service: 100% (3.6MB-5.7MB-8.3MB/2.9MB-6.2MB-8.7MB over 246)
+      Service Rs: 0.20%
+  * com.lenovo.calendar / u0a48 / v5040048:
+           TOTAL: 100% (2.3MB-8.0MB-17MB/5.6MB-7.8MB-15MB over 253)
+         Service: 100% (2.3MB-8.0MB-17MB/5.6MB-7.8MB-15MB over 253)
+      Service Rs: 0.27%
+        Receiver: 0.00%
+  * com.lenovo.gameworldphone / u0a8 / v5502864:
+           TOTAL: 100% (1.3MB-6.1MB-18MB/2.6MB-5.7MB-17MB over 252)
+         Service: 99% (1.3MB-6.1MB-18MB/2.6MB-5.7MB-17MB over 252)
+      Service Rs: 0.97%
+  * com.mediatek.atci.service / 1000 / v1:
+           TOTAL: 100% (0.97MB-4.2MB-9.1MB/2.0MB-3.7MB-7.6MB over 243)
+         Service: 99% (0.97MB-4.2MB-9.1MB/2.0MB-3.7MB-7.6MB over 243)
+      Service Rs: 0.77%
+        (Cached): 0.00%
+  * com.qihoo.daemon / u0a72 / v300030535:
+           TOTAL: 100% (10MB-17MB-46MB/9.2MB-18MB-43MB over 336)
+          Imp Fg: 66% (15MB-19MB-46MB/15MB-21MB-43MB over 164)
+          Imp Bg: 28% (10MB-14MB-18MB/9.2MB-15MB-19MB over 135)
+         Service: 5.8% (12MB-15MB-20MB/11MB-14MB-17MB over 37)
+      Service Rs: 0.01%
+  * com.qihoo.appstore / u0a72 / v300030535:
+           TOTAL: 100% (9.9MB-22MB-74MB/9.4MB-22MB-72MB over 349)
+             Top: 0.32% (13MB-49MB-65MB/11MB-46MB-59MB over 4)
+          Imp Fg: 64% (9.9MB-23MB-74MB/9.4MB-24MB-72MB over 177)
+          Imp Bg: 28% (10MB-21MB-37MB/9.8MB-21MB-32MB over 134)
+         Service: 2.2% (11MB-21MB-42MB/9.9MB-18MB-37MB over 34)
+      Service Rs: 5.0%
+        Receiver: 0.00%
+        (Cached): 0.00% (17MB-17MB-17MB/13MB-13MB-13MB over 1)
+  * com.tencent.mm / u0a99 / v700:
+           TOTAL: 100% (25MB-85MB-146MB/24MB-110MB-175MB over 411)
+             Top: 19% (61MB-100MB-146MB/73MB-123MB-175MB over 149)
+          Imp Fg: 81% (25MB-76MB-129MB/24MB-102MB-166MB over 262)
+         Service: 0.10%
+      Service Rs: 0.00%
+        Receiver: 0.00%
+  * com.tencent.mm:push / u0a99 / v700:
+           TOTAL: 100% (9.2MB-14MB-20MB/11MB-15MB-18MB over 261)
+          Imp Fg: 100% (9.2MB-14MB-20MB/11MB-15MB-18MB over 261)
+         Service: 0.00%
+      Service Rs: 0.00%
+  * com.qihoo.appstore:PluginP01 / u0a72 / v300030535:
+           TOTAL: 99% (0.00-8.3MB-117MB/0.00-7.5MB-116MB over 298)
+         Service: 96% (0.00-8.3MB-117MB/0.00-7.5MB-116MB over 298)
+      Service Rs: 3.1%
+  * com.qihoo.appstore:PluginP06 / u0a72 / v300030535:
+           TOTAL: 99% (5.9MB-8.3MB-11MB/5.7MB-8.4MB-10MB over 297)
+         Service: 98% (5.9MB-8.3MB-11MB/5.7MB-8.4MB-10MB over 297)
+      Service Rs: 0.42%
+  * com.tencent.qlauncher.lite:tcm_service / u0a339 / v63160107:
+           TOTAL: 97% (3.2MB-8.9MB-18MB/5.6MB-9.0MB-14MB over 246)
+          Imp Fg: 0.00%
+         Service: 96% (3.2MB-8.9MB-18MB/5.6MB-9.0MB-14MB over 246)
+      Service Rs: 1.6%
+        (Cached): 0.00%
+  * com.cmbchina.ccd.pluto.cmbActivity:pushservice / u0a220 / v39:
+           TOTAL: 90% (0.00-21MB-31MB/0.00-23MB-29MB over 391)
+         Service: 88% (0.00-21MB-31MB/0.00-23MB-29MB over 391)
+      Service Rs: 2.1%
+  * com.cmbchina.ccd.pluto.cmbActivity:push / u0a220 / v39:
+           TOTAL: 90% (3.1MB-22MB-31MB/3.0MB-22MB-29MB over 373)
+         Service: 88% (3.1MB-22MB-31MB/3.0MB-22MB-29MB over 373)
+      Service Rs: 2.0%
+  * com.sdu.didi.psnger:pushservice / u0a116 / v113:
+           TOTAL: 86% (10MB-13MB-46MB/7.7MB-14MB-43MB over 231)
+         Service: 85% (10MB-13MB-46MB/7.7MB-14MB-43MB over 231)
+      Service Rs: 0.58%
+  * com.sdu.didi.psnger / u0a116 / v113:
+           TOTAL: 86% (0.00-28MB-44MB/0.00-27MB-41MB over 382)
+         Service: 85% (0.00-28MB-44MB/0.00-27MB-41MB over 382)
+      Service Rs: 0.38%
+        Receiver: 0.00%
+  * com.hunantv.imgo.activity:pushservice / u0a352 / v69:
+           TOTAL: 86% (6.0MB-11MB-17MB/6.5MB-11MB-15MB over 263)
+         Service: 83% (6.0MB-11MB-17MB/6.5MB-11MB-15MB over 263)
+      Service Rs: 2.3%
+        (Cached): 0.00%
+  * dopool.player:pushservice / u0a89 / v114:
+           TOTAL: 85% (8.7MB-19MB-47MB/9.3MB-20MB-49MB over 313)
+         Service: 81% (8.7MB-19MB-47MB/9.3MB-20MB-49MB over 313)
+      Service Rs: 4.0%
+  * com.push.Youku_PushService / u0a101 / v90:
+           TOTAL: 84% (8.8MB-17MB-30MB/7.4MB-17MB-25MB over 249)
+          Imp Bg: 0.04%
+         Service: 77% (8.8MB-17MB-30MB/7.4MB-17MB-25MB over 249)
+      Service Rs: 7.0%
+        Receiver: 0.01%
+        (Cached): 0.00%
+  * io.rong.push / u0a128 / v612:
+           TOTAL: 84% (0.00-28MB-43MB/0.00-29MB-41MB over 302)
+         Service: 77% (0.00-28MB-43MB/0.00-29MB-41MB over 302)
+      Service Rs: 7.0%
+        Receiver: 0.03%
+        (Cached): 0.03%
+  * com.ycp.yuanchuangpai:pushservice / u0a128 / v612:
+           TOTAL: 84% (12MB-38MB-66MB/4.3MB-38MB-64MB over 348)
+         Service: 78% (12MB-38MB-66MB/4.3MB-38MB-64MB over 348)
+      Service Rs: 5.5%
+        (Cached): 0.09% (29MB-29MB-29MB/26MB-26MB-26MB over 1)
+  * com.youku.laifeng.CoreService / u0a92 / v63:
+           TOTAL: 78% (2.3MB-13MB-28MB/8.4MB-14MB-24MB over 223)
+          Imp Fg: 1.2% (21MB-21MB-21MB/17MB-17MB-17MB over 1)
+         Service: 75% (2.3MB-13MB-28MB/8.4MB-14MB-24MB over 222)
+      Service Rs: 2.2%
+        (Cached): 0.00%
+  * com.push.Youku_PushService / u0a92 / v63:
+           TOTAL: 78% (7.9MB-21MB-39MB/7.6MB-21MB-35MB over 241)
+         Service: 73% (7.9MB-21MB-39MB/7.6MB-21MB-35MB over 241)
+      Service Rs: 5.4%
+        (Cached): 0.00%
+  * com.lenovo.lasf.tts / u0a79 / v2212:
+           TOTAL: 65% (0.95MB-13MB-20MB/4.7MB-14MB-19MB over 182)
+          Imp Fg: 0.19% (5.1MB-9.7MB-14MB/14MB-14MB-14MB over 2)
+         Service: 64% (0.95MB-13MB-20MB/4.7MB-14MB-19MB over 180)
+      Service Rs: 0.03%
+  * com.qiyi.video / u0a90 / v80700:
+           TOTAL: 63% (6.2MB-15MB-158MB/5.8MB-16MB-152MB over 158)
+             Top: 0.47% (86MB-125MB-158MB/82MB-119MB-152MB over 4)
+         Service: 60% (6.2MB-13MB-29MB/5.8MB-13MB-24MB over 154)
+      Service Rs: 2.5%
+        Receiver: 0.01%
+        (Cached): 0.19% (23MB-23MB-23MB/18MB-18MB-18MB over 1)
+  * com.qiyi.video:plugin / u0a90 / v80700:
+           TOTAL: 63% (2.9MB-9.3MB-19MB/2.6MB-9.7MB-16MB over 169)
+          Imp Fg: 0.47% (7.1MB-11MB-15MB/6.7MB-12MB-15MB over 4)
+         Service: 61% (2.9MB-9.3MB-19MB/2.6MB-9.7MB-16MB over 165)
+      Service Rs: 1.7%
+        Receiver: 0.01%
+        (Cached): 0.20% (11MB-11MB-11MB/7.7MB-7.7MB-7.7MB over 1)
+  * com.qiyi.video:bdservice_v1 / u0a90 / v80700:
+           TOTAL: 63% (5.1MB-7.4MB-11MB/6.3MB-8.8MB-11MB over 116)
+         Service: 63% (5.1MB-7.4MB-11MB/6.3MB-8.8MB-11MB over 116)
+      Service Rs: 0.51%
+  * .iqiyipushserviceGlobal / u0a90 / v80700:
+           TOTAL: 63% (4.6MB-6.9MB-11MB/4.6MB-6.6MB-9.5MB over 106)
+          Imp Fg: 0.47% (6.6MB-6.8MB-6.9MB/8.0MB-8.0MB-8.0MB over 3)
+         Service: 62% (4.6MB-6.9MB-11MB/4.6MB-6.6MB-9.5MB over 103)
+      Service Rs: 0.40%
+  * com.qiyi.video:plugin1 / u0a90 / v80700:
+           TOTAL: 63% (2.2MB-10MB-21MB/2.0MB-11MB-17MB over 136)
+         Service: 58% (2.2MB-10MB-21MB/2.0MB-11MB-17MB over 136)
+      Service Rs: 5.6%
+  * android.process.media / u0a5 / v704:
+           TOTAL: 63% (5.2MB-7.6MB-17MB/4.7MB-7.0MB-15MB over 481)
+             Top: 0.09% (17MB-17MB-17MB/15MB-15MB-15MB over 1)
+          Imp Fg: 0.50% (8.4MB-8.4MB-8.4MB/7.6MB-7.6MB-7.6MB over 1)
+          Imp Bg: 0.01%
+         Service: 62% (5.2MB-7.6MB-12MB/4.7MB-7.0MB-9.1MB over 479)
+      Service Rs: 0.60%
+        Receiver: 0.01%
+        (Cached): 19% (6.4MB-9.0MB-17MB/5.4MB-7.1MB-15MB over 79)
+  * com.lenovo.updateassist / u0a68 / v2060288:
+           TOTAL: 60% (6.4MB-10MB-16MB/5.8MB-9.8MB-15MB over 643)
+             Top: 0.01%
+          Imp Fg: 2.2% (9.7MB-11MB-12MB/9.0MB-11MB-13MB over 3)
+         Service: 58% (6.4MB-10MB-16MB/5.8MB-9.8MB-15MB over 640)
+      Service Rs: 0.00%
+        Receiver: 0.09%
+          (Home): 0.01%
+        (Cached): 39% (8.5MB-11MB-17MB/7.5MB-12MB-15MB over 307)
+  * com.qiyi.video:baiduLocation / u0a90 / v80700:
+           TOTAL: 60% (5.0MB-6.7MB-11MB/4.6MB-7.0MB-8.3MB over 157)
+             Top: 0.47% (6.4MB-6.6MB-7.0MB/7.8MB-7.9MB-8.3MB over 4)
+         Service: 59% (5.0MB-6.7MB-11MB/4.6MB-7.0MB-8.3MB over 153)
+      Service Rs: 0.26%
+        Receiver: 0.01%
+        (Cached): 0.19% (9.9MB-9.9MB-9.9MB/7.2MB-7.2MB-7.2MB over 1)
+  * com.qiyi.video:file_download_remote_service / u0a90 / v80700:
+           TOTAL: 58% (1.6MB-6.3MB-15MB/1.3MB-6.6MB-13MB over 93)
+          Imp Fg: 0.45% (14MB-15MB-15MB/12MB-13MB-13MB over 3)
+         Service: 57% (1.6MB-6.0MB-15MB/1.3MB-6.4MB-13MB over 90)
+      Service Rs: 0.45%
+  * com.qiyi.video:plugin2 / u0a90 / v80700:
+           TOTAL: 58% (5.8MB-9.4MB-18MB/7.6MB-9.3MB-15MB over 100)
+          Imp Fg: 0.33% (18MB-18MB-18MB/15MB-15MB-15MB over 1)
+         Service: 56% (5.8MB-9.3MB-16MB/7.6MB-9.2MB-13MB over 99)
+      Service Rs: 1.2%
+  * com.tencent.qqlive:services / u0a102 / v9698:
+           TOTAL: 58% (5.0MB-8.4MB-20MB/7.0MB-12MB-16MB over 92)
+          Imp Fg: 29% (5.2MB-8.5MB-20MB/7.0MB-14MB-16MB over 48)
+         Service: 28% (5.0MB-8.3MB-12MB/8.7MB-9.3MB-14MB over 44)
+      Service Rs: 0.00%
+        Receiver: 0.00%
+  * com.qiyi.video:downloader / u0a90 / v80700:
+           TOTAL: 52% (5.0MB-10MB-20MB/9.0MB-9.9MB-16MB over 102)
+          Imp Fg: 0.46% (9.2MB-11MB-13MB/11MB-11MB-11MB over 4)
+         Service: 51% (5.0MB-10MB-20MB/9.0MB-9.9MB-16MB over 98)
+      Service Rs: 0.35%
+        (Cached): 1.6% (7.5MB-8.9MB-11MB/9.6MB-10MB-12MB over 4)
+  * com.google.android.gms.persistent / u0a306 / v8489238:
+           TOTAL: 36% (10MB-17MB-28MB/10MB-17MB-25MB over 141)
+          Imp Fg: 0.16% (15MB-16MB-18MB/14MB-15MB-16MB over 2)
+          Imp Bg: 26% (14MB-18MB-28MB/13MB-18MB-25MB over 99)
+         Service: 9.6% (10MB-14MB-24MB/10MB-14MB-17MB over 40)
+      Service Rs: 0.02%
+        Receiver: 0.00%
+        (Cached): 0.00%
+  * com.lenovo.browser:remote / u0a12 / v60030017:
+           TOTAL: 33% (1.1MB-3.9MB-6.5MB/3.6MB-3.8MB-5.4MB over 111)
+         Service: 33% (1.1MB-3.9MB-6.5MB/3.6MB-3.8MB-5.4MB over 111)
+      Service Rs: 0.00%
+  * com.google.process.gapps / u0a306 / v16:
+           TOTAL: 32% (2.8MB-5.4MB-8.1MB/3.8MB-5.2MB-6.8MB over 132)
+             Top: 0.00%
+          Imp Fg: 0.05%
+          Imp Bg: 0.03%
+         Service: 32% (2.8MB-5.4MB-8.1MB/3.8MB-5.2MB-6.8MB over 132)
+      Service Rs: 0.11%
+        Receiver: 0.00%
+        (Cached): 2.3% (4.5MB-5.6MB-7.2MB/4.1MB-4.6MB-5.4MB over 7)
+  * dopool.player:push / u0a89 / v114:
+           TOTAL: 31% (15MB-20MB-36MB/14MB-19MB-32MB over 114)
+         Service: 31% (15MB-20MB-36MB/14MB-19MB-32MB over 114)
+      Service Rs: 0.15%
+        (Cached): 0.00%
+  * com.tencent.qqlive / u0a102 / v9698:
+           TOTAL: 29% (59MB-272MB-342MB/55MB-281MB-372MB over 180)
+             Top: 29% (59MB-272MB-342MB/55MB-280MB-372MB over 179)
+         Service: 0.11% (303MB-303MB-303MB/350MB-350MB-350MB over 1)
+      Service Rs: 0.01%
+  * com.tencent.qqlive:tmassistantsdk / u0a102 / v9698:
+           TOTAL: 29% (1.7MB-3.2MB-7.7MB/2.5MB-5.5MB-5.8MB over 50)
+          Imp Fg: 29% (1.7MB-3.2MB-7.7MB/2.5MB-5.5MB-5.8MB over 48)
+         Service: 0.14% (3.9MB-4.0MB-4.1MB/5.5MB-5.6MB-5.7MB over 2)
+  * com.tudou.android / u0a92 / v63:
+           TOTAL: 25% (13MB-30MB-152MB/23MB-33MB-146MB over 81)
+             Top: 1.2% (45MB-127MB-152MB/37MB-119MB-146MB over 7)
+         Service: 23% (13MB-21MB-56MB/23MB-25MB-53MB over 74)
+      Service Rs: 0.00%
+        Receiver: 0.66%
+        (Cached): 29% (16MB-26MB-40MB/16MB-24MB-38MB over 61)
+  * com.qihoo.appstore:PluginP08 / u0a72 / v300030535:
+           TOTAL: 25% (6.1MB-11MB-57MB/6.0MB-10MB-57MB over 30)
+         Service: 18% (6.1MB-11MB-57MB/6.0MB-10MB-57MB over 30)
+      Service Rs: 6.7%
+  * com.lenovo.deskclock / 1000 / v20030150:
+           TOTAL: 22% (25MB-33MB-39MB/21MB-30MB-35MB over 124)
+             Top: 22% (25MB-33MB-39MB/21MB-30MB-35MB over 124)
+         Service: 0.00%
+        Receiver: 0.04%
+      (Last Act): 0.05% (27MB-30MB-33MB/26MB-28MB-31MB over 2)
+        (Cached): 13% (4.3MB-7.4MB-21MB/3.6MB-5.7MB-17MB over 36)
+  * com.tencent.mtt:service / u0a103 / v631920:
+           TOTAL: 19% (8.5MB-14MB-28MB/10MB-17MB-23MB over 262)
+             Top: 0.00%
+          Imp Fg: 19% (8.5MB-14MB-28MB/10MB-17MB-23MB over 262)
+         Service: 0.03%
+      Service Rs: 0.00%
+        Receiver: 0.00%
+  * com.tencent.mtt / u0a103 / v631920:
+           TOTAL: 16% (2.0MB-7.0MB-74MB/3.6MB-9.1MB-69MB over 232)
+             Top: 0.04% (63MB-63MB-63MB/61MB-61MB-61MB over 1)
+          Imp Fg: 16% (2.0MB-6.7MB-74MB/3.6MB-8.9MB-69MB over 231)
+         Service: 0.13%
+      Service Rs: 0.00%
+        Receiver: 0.00%
+      (Last Act): 0.00%
+        (Cached): 2.6% (6.6MB-7.4MB-9.5MB/5.6MB-5.9MB-6.2MB over 10)
+  * com.cmbchina.ccd.pluto.cmbActivity / u0a220 / v39:
+           TOTAL: 14% (11MB-29MB-88MB/21MB-30MB-83MB over 47)
+             Top: 0.25% (86MB-87MB-88MB/77MB-81MB-83MB over 5)
+         Service: 9.3% (11MB-22MB-29MB/21MB-23MB-27MB over 41)
+      Service Rs: 0.00%
+        Receiver: 4.4% (27MB-27MB-27MB/24MB-24MB-24MB over 1)
+        (Cached): 16% (21MB-24MB-30MB/21MB-22MB-28MB over 60)
+  * com.jinzht.pro / u0a347 / v10:
+           TOTAL: 13% (7.9MB-45MB-75MB/6.9MB-42MB-70MB over 79)
+             Top: 7.0% (9.4MB-53MB-75MB/7.7MB-50MB-70MB over 56)
+         Service: 5.9% (7.9MB-23MB-74MB/6.9MB-21MB-69MB over 23)
+      Service Rs: 0.37%
+        Receiver: 0.00%
+  * com.tencent.mobileqq:MSF / u0a100 / v320:
+           TOTAL: 13% (14MB-19MB-26MB/13MB-19MB-22MB over 81)
+          Imp Fg: 12% (14MB-19MB-26MB/13MB-19MB-22MB over 77)
+         Service: 0.51% (14MB-16MB-19MB/16MB-17MB-18MB over 4)
+      Service Rs: 0.00%
+  * com.lenovo.launcher / u0a20 / v6501160:
+           TOTAL: 12% (21MB-32MB-43MB/25MB-48MB-57MB over 114)
+             Top: 12% (21MB-32MB-43MB/25MB-49MB-57MB over 112)
+          Imp Fg: 0.00%
+         Service: 0.00%
+        Receiver: 0.52% (27MB-29MB-30MB/26MB-36MB-47MB over 2)
+          (Home): 88% (21MB-27MB-37MB/23MB-44MB-50MB over 209)
+  * com.tencent.mobileqq / u0a100 / v320:
+           TOTAL: 12% (33MB-68MB-102MB/28MB-67MB-98MB over 276)
+             Top: 0.70% (33MB-67MB-83MB/28MB-66MB-81MB over 10)
+          Imp Fg: 11% (45MB-68MB-102MB/44MB-67MB-98MB over 266)
+         Service: 0.02%
+      Service Rs: 0.00%
+        Receiver: 0.00%
+        (Cached): 0.49% (51MB-59MB-74MB/50MB-62MB-71MB over 5)
+  * com.youlian.dgj.activity / u0a351 / v16:
+           TOTAL: 9.1% (9.4MB-73MB-171MB/8.9MB-70MB-165MB over 46)
+             Top: 3.3% (52MB-107MB-171MB/50MB-103MB-165MB over 23)
+         Service: 5.7% (9.4MB-39MB-146MB/8.9MB-37MB-139MB over 23)
+      Service Rs: 0.01%
+  * com.tencent.qqmusic / u0a104 / v294:
+           TOTAL: 8.7% (9.6MB-66MB-103MB/8.0MB-64MB-99MB over 54)
+             Top: 5.9% (46MB-85MB-103MB/40MB-83MB-99MB over 40)
+          Imp Fg: 0.00%
+         Service: 2.8% (9.6MB-12MB-15MB/8.0MB-11MB-12MB over 14)
+      Service Rs: 0.00%
+  * com.tencent.qqmusic:QQPlayerService / u0a104 / v294:
+           TOTAL: 8.7% (16MB-29MB-37MB/14MB-29MB-34MB over 33)
+          Imp Fg: 6.2% (29MB-32MB-37MB/27MB-31MB-34MB over 22)
+         Service: 2.4% (16MB-24MB-30MB/14MB-25MB-31MB over 11)
+      Service Rs: 0.00%
+  * com.eg.android.AlipayGphone:push / u0a93 / v90:
+           TOTAL: 8.1% (11MB-14MB-21MB/11MB-13MB-16MB over 38)
+          Imp Fg: 1.6% (19MB-20MB-21MB/15MB-16MB-16MB over 6)
+         Service: 6.5% (11MB-13MB-18MB/11MB-12MB-16MB over 32)
+      Service Rs: 0.00%
+  * com.eg.android.AlipayGphone / u0a93 / v90:
+           TOTAL: 7.0% (20MB-88MB-270MB/20MB-83MB-257MB over 39)
+             Top: 1.6% (97MB-205MB-270MB/86MB-193MB-257MB over 13)
+          Imp Fg: 0.04%
+         Service: 5.4% (20MB-29MB-43MB/20MB-28MB-40MB over 26)
+      Service Rs: 0.00%
+  * com.google.android.gms / u0a306 / v8489238:
+           TOTAL: 5.1% (11MB-17MB-38MB/11MB-16MB-31MB over 38)
+             Top: 4.3% (11MB-17MB-38MB/11MB-16MB-31MB over 31)
+          Imp Fg: 0.16%
+          Imp Bg: 0.12% (21MB-24MB-26MB/17MB-20MB-23MB over 2)
+         Service: 0.55% (18MB-19MB-19MB/14MB-15MB-16MB over 5)
+      Service Rs: 0.00%
+        Receiver: 0.03%
+      (Last Act): 0.11% (16MB-16MB-16MB/13MB-13MB-13MB over 2)
+        (Cached): 17% (9.1MB-16MB-26MB/9.2MB-14MB-23MB over 72)
+  * com.ycp.yuanchuangpai / u0a128 / v612:
+           TOTAL: 4.2% (29MB-31MB-34MB/27MB-28MB-29MB over 4)
+         Service: 0.02%
+        Receiver: 4.1% (29MB-31MB-34MB/27MB-28MB-29MB over 4)
+        (Cached): 28% (26MB-34MB-46MB/27MB-32MB-43MB over 64)
+  * com.youku.phone:download / u0a101 / v90:
+           TOTAL: 3.7% (8.3MB-14MB-20MB/7.2MB-12MB-18MB over 24)
+             Top: 0.75% (8.3MB-9.1MB-10MB/7.2MB-7.6MB-8.1MB over 7)
+          Imp Fg: 2.8% (8.8MB-15MB-20MB/8.0MB-14MB-18MB over 15)
+         Service: 0.12% (17MB-17MB-17MB/16MB-16MB-16MB over 2)
+        Receiver: 0.01%
+        (Cached): 0.03% (11MB-11MB-11MB/7.6MB-7.6MB-7.6MB over 1)
+  * com.youku.phone:accelerater / u0a101 / v90:
+           TOTAL: 3.6% (11MB-15MB-28MB/10MB-14MB-28MB over 20)
+             Top: 0.03%
+          Imp Fg: 3.5% (11MB-15MB-28MB/10MB-14MB-28MB over 18)
+         Service: 0.12% (13MB-13MB-14MB/13MB-13MB-13MB over 2)
+      Service Rs: 0.00%
+        Receiver: 0.00%
+        (Cached): 0.03% (11MB-11MB-11MB/7.8MB-7.8MB-7.8MB over 1)
+  * com.tencent.mm:tools / u0a99 / v700:
+           TOTAL: 3.6% (51MB-83MB-98MB/43MB-79MB-92MB over 40)
+             Top: 3.5% (51MB-83MB-98MB/43MB-79MB-92MB over 40)
+        Receiver: 0.19%
+      (Last Act): 0.07% (87MB-87MB-87MB/81MB-81MB-81MB over 1)
+        (Cached): 12% (18MB-38MB-93MB/17MB-34MB-83MB over 61)
+  * com.youku.phone / u0a101 / v90:
+           TOTAL: 3.6% (49MB-144MB-193MB/44MB-141MB-189MB over 30)
+             Top: 3.5% (49MB-144MB-193MB/44MB-141MB-189MB over 30)
+         Service: 0.00%
+      Service Rs: 0.00%
+        Receiver: 0.01%
+      (Last Act): 0.08% (158MB-158MB-158MB/154MB-154MB-154MB over 1)
+        (Cached): 0.03% (21MB-21MB-21MB/16MB-16MB-16MB over 1)
+  * com.youku.phone:SoUpgradeService / u0a101 / v90:
+           TOTAL: 3.4% (7.4MB-9.1MB-14MB/7.0MB-8.2MB-12MB over 30)
+             Top: 3.4% (7.4MB-9.1MB-14MB/7.0MB-8.2MB-12MB over 30)
+          Imp Fg: 0.00%
+         Service: 0.01%
+      Service Rs: 0.00%
+      (Last Act): 0.08% (7.7MB-7.7MB-7.7MB/7.3MB-7.3MB-7.3MB over 1)
+        (Cached): 0.03% (7.9MB-7.9MB-7.9MB/7.3MB-7.3MB-7.3MB over 1)
+  * com.lenovo.powersetting / 1000 / v10010320:
+           TOTAL: 3.3% (6.7MB-7.5MB-10MB/6.1MB-6.6MB-8.2MB over 12)
+         Service: 3.3% (6.7MB-7.5MB-10MB/6.1MB-6.6MB-8.2MB over 12)
+        Receiver: 0.01%
+        (Cached): 0.00%
+  * com.ycp.yuanchuangpai:ipc / u0a128 / v612:
+           TOTAL: 3.3% (19MB-28MB-44MB/18MB-25MB-38MB over 5)
+         Service: 3.3% (19MB-28MB-44MB/18MB-25MB-38MB over 5)
+      Service Rs: 0.03%
+        Receiver: 0.03%
+        (Cached): 28% (26MB-32MB-46MB/26MB-29MB-42MB over 58)
+  * dopool.player / u0a89 / v114:
+           TOTAL: 3.2% (14MB-144MB-292MB/14MB-140MB-285MB over 15)
+             Top: 1.4% (53MB-153MB-292MB/48MB-149MB-285MB over 14)
+          Imp Fg: 0.01%
+        Receiver: 1.8% (14MB-14MB-14MB/14MB-14MB-14MB over 1)
+      (Last Act): 0.08%
+        (Cached): 39% (0.00-19MB-87MB/0.00-17MB-77MB over 88)
+  * com.tencent.mtt:VideoService / u0a103 / v631920:
+           TOTAL: 2.8% (4.7MB-5.3MB-7.0MB/4.3MB-4.8MB-6.0MB over 17)
+          Imp Fg: 2.8% (4.7MB-5.3MB-7.0MB/4.3MB-4.8MB-6.0MB over 17)
+         Service: 0.00%
+      Service Rs: 0.00%
+  * android.process.acore / u0a14 / v20000151:
+           TOTAL: 2.7% (13MB-16MB-19MB/11MB-14MB-18MB over 2)
+             Top: 0.05%
+          Imp Fg: 1.2% (19MB-19MB-19MB/18MB-18MB-18MB over 1)
+          Imp Bg: 0.07%
+         Service: 1.3% (13MB-13MB-13MB/11MB-11MB-11MB over 1)
+        Receiver: 0.01%
+          (Home): 0.01%
+        (Cached): 59% (0.00-13MB-30MB/0.00-11MB-27MB over 472)
+  * com.android.bluetooth / 1002 / v21:
+           TOTAL: 2.6% (6.8MB-7.6MB-7.9MB/11MB-11MB-12MB over 12)
+          Imp Fg: 2.6% (6.8MB-7.6MB-7.9MB/11MB-11MB-12MB over 12)
+         Service: 0.00%
+      Service Rs: 0.00%
+        Receiver: 0.00%
+        (Cached): 0.02%
+  * com.tudou.android:GameCenterDownloadService / u0a92 / v63:
+           TOTAL: 2.6% (9.2MB-13MB-23MB/8.9MB-14MB-18MB over 8)
+             Top: 0.00%
+          Imp Fg: 1.2% (23MB-23MB-23MB/18MB-18MB-18MB over 1)
+         Service: 1.3% (9.2MB-12MB-16MB/8.9MB-13MB-15MB over 7)
+      Service Rs: 0.00%
+  * com.tudou.android:download / u0a92 / v63:
+           TOTAL: 2.6% (11MB-14MB-22MB/11MB-14MB-18MB over 8)
+          Imp Fg: 1.2% (22MB-22MB-22MB/18MB-18MB-18MB over 1)
+         Service: 1.3% (11MB-13MB-16MB/11MB-13MB-14MB over 7)
+      Service Rs: 0.00%
+  * com.lenovo.leos.appstore / u0a1 / v70320:
+           TOTAL: 2.3% (21MB-29MB-40MB/17MB-25MB-35MB over 84)
+         Service: 1.9% (21MB-29MB-40MB/17MB-25MB-35MB over 84)
+      Service Rs: 0.23%
+        Receiver: 0.18%
+        (Cached): 0.54% (19MB-19MB-19MB/16MB-16MB-16MB over 1)
+  * com.blinnnk.zeus:push / u0a353 / v9:
+           TOTAL: 2.0% (8.9MB-10MB-15MB/8.2MB-8.6MB-10MB over 8)
+         Service: 2.0% (8.9MB-10MB-15MB/8.2MB-8.6MB-10MB over 8)
+      Service Rs: 0.00%
+        (Cached): 0.00%
+  * cmb.pb:push / u0a70 / v400:
+           TOTAL: 1.7% (5.2MB-5.8MB-7.5MB/4.8MB-5.1MB-5.5MB over 9)
+         Service: 1.7% (5.2MB-5.8MB-7.5MB/4.8MB-5.1MB-5.5MB over 9)
+      Service Rs: 0.00%
+  * cmb.pb:pushservice / u0a70 / v400:
+           TOTAL: 1.7% (5.9MB-6.9MB-8.8MB/5.5MB-5.8MB-6.1MB over 9)
+         Service: 1.7% (5.9MB-6.9MB-8.8MB/5.5MB-5.8MB-6.1MB over 9)
+      Service Rs: 0.00%
+  * com.hunantv.imgo.activity / u0a352 / v69:
+           TOTAL: 0.73%
+        Receiver: 0.73%
+        (Cached): 14% (6.0MB-9.7MB-16MB/5.0MB-7.7MB-14MB over 59)
+  * com.blinnnk.zeus / u0a353 / v9:
+           TOTAL: 0.65% (5.9MB-83MB-132MB/4.8MB-80MB-127MB over 6)
+             Top: 0.65% (5.9MB-83MB-132MB/4.8MB-80MB-127MB over 6)
+      (Last Act): 0.11% (103MB-106MB-110MB/98MB-102MB-105MB over 2)
+        (Cached): 0.07% (112MB-112MB-112MB/107MB-107MB-107MB over 1)
+  * com.tencent.mm:sandbox / u0a99 / v700:
+           TOTAL: 0.50% (11MB-12MB-12MB/6.8MB-6.8MB-6.8MB over 2)
+         Service: 0.50% (11MB-12MB-12MB/6.8MB-6.8MB-6.8MB over 2)
+      Service Rs: 0.00%
+  * com.tencent.mobileqq:qzone / u0a100 / v320:
+           TOTAL: 0.49% (26MB-33MB-38MB/25MB-28MB-31MB over 9)
+         Service: 0.48% (26MB-33MB-38MB/25MB-28MB-31MB over 9)
+      Service Rs: 0.00%
+        (Cached): 0.01%
+  * com.android.defcontainer / u0a4 / v21:
+           TOTAL: 0.47% (5.2MB-6.1MB-6.8MB/4.2MB-5.3MB-6.3MB over 6)
+          Imp Fg: 0.47% (5.2MB-6.1MB-6.8MB/4.2MB-5.3MB-6.3MB over 6)
+         Service: 0.00%
+        (Cached): 3.5% (4.6MB-5.1MB-6.0MB/3.7MB-4.2MB-4.8MB over 8)
+  * com.lenovo.updateassist:remote / u0a68 / v2060288:
+           TOTAL: 0.47% (8.7MB-9.7MB-11MB/6.9MB-7.3MB-7.7MB over 2)
+          Imp Fg: 0.00%
+         Service: 0.47% (8.7MB-9.7MB-11MB/6.9MB-7.3MB-7.7MB over 2)
+        (Cached): 0.00%
+  * com.qiyi.video:upload_service / u0a90 / v80700:
+           TOTAL: 0.46% (7.9MB-8.2MB-8.4MB/6.5MB-6.7MB-6.7MB over 5)
+             Top: 0.46% (7.9MB-8.2MB-8.4MB/6.5MB-6.7MB-6.7MB over 5)
+          Imp Fg: 0.00%
+         Service: 0.00%
+        (Cached): 4.2% (2.8MB-4.8MB-8.7MB/6.3MB-6.5MB-6.8MB over 10)
+  * cmb.pb / u0a70 / v400:
+           TOTAL: 0.37% (16MB-86MB-116MB/13MB-81MB-113MB over 6)
+             Top: 0.37% (16MB-86MB-116MB/13MB-81MB-113MB over 6)
+         Service: 0.00%
+        Receiver: 0.00%
+      (Last Act): 0.22% (89MB-89MB-89MB/86MB-86MB-86MB over 1)
+        (Cached): 0.00%
+  * com.lenovo.leos.appstore:SettingProvider / u0a1 / v70320:
+           TOTAL: 0.36% (5.5MB-5.9MB-6.4MB/4.8MB-4.8MB-4.9MB over 3)
+         Service: 0.18% (5.6MB-6.0MB-6.4MB/4.8MB-4.8MB-4.9MB over 2)
+        Receiver: 0.18% (5.5MB-5.5MB-5.5MB/4.8MB-4.8MB-4.8MB over 1)
+        (Cached): 2.8% (5.0MB-6.7MB-10MB/4.1MB-4.7MB-8.6MB over 70)
+  * com.google.android.gms.unstable / u0a306 / v8489238:
+           TOTAL: 0.21% (11MB-13MB-15MB/7.8MB-9.3MB-11MB over 4)
+          Imp Bg: 0.02%
+         Service: 0.19% (11MB-13MB-15MB/7.8MB-9.3MB-11MB over 4)
+        (Cached): 0.61% (13MB-15MB-17MB/11MB-12MB-14MB over 5)
+  * com.tencent.qlauncher.lite / u0a339 / v63160107:
+           TOTAL: 0.19%
+             Top: 0.00%
+          Imp Fg: 0.01%
+         Service: 0.09%
+        Receiver: 0.09%
+        (Cached): 37% (7.6MB-11MB-17MB/7.1MB-8.6MB-15MB over 69)
+  * com.lenovo.browser / u0a12 / v60030017:
+           TOTAL: 0.19% (61MB-61MB-61MB/54MB-54MB-54MB over 1)
+             Top: 0.04% (61MB-61MB-61MB/54MB-54MB-54MB over 1)
+          Imp Fg: 0.00%
+         Service: 0.10%
+        Receiver: 0.05%
+      (Last Act): 0.16% (45MB-48MB-51MB/44MB-45MB-47MB over 2)
+        (Cached): 9.8% (5.5MB-9.5MB-60MB/5.1MB-8.2MB-53MB over 33)
+  * com.lenovo.leos.appstore:baidu / u0a1 / v70320:
+           TOTAL: 0.14% (11MB-13MB-16MB/6.5MB-9.5MB-12MB over 2)
+         Service: 0.14% (11MB-13MB-16MB/6.5MB-9.5MB-12MB over 2)
+        Receiver: 0.00%
+        (Cached): 2.4% (6.3MB-11MB-18MB/4.8MB-8.3MB-13MB over 63)
+  * com.android.providers.calendar / u0a3 / v21:
+           TOTAL: 0.14%
+          Imp Fg: 0.07%
+         Service: 0.06%
+        Receiver: 0.00%
+        (Cached): 14% (4.4MB-6.5MB-8.4MB/4.2MB-5.0MB-6.0MB over 39)
+  * com.qiyi.video:pluginInstaller / u0a90 / v80700:
+           TOTAL: 0.12% (8.4MB-8.4MB-8.4MB/6.9MB-6.9MB-6.9MB over 2)
+         Service: 0.12% (8.4MB-8.4MB-8.4MB/6.9MB-6.9MB-6.9MB over 2)
+      Service Rs: 0.00%
+  * com.eg.android.AlipayGphone:tools / u0a93 / v90:
+           TOTAL: 0.10%
+         Service: 0.09%
+      Service Rs: 0.00%
+        Receiver: 0.00%
+        (Cached): 3.5% (6.4MB-13MB-18MB/4.6MB-8.3MB-11MB over 18)
+  * com.lenovo.ota / u0a22 / v13040576:
+           TOTAL: 0.08% (10MB-10MB-10MB/8.6MB-8.6MB-8.6MB over 1)
+         Service: 0.04% (10MB-10MB-10MB/8.6MB-8.6MB-8.6MB over 1)
+        Receiver: 0.04%
+        (Cached): 4.8% (4.4MB-6.6MB-9.6MB/4.2MB-5.5MB-7.9MB over 19)
+  * com.android.vending / u0a307 / v80430500:
+           TOTAL: 0.06%
+             Top: 0.00%
+          Imp Fg: 0.02%
+         Service: 0.04%
+      Service Rs: 0.00%
+        Receiver: 0.00%
+        (Cached): 0.05%
+  * com.lenovo.fm:remote / 1000 / v30010160:
+           TOTAL: 0.06%
+        Receiver: 0.06%
+        (Cached): 3.8% (3.8MB-5.5MB-7.6MB/3.6MB-4.3MB-5.8MB over 18)
+  * com.lenovo.leos.appstore:daemonprocess / u0a1 / v70320:
+           TOTAL: 0.06% (7.1MB-10MB-13MB/5.0MB-6.9MB-8.9MB over 2)
+         Service: 0.04% (7.1MB-10MB-13MB/5.0MB-6.9MB-8.9MB over 2)
+      Service Rs: 0.00%
+        Receiver: 0.02%
+        (Cached): 0.00%
+  * au.com.stklab.minehd / u0a348 / v158:
+           TOTAL: 0.06% (41MB-41MB-41MB/36MB-36MB-36MB over 1)
+             Top: 0.06% (41MB-41MB-41MB/36MB-36MB-36MB over 1)
+        (Cached): 0.00%
+  * com.lenovo.leos.appstore:PushService / u0a1 / v70320:
+           TOTAL: 0.06% (11MB-13MB-14MB/7.6MB-8.6MB-9.6MB over 3)
+         Service: 0.05% (11MB-13MB-14MB/7.6MB-8.6MB-9.6MB over 3)
+      Service Rs: 0.01%
+        (Cached): 0.04% (11MB-13MB-16MB/7.9MB-8.8MB-10MB over 3)
+  * com.android.wifi / 1000 / v21:
+           TOTAL: 0.06%
+             Top: 0.03%
+        Receiver: 0.02%
+        (Cached): 4.8% (4.0MB-6.9MB-21MB/3.4MB-5.2MB-17MB over 19)
+  * com.tencent.mobileqq:peak / u0a100 / v320:
+           TOTAL: 0.06% (26MB-26MB-26MB/22MB-22MB-22MB over 1)
+             Top: 0.03% (26MB-26MB-26MB/22MB-22MB-22MB over 1)
+         Service: 0.03%
+      Service Rs: 0.00%
+        Receiver: 0.00%
+        (Cached): 0.64% (14MB-20MB-25MB/12MB-16MB-20MB over 13)
+  * com.lenovo.leos.appstore:active / u0a1 / v70320:
+           TOTAL: 0.06%
+        Receiver: 0.06%
+  * com.lenovo.fm / 1000 / v30010160:
+           TOTAL: 0.05%
+        Receiver: 0.05%
+        (Cached): 22% (2.0MB-5.4MB-9.8MB/3.5MB-4.6MB-8.2MB over 60)
+  * com.android.settings / 1000 / v10010107:
+           TOTAL: 0.05%
+             Top: 0.00%
+         Service: 0.00%
+        Receiver: 0.05%
+      (Last Act): 0.06% (26MB-26MB-26MB/25MB-25MB-25MB over 1)
+        (Cached): 1.9% (21MB-23MB-26MB/19MB-21MB-25MB over 12)
+  * com.mediatek.schpwronoff / 1000 / v21:
+           TOTAL: 0.05%
+         Service: 0.03%
+        Receiver: 0.02%
+        (Cached): 8.9% (4.2MB-5.6MB-6.8MB/3.6MB-4.1MB-4.7MB over 32)
+  * com.youku.phone:GameCenterDownloadService / u0a101 / v90:
+           TOTAL: 0.05% (12MB-12MB-12MB/9.2MB-9.2MB-9.2MB over 1)
+             Top: 0.05% (12MB-12MB-12MB/9.2MB-9.2MB-9.2MB over 1)
+        (Cached): 0.48% (8.0MB-8.9MB-10MB/7.1MB-7.3MB-7.7MB over 4)
+  * com.qihoo.appstore:permmgr / u0a72 / v300030535:
+           TOTAL: 0.04% (10MB-10MB-10MB/8.7MB-8.7MB-8.7MB over 1)
+             Top: 0.03% (10MB-10MB-10MB/8.7MB-8.7MB-8.7MB over 1)
+          Imp Fg: 0.01%
+         Service: 0.00%
+  * com.lenovo.mbg.cloud.sync / u0a73 / v3950026:
+           TOTAL: 0.04%
+        Receiver: 0.04%
+        (Cached): 0.08%
+  * com.lenovo.gallery / u0a18 / v4040064:
+           TOTAL: 0.03% (36MB-39MB-41MB/32MB-34MB-36MB over 2)
+             Top: 0.03% (36MB-39MB-41MB/32MB-34MB-36MB over 2)
+         Service: 0.00%
+        (Cached): 0.05% (27MB-27MB-27MB/22MB-22MB-22MB over 1)
+  * com.tudou.android:SoUpgradeService / u0a92 / v63:
+           TOTAL: 0.03%
+         Service: 0.03%
+      Service Rs: 0.00%
+        (Cached): 1.3% (20MB-20MB-20MB/15MB-15MB-15MB over 1)
+  * com.mediatek.mtklogger / u0a55 / v40000:
+           TOTAL: 0.03%
+        Receiver: 0.03%
+        (Cached): 0.49% (4.6MB-5.2MB-5.7MB/3.6MB-3.9MB-4.3MB over 2)
+  * com.android.systemui:flashlight / u0a27 / v2051336:
+           TOTAL: 0.03%
+          Imp Fg: 0.03%
+         Service: 0.00%
+        (Cached): 0.57% (8.0MB-8.0MB-8.0MB/6.0MB-6.0MB-6.0MB over 1)
+  * com.google.android.gms:car / u0a306 / v8489238:
+           TOTAL: 0.03%
+         Service: 0.03%
+        (Cached): 0.01%
+  * com.lenovo.browser:sandboxed_process0 / u0a12 / v60030017:
+           TOTAL: 0.02%
+             Top: 0.02%
+          Imp Fg: 0.00%
+         Service: 0.00%
+      Service Rs: 0.00%
+        Receiver: 0.00%
+      (Last Act): 0.00%
+        (Cached): 0.49% (18MB-25MB-30MB/18MB-23MB-25MB over 4)
+  * cmb.pb:remote / u0a70 / v400:
+           TOTAL: 0.02%
+             Top: 0.01%
+          Imp Fg: 0.01%
+         Service: 0.01%
+      (Last Act): 0.00%
+        (Cached): 0.23% (11MB-12MB-15MB/7.8MB-9.8MB-12MB over 3)
+  * com.lenovo.calendar:remote / u0a48 / v5040048:
+           TOTAL: 0.02%
+         Service: 0.02%
+        (Cached): 0.00%
+  * com.tencent.mobileqq:qqwifi / u0a100 / v320:
+           TOTAL: 0.02%
+         Service: 0.02%
+      Service Rs: 0.00%
+  * com.android.profilesettings / 1000 / v10000023:
+           TOTAL: 0.02%
+        Receiver: 0.02%
+        (Cached): 6.8% (4.1MB-5.6MB-9.3MB/3.5MB-4.1MB-7.8MB over 33)
+  * android:ui / 1000 / v21:
+           TOTAL: 0.02%
+             Top: 0.02%
+      (Last Act): 0.00%
+        (Cached): 0.03% (18MB-18MB-18MB/15MB-15MB-15MB over 1)
+  * system:ui / 1000 / v21:
+           TOTAL: 0.02%
+             Top: 0.02%
+        (Cached): 3.0% (10MB-11MB-12MB/7.4MB-7.9MB-8.3MB over 3)
+  * com.android.systemui:screenshot / u0a27 / v2051336:
+           TOTAL: 0.01%
+          Imp Fg: 0.01%
+         Service: 0.00%
+        (Cached): 0.02%
+  * com.ibstart.app:bdservice_v1 / u0a133 / v21:
+           TOTAL: 0.01%
+         Service: 0.01%
+      Service Rs: 0.00%
+  * com.tencent.mobileqq:qqfav / u0a100 / v320:
+           TOTAL: 0.00%
+         Service: 0.00%
+        Receiver: 0.00%
+        (Cached): 0.21% (16MB-17MB-17MB/12MB-12MB-12MB over 5)
+  * com.autonavi.minimap:push / u0a75 / v558:
+           TOTAL: 0.00%
+         Service: 0.00%
+        (Cached): 0.78% (6.0MB-7.6MB-12MB/5.4MB-6.5MB-9.7MB over 4)
+  * com.tencent.mobileqq:web / u0a100 / v320:
+           TOTAL: 0.00%
+        Receiver: 0.00%
+        (Cached): 0.08% (36MB-36MB-36MB/31MB-31MB-31MB over 1)
+  * com.android.inputmethod.latin / u0a47 / v21:
+           TOTAL: 0.00%
+         Service: 0.00%
+        Receiver: 0.00%
+        (Cached): 0.02%
+  * com.lenovo.systemuiplus / 1000 / v1020021:
+           TOTAL: 0.00%
+         Service: 0.00%
+      Service Rs: 0.00%
+        (Cached): 0.59% (4.5MB-4.5MB-4.5MB/3.4MB-3.4MB-3.4MB over 1)
+  * com.lenovo.exchange / u0a85 / v20050074:
+           TOTAL: 0.00%
+         Service: 0.00%
+        Receiver: 0.00%
+        (Cached): 2.0% (9.0MB-9.8MB-10MB/7.8MB-8.0MB-8.3MB over 6)
+  * com.android.keychain / 1000 / v21:
+           TOTAL: 0.00%
+         Service: 0.00%
+        Receiver: 0.00%
+        (Cached): 2.4% (4.3MB-4.7MB-5.1MB/3.4MB-3.7MB-4.0MB over 4)
+  * com.autonavi.minimap:locationservice / u0a75 / v558:
+           TOTAL: 0.00%
+             Top: 0.00%
+          Imp Fg: 0.00%
+         Service: 0.00%
+        (Cached): 2.0% (7.7MB-9.6MB-11MB/6.6MB-8.3MB-9.3MB over 6)
+  * com.svox.pico / u0a66 / v1:
+           TOTAL: 0.00%
+        Receiver: 0.00%
+        (Cached): 2.8% (3.8MB-4.1MB-4.3MB/3.1MB-3.1MB-3.2MB over 5)
+  * com.lenovo.scg / u0a13 / v41241105:
+        (Cached): 0.60%
+
+Run time Stats:
+  SOff/Norm: +4h48m44s550ms
+       Mod : +18m23s52ms
+       Low : +1h32m54s875ms
+       Crit: +2h16m41s914ms
+  SOn /Norm: +2h21m35s571ms
+       Mod : +28m35s139ms
+       Low : +38m43s571ms
+       Crit: +5h25m42s953ms
+      TOTAL: +17h51m21s625ms
+
+Memory usage:
+  Kernel : 184MB (102 samples)
+  Native : 38MB (102 samples)
+  Persist: 199MB (2528 samples)
+  Top    : 149MB (10176 samples)
+  ImpFg  : 138MB (14104 samples)
+  ImpBg  : 41MB (9077 samples)
+  Service: 359MB (23855 samples)
+  Receivr: 3.4MB (32358 samples)
+  Home   : 24MB (3939 samples)
+  LastAct: 620KB (519 samples)
+  CchAct : 636KB (416 samples)
+  CchCAct: 143KB (112 samples)
+  CchEmty: 70MB (9190 samples)
+  Cached : 203MB (102 samples)
+  Free   : 202MB (102 samples)
+  Z-Ram   : 135MB (102 samples)
+  TOTAL  : 1.7GB
+  ServRst: 14MB (41276 samples)
+
+          Start time: 2016-01-17 10:51:33
+  Total elapsed time: +1d1h6m26s313ms (partial) libart.so
+
+AGGREGATED OVER LAST 3 HOURS:
+  * com.qihoo.daemon / u0a72 / v300030535:
+           TOTAL: 100% (17MB-19MB-21MB/16MB-22MB-25MB over 78)
+          Imp Fg: 100% (17MB-19MB-21MB/16MB-22MB-25MB over 78)
+  * com.sdu.didi.psnger:pushservice / u0a116 / v113:
+           TOTAL: 100% (10MB-13MB-16MB/11MB-14MB-19MB over 66)
+         Service: 100% (10MB-13MB-16MB/11MB-14MB-19MB over 66)
+  * com.baidu.input / u0a35 / v102:
+           TOTAL: 100% (11MB-22MB-30MB/22MB-36MB-39MB over 68)
+             Top: 0.01%
+          Imp Fg: 1.3% (27MB-27MB-27MB/38MB-39MB-39MB over 2)
+          Imp Bg: 99% (11MB-21MB-30MB/22MB-36MB-39MB over 66)
+  * com.youku.laifeng.CoreService / u0a92 / v63:
+           TOTAL: 100% (2.3MB-6.6MB-16MB/13MB-13MB-14MB over 65)
+         Service: 100% (2.3MB-6.6MB-16MB/13MB-13MB-14MB over 65)
+      Service Rs: 0.04%
+  * com.lenovo.systemdaemonservice / 1000 / v2007:
+           TOTAL: 100% (821KB-1.8MB-3.2MB/552KB-5.9MB-6.2MB over 67)
+      Persistent: 100% (821KB-1.8MB-3.2MB/552KB-5.9MB-6.2MB over 67)
+  * com.lenovo.lsf / u0a10 / v6002275:
+           TOTAL: 100% (4.8MB-7.9MB-9.9MB/4.8MB-13MB-14MB over 66)
+          Imp Fg: 100% (4.8MB-7.9MB-9.9MB/4.8MB-13MB-14MB over 66)
+  * com.android.server.telecom / 1001 / v21:
+           TOTAL: 100% (2.8MB-5.7MB-9.2MB/5.3MB-16MB-17MB over 67)
+      Persistent: 100% (2.8MB-5.7MB-9.2MB/5.3MB-16MB-17MB over 67)
+  * com.lenovo.lightsettings / 1000 / v1001008:
+           TOTAL: 100% (5.0MB-6.1MB-6.8MB/4.8MB-9.1MB-9.7MB over 67)
+      Persistent: 100% (5.0MB-6.1MB-6.8MB/4.8MB-9.1MB-9.7MB over 67)
+  * com.lenovo.coverapp.script / u0a49 / v1000067:
+           TOTAL: 100% (11MB-15MB-19MB/11MB-24MB-28MB over 213)
+             Top: 47% (13MB-16MB-19MB/21MB-24MB-28MB over 67)
+          Imp Fg: 53% (11MB-15MB-18MB/11MB-25MB-27MB over 146)
+        Receiver: 0.00%
+  * com.amap.android.location / u0a0 / v349:
+           TOTAL: 100% (5.7MB-6.8MB-8.4MB/5.5MB-9.4MB-11MB over 67)
+          Imp Bg: 100% (5.7MB-6.8MB-8.4MB/5.5MB-9.4MB-11MB over 67)
+  * com.android.phone / 1001 / v21:
+           TOTAL: 100% (19MB-22MB-25MB/19MB-33MB-36MB over 67)
+      Persistent: 100% (19MB-22MB-25MB/19MB-33MB-36MB over 67)
+  * com.qihoo.appstore:PluginP06 / u0a72 / v300030535:
+           TOTAL: 100% (6.2MB-7.8MB-9.6MB/6.0MB-9.3MB-10MB over 78)
+         Service: 100% (6.2MB-7.8MB-9.6MB/6.0MB-9.3MB-10MB over 78)
+  * com.dolby / 1000 / v1:
+           TOTAL: 100% (1.2MB-2.9MB-3.9MB/2.8MB-7.4MB-7.6MB over 66)
+      Persistent: 100% (1.2MB-2.9MB-3.9MB/2.8MB-7.4MB-7.6MB over 66)
+  * com.lenovo.ue.service / u0a11 / v101:
+           TOTAL: 100% (5.4MB-8.2MB-11MB/6.3MB-13MB-16MB over 67)
+      Persistent: 100% (5.4MB-8.2MB-11MB/6.3MB-13MB-16MB over 67)
+  * com.sdu.didi.psnger / u0a116 / v113:
+           TOTAL: 100% (21MB-26MB-35MB/25MB-27MB-32MB over 66)
+         Service: 100% (21MB-26MB-35MB/25MB-27MB-32MB over 66)
+      Service Rs: 0.08%
+  * com.hunantv.imgo.activity:pushservice / u0a352 / v69:
+           TOTAL: 100% (7.6MB-10MB-17MB/7.4MB-11MB-15MB over 66)
+         Service: 100% (7.6MB-10MB-17MB/7.4MB-11MB-15MB over 66)
+      Service Rs: 0.01%
+  * com.mediatek.nlpservice / u0a60 / v1:
+           TOTAL: 100% (0.98MB-2.2MB-3.8MB/1.4MB-6.9MB-7.2MB over 67)
+      Persistent: 100% (0.98MB-2.2MB-3.8MB/1.4MB-6.9MB-7.2MB over 67)
+  * com.lenovo.gesture / 1001 / v21:
+           TOTAL: 100% (1.0MB-2.2MB-3.9MB/752KB-7.0MB-7.3MB over 67)
+          Imp Fg: 100% (1.0MB-2.2MB-3.9MB/752KB-7.0MB-7.3MB over 67)
+  * com.qihoo.appstore / u0a72 / v300030535:
+           TOTAL: 100% (9.9MB-15MB-24MB/9.4MB-17MB-21MB over 76)
+          Imp Fg: 100% (9.9MB-15MB-24MB/9.4MB-17MB-21MB over 76)
+         Service: 0.02%
+      Service Rs: 0.01%
+  * com.lenovo.lsf.device / u0a9 / v405061583:
+           TOTAL: 100% (4.8MB-5.8MB-7.8MB/5.1MB-7.1MB-8.2MB over 66)
+         Service: 100% (4.8MB-5.8MB-7.8MB/5.1MB-7.1MB-8.2MB over 66)
+  * com.push.Youku_PushService / u0a101 / v90:
+           TOTAL: 100% (14MB-17MB-19MB/14MB-18MB-20MB over 70)
+          Imp Bg: 0.01%
+         Service: 100% (14MB-17MB-19MB/14MB-18MB-20MB over 70)
+  * system / 1000 / v21:
+           TOTAL: 100% (89MB-97MB-110MB/235MB-242MB-251MB over 65)
+      Persistent: 100% (89MB-97MB-110MB/235MB-242MB-251MB over 65)
+  * com.android.systemui / u0a27 / v2051336:
+           TOTAL: 100% (39MB-48MB-61MB/46MB-69MB-77MB over 66)
+      Persistent: 100% (39MB-48MB-61MB/46MB-69MB-77MB over 66)
+  * com.android.incallui / u0a19 / v30000214:
+           TOTAL: 100% (2.1MB-10MB-27MB/1.9MB-36MB-37MB over 67)
+      Persistent: 100% (2.1MB-10MB-27MB/1.9MB-36MB-37MB over 67)
+  * com.lenovo.security / u0a23 / v70010013:
+           TOTAL: 100% (7.8MB-9.7MB-19MB/7.5MB-8.7MB-16MB over 68)
+          Imp Fg: 0.00%
+         Service: 100% (7.8MB-9.7MB-19MB/7.5MB-8.7MB-16MB over 68)
+      Service Rs: 0.06%
+  * com.lenovo.ideafriend / u0a33 / v4003221:
+           TOTAL: 100% (11MB-16MB-31MB/11MB-14MB-26MB over 82)
+             Top: 16% (23MB-24MB-31MB/21MB-22MB-26MB over 20)
+          Imp Fg: 0.00%
+         Service: 84% (11MB-13MB-18MB/11MB-12MB-15MB over 62)
+      Service Rs: 0.10%
+        Receiver: 0.00%
+  * dopool.player:pushservice / u0a89 / v114:
+           TOTAL: 100% (11MB-17MB-23MB/18MB-20MB-24MB over 65)
+         Service: 100% (11MB-17MB-23MB/18MB-20MB-24MB over 65)
+      Service Rs: 0.08%
+  * com.tencent.qlauncher.lite:tcm_service / u0a339 / v63160107:
+           TOTAL: 100% (6.2MB-9.6MB-18MB/8.5MB-9.2MB-14MB over 67)
+         Service: 100% (6.2MB-9.6MB-18MB/8.5MB-9.2MB-14MB over 67)
+      Service Rs: 0.32%
+        (Cached): 0.00%
+  * com.push.Youku_PushService / u0a92 / v63:
+           TOTAL: 100% (7.9MB-17MB-24MB/20MB-21MB-24MB over 65)
+         Service: 100% (7.9MB-17MB-24MB/20MB-21MB-24MB over 65)
+      Service Rs: 0.01%
+  * com.lenovo.calendar:push / u0a48 / v5040048:
+           TOTAL: 100% (4.7MB-6.0MB-11MB/5.8MB-6.2MB-8.1MB over 171)
+          Imp Fg: 0.75%
+         Service: 99% (4.7MB-6.0MB-11MB/5.8MB-6.2MB-8.1MB over 171)
+      Service Rs: 0.01%
+  * com.lenovo.calendar / u0a48 / v5040048:
+           TOTAL: 100% (6.0MB-7.6MB-11MB/5.6MB-7.3MB-10.0MB over 66)
+         Service: 100% (6.0MB-7.6MB-11MB/5.6MB-7.3MB-10.0MB over 66)
+      Service Rs: 0.11%
+        Receiver: 0.00%
+  * com.lenovo.gameworldphone / u0a8 / v5502864:
+           TOTAL: 100% (5.3MB-6.1MB-11MB/4.9MB-5.6MB-8.7MB over 70)
+         Service: 99% (5.3MB-6.1MB-11MB/4.9MB-5.6MB-8.7MB over 70)
+      Service Rs: 0.96%
+  * com.lenovo.lasf.tts / u0a79 / v2212:
+           TOTAL: 100% (5.0MB-14MB-20MB/14MB-14MB-19MB over 71)
+         Service: 100% (5.0MB-14MB-20MB/14MB-14MB-19MB over 71)
+      Service Rs: 0.12%
+  * com.qihoo.appstore:PluginP01 / u0a72 / v300030535:
+           TOTAL: 100% (5.4MB-6.8MB-11MB/5.9MB-6.2MB-8.8MB over 78)
+         Service: 99% (5.4MB-6.8MB-11MB/5.9MB-6.2MB-8.8MB over 78)
+      Service Rs: 0.76%
+  * dopool.player:push / u0a89 / v114:
+           TOTAL: 100% (18MB-20MB-36MB/18MB-19MB-32MB over 63)
+         Service: 100% (18MB-20MB-36MB/18MB-19MB-32MB over 63)
+      Service Rs: 0.48%
+  * com.mediatek.atci.service / 1000 / v1:
+           TOTAL: 100% (3.7MB-4.3MB-8.0MB/3.2MB-3.7MB-6.9MB over 63)
+         Service: 99% (3.7MB-4.3MB-8.0MB/3.2MB-3.7MB-6.9MB over 63)
+      Service Rs: 0.66%
+        (Cached): 0.00%
+  * com.cmbchina.ccd.pluto.cmbActivity:pushservice / u0a220 / v39:
+           TOTAL: 100% (8.9MB-17MB-30MB/22MB-23MB-24MB over 66)
+         Service: 100% (8.9MB-17MB-30MB/22MB-23MB-24MB over 66)
+      Service Rs: 0.05%
+  * com.tencent.mm / u0a99 / v700:
+           TOTAL: 100% (48MB-81MB-110MB/58MB-104MB-128MB over 130)
+             Top: 49% (66MB-84MB-110MB/86MB-109MB-128MB over 75)
+          Imp Fg: 51% (48MB-77MB-92MB/58MB-98MB-110MB over 55)
+         Service: 0.35%
+      Service Rs: 0.00%
+        Receiver: 0.01%
+  * com.cmbchina.ccd.pluto.cmbActivity:push / u0a220 / v39:
+           TOTAL: 100% (15MB-21MB-31MB/21MB-22MB-29MB over 64)
+         Service: 100% (15MB-21MB-31MB/21MB-22MB-29MB over 64)
+      Service Rs: 0.18%
+  * com.tencent.mm:push / u0a99 / v700:
+           TOTAL: 100% (12MB-14MB-20MB/12MB-15MB-17MB over 69)
+          Imp Fg: 100% (12MB-14MB-20MB/12MB-15MB-17MB over 69)
+         Service: 0.00%
+      Service Rs: 0.00%
+  * com.tudou.android / u0a92 / v63:
+           TOTAL: 99% (13MB-20MB-56MB/23MB-25MB-53MB over 65)
+         Service: 99% (13MB-20MB-56MB/23MB-25MB-53MB over 65)
+      Service Rs: 0.00%
+        Receiver: 0.06%
+        (Cached): 0.00%
+  * com.lenovo.updateassist / u0a68 / v2060288:
+           TOTAL: 95% (7.1MB-11MB-14MB/5.8MB-9.8MB-13MB over 223)
+             Top: 0.00%
+          Imp Fg: 1.0%
+         Service: 94% (7.1MB-11MB-14MB/5.8MB-9.8MB-13MB over 223)
+      Service Rs: 0.00%
+        Receiver: 0.00%
+        (Cached): 4.7% (11MB-13MB-15MB/9.2MB-11MB-13MB over 12)
+  * com.ycp.yuanchuangpai:pushservice / u0a128 / v612:
+           TOTAL: 91% (13MB-50MB-66MB/34MB-50MB-64MB over 63)
+         Service: 91% (13MB-50MB-66MB/34MB-50MB-64MB over 63)
+      Service Rs: 0.20%
+  * io.rong.push / u0a128 / v612:
+           TOTAL: 91% (17MB-37MB-43MB/28MB-37MB-41MB over 61)
+         Service: 85% (17MB-37MB-43MB/28MB-37MB-41MB over 61)
+      Service Rs: 6.1%
+        Receiver: 0.00%
+        (Cached): 0.04%
+  * android.process.media / u0a5 / v704:
+           TOTAL: 72% (5.2MB-6.9MB-9.6MB/4.7MB-5.9MB-7.2MB over 49)
+             Top: 0.03%
+          Imp Fg: 0.09%
+         Service: 72% (5.2MB-6.9MB-9.6MB/4.7MB-5.9MB-7.2MB over 49)
+      Service Rs: 0.34%
+        Receiver: 0.02%
+        (Cached): 12% (6.4MB-8.3MB-14MB/5.4MB-6.8MB-12MB over 12)
+  * com.google.android.gms.persistent / u0a306 / v8489238:
+           TOTAL: 64% (15MB-19MB-28MB/14MB-19MB-24MB over 47)
+          Imp Fg: 0.37% (18MB-18MB-18MB/16MB-16MB-16MB over 1)
+          Imp Bg: 61% (15MB-19MB-28MB/14MB-19MB-24MB over 45)
+         Service: 2.3% (24MB-24MB-24MB/16MB-16MB-16MB over 1)
+        Receiver: 0.01%
+        (Cached): 0.00%
+  * com.google.process.gapps / u0a306 / v16:
+           TOTAL: 62% (5.0MB-5.7MB-7.0MB/4.6MB-5.2MB-5.9MB over 46)
+             Top: 0.00%
+          Imp Fg: 0.06%
+          Imp Bg: 0.02%
+         Service: 61% (5.0MB-5.7MB-7.0MB/4.6MB-5.2MB-5.9MB over 46)
+      Service Rs: 0.16%
+        Receiver: 0.01%
+        (Cached): 2.3% (5.8MB-5.8MB-5.8MB/4.6MB-4.6MB-4.6MB over 1)
+  * com.jinzht.pro / u0a347 / v10:
+           TOTAL: 62% (7.9MB-45MB-75MB/6.9MB-42MB-70MB over 79)
+             Top: 33% (9.4MB-53MB-75MB/7.7MB-50MB-70MB over 56)
+         Service: 27% (7.9MB-23MB-74MB/6.9MB-21MB-69MB over 23)
+      Service Rs: 1.7%
+        Receiver: 0.00%
+  * com.lenovo.browser:remote / u0a12 / v60030017:
+           TOTAL: 56% (1.1MB-3.8MB-4.6MB/3.7MB-3.8MB-4.0MB over 34)
+         Service: 56% (1.1MB-3.8MB-4.6MB/3.7MB-3.8MB-4.0MB over 34)
+      Service Rs: 0.00%
+  * com.lenovo.launcher / u0a20 / v6501160:
+           TOTAL: 44% (23MB-32MB-42MB/25MB-49MB-55MB over 77)
+             Top: 44% (23MB-32MB-42MB/25MB-49MB-55MB over 77)
+        Receiver: 0.18%
+          (Home): 56% (22MB-26MB-33MB/44MB-46MB-49MB over 37)
+  * com.youlian.dgj.activity / u0a351 / v16:
+           TOTAL: 30% (9.4MB-26MB-75MB/8.9MB-24MB-70MB over 24)
+             Top: 4.4% (52MB-60MB-75MB/50MB-56MB-70MB over 6)
+         Service: 25% (9.4MB-15MB-48MB/8.9MB-14MB-46MB over 18)
+      Service Rs: 0.03%
+  * com.tencent.mobileqq / u0a100 / v320:
+           TOTAL: 29% (54MB-65MB-92MB/53MB-64MB-86MB over 142)
+             Top: 0.17% (70MB-70MB-70MB/62MB-62MB-62MB over 1)
+          Imp Fg: 29% (54MB-65MB-92MB/53MB-64MB-86MB over 141)
+         Service: 0.04%
+      Service Rs: 0.00%
+  * com.tencent.mobileqq:MSF / u0a100 / v320:
+           TOTAL: 29% (15MB-20MB-26MB/19MB-20MB-22MB over 28)
+          Imp Fg: 29% (15MB-20MB-26MB/19MB-20MB-22MB over 28)
+         Service: 0.04%
+      Service Rs: 0.00%
+  * com.tencent.qqlive:services / u0a102 / v9698:
+           TOTAL: 26% (6.9MB-7.3MB-8.0MB/8.8MB-9.2MB-9.8MB over 17)
+         Service: 26% (6.9MB-7.3MB-8.0MB/8.8MB-9.2MB-9.8MB over 17)
+      Service Rs: 0.00%
+  * com.qiyi.video:plugin / u0a90 / v80700:
+           TOTAL: 25% (10.0MB-11MB-12MB/14MB-14MB-14MB over 14)
+         Service: 25% (10.0MB-11MB-12MB/14MB-14MB-14MB over 14)
+      Service Rs: 0.00%
+  * com.qiyi.video:bdservice_v1 / u0a90 / v80700:
+           TOTAL: 25% (6.3MB-6.9MB-7.8MB/9.0MB-9.4MB-10MB over 14)
+         Service: 25% (6.3MB-6.9MB-7.8MB/9.0MB-9.4MB-10MB over 14)
+      Service Rs: 0.00%
+  * .iqiyipushserviceGlobal / u0a90 / v80700:
+           TOTAL: 25% (5.8MB-6.9MB-8.3MB/6.2MB-7.0MB-7.8MB over 14)
+         Service: 25% (5.8MB-6.9MB-8.3MB/6.2MB-7.0MB-7.8MB over 14)
+      Service Rs: 0.00%
+  * com.qiyi.video:plugin1 / u0a90 / v80700:
+           TOTAL: 25% (8.1MB-8.6MB-9.7MB/12MB-13MB-14MB over 14)
+         Service: 25% (8.1MB-8.6MB-9.7MB/12MB-13MB-14MB over 14)
+      Service Rs: 0.00%
+  * com.qiyi.video / u0a90 / v80700:
+           TOTAL: 25% (10MB-11MB-12MB/14MB-15MB-15MB over 14)
+         Service: 25% (10MB-11MB-12MB/14MB-15MB-15MB over 14)
+      Service Rs: 0.00%
+  * com.qiyi.video:baiduLocation / u0a90 / v80700:
+           TOTAL: 25% (5.1MB-5.7MB-6.5MB/7.4MB-7.8MB-8.3MB over 13)
+         Service: 25% (5.1MB-5.7MB-6.5MB/7.4MB-7.8MB-8.3MB over 13)
+      Service Rs: 0.00%
+  * com.qiyi.video:plugin2 / u0a90 / v80700:
+           TOTAL: 25% (7.8MB-8.6MB-13MB/7.7MB-7.7MB-8.1MB over 15)
+         Service: 25% (7.8MB-8.6MB-13MB/7.7MB-7.7MB-8.1MB over 15)
+      Service Rs: 0.13%
+  * com.qiyi.video:file_download_remote_service / u0a90 / v80700:
+           TOTAL: 25% (6.0MB-6.5MB-8.7MB/5.7MB-5.8MB-6.0MB over 16)
+         Service: 25% (6.0MB-6.5MB-8.7MB/5.7MB-5.8MB-6.0MB over 16)
+      Service Rs: 0.22%
+  * com.qiyi.video:downloader / u0a90 / v80700:
+           TOTAL: 25% (5.0MB-10MB-17MB/9.3MB-9.7MB-11MB over 15)
+         Service: 25% (5.0MB-10MB-17MB/9.3MB-9.7MB-11MB over 15)
+      Service Rs: 0.01%
+  * com.tencent.qqmusic:QQPlayerService / u0a104 / v294:
+           TOTAL: 25% (29MB-32MB-34MB/27MB-31MB-34MB over 20)
+          Imp Fg: 24% (29MB-32MB-34MB/27MB-31MB-34MB over 19)
+         Service: 0.34% (30MB-30MB-30MB/30MB-30MB-30MB over 1)
+      Service Rs: 0.00%
+  * com.tencent.qqmusic / u0a104 / v294:
+           TOTAL: 25% (9.6MB-77MB-103MB/8.0MB-75MB-99MB over 37)
+             Top: 23% (71MB-84MB-103MB/66MB-83MB-99MB over 33)
+          Imp Fg: 0.02%
+         Service: 2.0% (9.6MB-13MB-14MB/8.0MB-11MB-12MB over 4)
+      Service Rs: 0.02%
+  * com.google.android.gms / u0a306 / v8489238:
+           TOTAL: 18% (11MB-16MB-22MB/11MB-15MB-21MB over 28)
+             Top: 17% (11MB-16MB-22MB/11MB-15MB-21MB over 25)
+          Imp Fg: 0.42%
+          Imp Bg: 0.16% (21MB-21MB-21MB/17MB-17MB-17MB over 1)
+         Service: 1.1% (18MB-18MB-19MB/14MB-14MB-15MB over 2)
+      Service Rs: 0.01%
+        Receiver: 0.00%
+        (Cached): 23% (9.1MB-15MB-24MB/11MB-14MB-21MB over 25)
+  * com.lenovo.powersetting / 1000 / v10010320:
+           TOTAL: 10.0% (6.7MB-6.8MB-6.9MB/6.3MB-6.4MB-6.5MB over 6)
+         Service: 10.0% (6.7MB-6.8MB-6.9MB/6.3MB-6.4MB-6.5MB over 6)
+  * com.lenovo.leos.appstore / u0a1 / v70320:
+           TOTAL: 3.3% (21MB-28MB-39MB/18MB-24MB-34MB over 22)
+         Service: 2.9% (21MB-28MB-39MB/18MB-24MB-34MB over 22)
+      Service Rs: 0.01%
+        Receiver: 0.44%
+        (Cached): 1.0% (19MB-19MB-19MB/16MB-16MB-16MB over 1)
+  * com.ycp.yuanchuangpai / u0a128 / v612:
+           TOTAL: 1.3%
+         Service: 0.01%
+        Receiver: 1.3%
+        (Cached): 20% (39MB-42MB-46MB/38MB-39MB-43MB over 16)
+  * com.android.defcontainer / u0a4 / v21:
+           TOTAL: 1.2% (5.6MB-5.6MB-5.7MB/4.5MB-4.6MB-4.8MB over 2)
+          Imp Fg: 1.2% (5.6MB-5.6MB-5.7MB/4.5MB-4.6MB-4.8MB over 2)
+         Service: 0.00%
+        (Cached): 13% (5.0MB-5.5MB-6.0MB/4.0MB-4.5MB-4.8MB over 4)
+  * com.ycp.yuanchuangpai:ipc / u0a128 / v612:
+           TOTAL: 1.0% (19MB-33MB-44MB/18MB-29MB-38MB over 3)
+         Service: 0.99% (19MB-33MB-44MB/18MB-29MB-38MB over 3)
+      Service Rs: 0.00%
+        Receiver: 0.02%
+        (Cached): 19% (37MB-42MB-46MB/36MB-40MB-42MB over 13)
+  * com.cmbchina.ccd.pluto.cmbActivity / u0a220 / v39:
+           TOTAL: 0.74%
+        Receiver: 0.74%
+        (Cached): 31% (21MB-25MB-30MB/21MB-23MB-28MB over 25)
+  * com.lenovo.leos.appstore:SettingProvider / u0a1 / v70320:
+           TOTAL: 0.68%
+         Service: 0.31%
+        Receiver: 0.37%
+        (Cached): 4.3% (5.5MB-6.5MB-10MB/4.2MB-4.7MB-8.6MB over 18)
+  * android.process.acore / u0a14 / v20000151:
+           TOTAL: 0.54%
+             Top: 0.13%
+          Imp Fg: 0.06%
+          Imp Bg: 0.02%
+         Service: 0.27%
+        Receiver: 0.05%
+          (Home): 0.00%
+        (Cached): 48% (11MB-14MB-22MB/9.5MB-12MB-20MB over 52)
+  * com.google.android.gms.unstable / u0a306 / v8489238:
+           TOTAL: 0.49% (15MB-15MB-15MB/11MB-11MB-11MB over 1)
+          Imp Bg: 0.08%
+         Service: 0.41% (15MB-15MB-15MB/11MB-11MB-11MB over 1)
+        (Cached): 1.9% (13MB-15MB-17MB/11MB-12MB-14MB over 4)
+  * dopool.player / u0a89 / v114:
+           TOTAL: 0.46%
+        Receiver: 0.46%
+        (Cached): 45% (14MB-19MB-26MB/14MB-17MB-24MB over 33)
+  * com.lenovo.browser / u0a12 / v60030017:
+           TOTAL: 0.35%
+         Service: 0.24%
+        Receiver: 0.11%
+        (Cached): 27% (5.5MB-8.7MB-11MB/5.1MB-7.3MB-9.4MB over 11)
+  * com.lenovo.leos.appstore:baidu / u0a1 / v70320:
+           TOTAL: 0.30% (11MB-11MB-11MB/6.5MB-6.5MB-6.5MB over 1)
+         Service: 0.30% (11MB-11MB-11MB/6.5MB-6.5MB-6.5MB over 1)
+        Receiver: 0.00%
+        (Cached): 4.6% (6.3MB-12MB-17MB/4.8MB-8.9MB-13MB over 16)
+  * com.lenovo.deskclock / 1000 / v20030150:
+           TOTAL: 0.30% (25MB-25MB-25MB/21MB-21MB-21MB over 1)
+             Top: 0.27% (25MB-25MB-25MB/21MB-21MB-21MB over 1)
+        Receiver: 0.03%
+        (Cached): 16% (4.5MB-11MB-21MB/3.6MB-8.7MB-17MB over 8)
+  * com.tencent.mm:tools / u0a99 / v700:
+           TOTAL: 0.27%
+        Receiver: 0.27%
+        (Cached): 16% (19MB-32MB-44MB/17MB-28MB-39MB over 17)
+  * com.lenovo.ota / u0a22 / v13040576:
+           TOTAL: 0.27% (10MB-10MB-10MB/8.6MB-8.6MB-8.6MB over 1)
+         Service: 0.18% (10MB-10MB-10MB/8.6MB-8.6MB-8.6MB over 1)
+        Receiver: 0.09%
+        (Cached): 14% (6.5MB-7.8MB-9.6MB/5.0MB-6.1MB-7.9MB over 5)
+  * com.lenovo.mbg.cloud.sync / u0a73 / v3950026:
+           TOTAL: 0.17%
+        Receiver: 0.17%
+        (Cached): 0.35%
+  * com.tencent.qlauncher.lite / u0a339 / v63160107:
+           TOTAL: 0.16%
+         Service: 0.07%
+        Receiver: 0.09%
+        (Cached): 20% (8.7MB-12MB-16MB/7.3MB-9.2MB-13MB over 13)
+  * com.hunantv.imgo.activity / u0a352 / v69:
+           TOTAL: 0.15%
+        Receiver: 0.15%
+        (Cached): 28% (6.0MB-11MB-16MB/5.0MB-8.4MB-14MB over 24)
+  * com.lenovo.leos.appstore:daemonprocess / u0a1 / v70320:
+           TOTAL: 0.14%
+         Service: 0.11%
+      Service Rs: 0.00%
+        Receiver: 0.04%
+        (Cached): 0.00%
+  * com.lenovo.fm:remote / 1000 / v30010160:
+           TOTAL: 0.11%
+        Receiver: 0.11%
+        (Cached): 5.2% (4.3MB-6.1MB-7.6MB/3.8MB-4.9MB-5.8MB over 6)
+  * com.lenovo.leos.appstore:active / u0a1 / v70320:
+           TOTAL: 0.09%
+        Receiver: 0.09%
+  * com.android.settings / 1000 / v10010107:
+           TOTAL: 0.07%
+        Receiver: 0.07%
+        (Cached): 2.4% (21MB-22MB-23MB/19MB-20MB-22MB over 6)
+  * android:ui / 1000 / v21:
+           TOTAL: 0.07%
+             Top: 0.07%
+      (Last Act): 0.00%
+        (Cached): 0.01%
+  * com.lenovo.leos.appstore:PushService / u0a1 / v70320:
+           TOTAL: 0.07%
+         Service: 0.06%
+      Service Rs: 0.01%
+        (Cached): 0.04%
+  * com.mediatek.mtklogger / u0a55 / v40000:
+           TOTAL: 0.06%
+        Receiver: 0.06%
+        (Cached): 0.66% (5.7MB-5.7MB-5.7MB/4.3MB-4.3MB-4.3MB over 1)
+  * com.lenovo.fm / 1000 / v30010160:
+           TOTAL: 0.06%
+        Receiver: 0.06%
+        (Cached): 22% (4.3MB-6.2MB-9.8MB/3.8MB-5.0MB-8.2MB over 14)
+  * com.android.providers.calendar / u0a3 / v21:
+           TOTAL: 0.04%
+          Imp Fg: 0.02%
+         Service: 0.02%
+        (Cached): 1.2% (7.1MB-7.6MB-8.4MB/4.7MB-5.4MB-6.0MB over 5)
+  * com.android.wifi / 1000 / v21:
+           TOTAL: 0.04%
+        Receiver: 0.04%
+        (Cached): 12% (4.4MB-5.8MB-6.9MB/3.6MB-4.1MB-5.1MB over 7)
+  * system:ui / 1000 / v21:
+           TOTAL: 0.04%
+             Top: 0.04%
+        (Cached): 0.01%
+  * com.youku.phone / u0a101 / v90:
+           TOTAL: 0.03%
+        Receiver: 0.03%
+        (Cached): 0.02%
+  * com.android.systemui:screenshot / u0a27 / v2051336:
+           TOTAL: 0.03%
+          Imp Fg: 0.03%
+         Service: 0.00%
+        (Cached): 0.01%
+  * com.tencent.mobileqq:peak / u0a100 / v320:
+           TOTAL: 0.03%
+         Service: 0.02%
+      Service Rs: 0.00%
+        Receiver: 0.00%
+        (Cached): 0.24% (21MB-21MB-21MB/15MB-15MB-15MB over 2)
+  * com.youku.phone:download / u0a101 / v90:
+           TOTAL: 0.03%
+         Service: 0.01%
+        Receiver: 0.02%
+        (Cached): 0.07%
+  * com.youku.phone:accelerater / u0a101 / v90:
+           TOTAL: 0.02%
+         Service: 0.01%
+        Receiver: 0.01%
+        (Cached): 0.07%
+  * com.mediatek.schpwronoff / 1000 / v21:
+           TOTAL: 0.02%
+         Service: 0.01%
+        Receiver: 0.00%
+        (Cached): 0.35% (5.7MB-5.8MB-6.0MB/4.0MB-4.2MB-4.3MB over 2)
+  * com.android.keychain / 1000 / v21:
+           TOTAL: 0.01%
+         Service: 0.00%
+        Receiver: 0.01%
+        (Cached): 11% (4.3MB-4.7MB-5.1MB/3.4MB-3.7MB-4.0MB over 4)
+  * com.android.profilesettings / 1000 / v10000023:
+           TOTAL: 0.01%
+        Receiver: 0.01%
+        (Cached): 1.5% (4.8MB-5.9MB-8.1MB/3.5MB-4.3MB-6.5MB over 6)
+  * com.svox.pico / u0a66 / v1:
+           TOTAL: 0.00%
+        Receiver: 0.00%
+        (Cached): 13% (3.8MB-4.1MB-4.3MB/3.1MB-3.1MB-3.2MB over 5)
+
+Run time Stats:
+  SOff/Norm: +31m28s387ms
+       Mod : +8m27s482ms
+       Low : +1h0m55s271ms
+       Crit: +1h30m0s155ms
+  SOn /Norm: +7m1s455ms
+       Mod : +5m41s847ms
+       Low : +8m16s604ms
+       Crit: +18m37s224ms
+      TOTAL: +3h50m28s425ms
+
+Memory usage:
+  Kernel : 184MB (123 samples)
+  Native : 37MB (123 samples)
+  Persist: 205MB (666 samples)
+  Top    : 107MB (2775 samples)
+  ImpFg  : 137MB (5516 samples)
+  ImpBg  : 39MB (1004 samples)
+  Service: 407MB (5917 samples)
+  Receivr: 1.2MB (5912 samples)
+  Home   : 15MB (193 samples)
+  CchEmty: 67MB (1485 samples)
+  Cached : 186MB (123 samples)
+  Free   : 182MB (123 samples)
+  Z-Ram   : 140MB (123 samples)
+  TOTAL  : 1.7GB
+  ServRst: 3.2MB (5140 samples)
+
+          Start time: 2016-01-18 08:07:02
+  Total elapsed time: +3h51m11s93ms (partial) libart.so
+
+CURRENT STATS:
+  * com.tudou.android / u0a92 / v63:
+           TOTAL: 100% (23MB-24MB-26MB/23MB-24MB-25MB over 14)
+         Service: 100% (23MB-24MB-26MB/23MB-24MB-25MB over 14)
+  * com.youku.laifeng.CoreService / u0a92 / v63:
+           TOTAL: 100% (2.9MB-10MB-14MB/14MB-14MB-14MB over 14)
+         Service: 100% (2.9MB-10MB-14MB/14MB-14MB-14MB over 14)
+  * com.cmbchina.ccd.pluto.cmbActivity:push / u0a220 / v39:
+           TOTAL: 100% (22MB-22MB-23MB/22MB-22MB-22MB over 14)
+         Service: 100% (22MB-22MB-23MB/22MB-22MB-22MB over 14)
+  * com.lenovo.ue.service / u0a11 / v101:
+           TOTAL: 100% (5.4MB-6.6MB-7.5MB/13MB-13MB-14MB over 15)
+      Persistent: 100% (5.4MB-6.6MB-7.5MB/13MB-13MB-14MB over 15)
+  * com.lenovo.systemdaemonservice / 1000 / v2007:
+           TOTAL: 100% (821KB-0.92MB-1.0MB/6.1MB-6.1MB-6.1MB over 15)
+      Persistent: 100% (821KB-0.92MB-1.0MB/6.1MB-6.1MB-6.1MB over 15)
+  * com.push.Youku_PushService / u0a101 / v90:
+           TOTAL: 100% (15MB-16MB-17MB/18MB-19MB-20MB over 15)
+          Imp Bg: 0.00%
+         Service: 100% (15MB-16MB-17MB/18MB-19MB-20MB over 15)
+  * io.rong.push / u0a128 / v612:
+           TOTAL: 100% (40MB-40MB-41MB/39MB-40MB-40MB over 14)
+         Service: 100% (40MB-40MB-41MB/39MB-40MB-40MB over 14)
+  * com.android.server.telecom / 1001 / v21:
+           TOTAL: 100% (5.7MB-6.2MB-6.8MB/17MB-17MB-17MB over 15)
+      Persistent: 100% (5.7MB-6.2MB-6.8MB/17MB-17MB-17MB over 15)
+  * com.cmbchina.ccd.pluto.cmbActivity:pushservice / u0a220 / v39:
+           TOTAL: 100% (23MB-24MB-24MB/23MB-23MB-24MB over 14)
+         Service: 100% (23MB-24MB-24MB/23MB-23MB-24MB over 14)
+  * dopool.player:pushservice / u0a89 / v114:
+           TOTAL: 100% (11MB-18MB-23MB/21MB-21MB-24MB over 14)
+         Service: 100% (11MB-18MB-23MB/21MB-21MB-24MB over 14)
+  * com.mediatek.nlpservice / u0a60 / v1:
+           TOTAL: 100% (0.98MB-1.4MB-1.7MB/7.1MB-7.1MB-7.2MB over 15)
+      Persistent: 100% (0.98MB-1.4MB-1.7MB/7.1MB-7.1MB-7.2MB over 15)
+  * com.dolby / 1000 / v1:
+           TOTAL: 100% (3.1MB-3.4MB-3.7MB/7.5MB-7.5MB-7.6MB over 15)
+      Persistent: 100% (3.1MB-3.4MB-3.7MB/7.5MB-7.5MB-7.6MB over 15)
+  * com.android.phone / 1001 / v21:
+           TOTAL: 100% (20MB-20MB-21MB/33MB-33MB-34MB over 15)
+      Persistent: 100% (20MB-20MB-21MB/33MB-33MB-34MB over 15)
+  * com.qihoo.daemon / u0a72 / v300030535:
+           TOTAL: 100% (18MB-20MB-21MB/18MB-23MB-25MB over 17)
+          Imp Fg: 100% (18MB-20MB-21MB/18MB-23MB-25MB over 17)
+  * com.lenovo.gameworldphone / u0a8 / v5502864:
+           TOTAL: 100% (5.7MB-5.8MB-6.2MB/5.4MB-5.4MB-5.5MB over 14)
+         Service: 100% (5.7MB-5.8MB-6.2MB/5.4MB-5.4MB-5.5MB over 14)
+  * com.lenovo.calendar:push / u0a48 / v5040048:
+           TOTAL: 100% (4.7MB-5.5MB-6.8MB/5.9MB-6.3MB-7.0MB over 38)
+          Imp Fg: 0.40%
+         Service: 100% (4.7MB-5.5MB-6.8MB/5.9MB-6.3MB-7.0MB over 38)
+  * com.baidu.input / u0a35 / v102:
+           TOTAL: 100% (12MB-18MB-22MB/37MB-38MB-39MB over 14)
+          Imp Bg: 100% (12MB-18MB-22MB/37MB-38MB-39MB over 14)
+  * com.lenovo.gesture / 1001 / v21:
+           TOTAL: 100% (1.0MB-1.1MB-1.1MB/7.2MB-7.2MB-7.3MB over 14)
+          Imp Fg: 100% (1.0MB-1.1MB-1.1MB/7.2MB-7.2MB-7.3MB over 14)
+  * com.android.incallui / u0a19 / v30000214:
+           TOTAL: 100% (2.1MB-2.3MB-2.4MB/37MB-37MB-37MB over 15)
+      Persistent: 100% (2.1MB-2.3MB-2.4MB/37MB-37MB-37MB over 15)
+  * com.amap.android.location / u0a0 / v349:
+           TOTAL: 100% (5.7MB-6.5MB-7.2MB/8.8MB-9.5MB-10MB over 14)
+          Imp Bg: 100% (5.7MB-6.5MB-7.2MB/8.8MB-9.5MB-10MB over 14)
+  * com.qihoo.appstore / u0a72 / v300030535:
+           TOTAL: 100% (14MB-18MB-20MB/17MB-18MB-19MB over 16)
+          Imp Fg: 100% (14MB-18MB-20MB/17MB-18MB-19MB over 16)
+  * com.android.systemui / u0a27 / v2051336:
+           TOTAL: 100% (39MB-45MB-50MB/62MB-68MB-75MB over 14)
+      Persistent: 100% (39MB-45MB-50MB/62MB-68MB-75MB over 14)
+  * com.lenovo.calendar / u0a48 / v5040048:
+           TOTAL: 100% (6.2MB-6.7MB-8.3MB/6.0MB-6.4MB-7.1MB over 14)
+         Service: 100% (6.2MB-6.7MB-8.3MB/6.0MB-6.4MB-7.1MB over 14)
+  * com.lenovo.lsf / u0a10 / v6002275:
+           TOTAL: 100% (4.8MB-5.9MB-7.2MB/13MB-13MB-14MB over 14)
+          Imp Fg: 100% (4.8MB-5.9MB-7.2MB/13MB-13MB-14MB over 14)
+  * com.hunantv.imgo.activity:pushservice / u0a352 / v69:
+           TOTAL: 100% (7.8MB-11MB-17MB/9.8MB-12MB-15MB over 14)
+         Service: 100% (7.8MB-11MB-17MB/9.8MB-12MB-15MB over 14)
+      Service Rs: 0.02%
+  * system / 1000 / v21:
+           TOTAL: 100% (91MB-94MB-99MB/240MB-243MB-246MB over 15)
+      Persistent: 100% (91MB-94MB-99MB/240MB-243MB-246MB over 15)
+  * com.lenovo.lightsettings / 1000 / v1001008:
+           TOTAL: 100% (5.2MB-6.3MB-6.8MB/8.7MB-9.3MB-9.6MB over 15)
+      Persistent: 100% (5.2MB-6.3MB-6.8MB/8.7MB-9.3MB-9.6MB over 15)
+  * com.lenovo.ideafriend / u0a33 / v4003221:
+           TOTAL: 100% (11MB-13MB-17MB/11MB-11MB-15MB over 14)
+         Service: 100% (11MB-13MB-17MB/11MB-11MB-15MB over 14)
+      Service Rs: 0.05%
+        Receiver: 0.02%
+  * com.lenovo.security / u0a23 / v70010013:
+           TOTAL: 100% (8.2MB-9.0MB-16MB/7.7MB-8.1MB-12MB over 13)
+         Service: 100% (8.2MB-9.0MB-16MB/7.7MB-8.1MB-12MB over 13)
+      Service Rs: 0.04%
+  * com.sdu.didi.psnger:pushservice / u0a116 / v113:
+           TOTAL: 100% (10MB-12MB-16MB/13MB-15MB-19MB over 14)
+         Service: 100% (10MB-12MB-16MB/13MB-15MB-19MB over 14)
+  * com.lenovo.lsf.device / u0a9 / v405061583:
+           TOTAL: 100% (4.9MB-5.5MB-6.4MB/6.8MB-7.3MB-8.1MB over 14)
+         Service: 100% (4.9MB-5.5MB-6.4MB/6.8MB-7.3MB-8.1MB over 14)
+  * com.lenovo.coverapp.script / u0a49 / v1000067:
+           TOTAL: 100% (12MB-15MB-18MB/25MB-26MB-28MB over 52)
+             Top: 34% (13MB-14MB-18MB/25MB-27MB-28MB over 12)
+          Imp Fg: 66% (12MB-16MB-18MB/25MB-25MB-27MB over 40)
+        Receiver: 0.01%
+  * com.qihoo.appstore:PluginP01 / u0a72 / v300030535:
+           TOTAL: 100% (6.3MB-6.5MB-6.8MB/5.9MB-6.0MB-6.1MB over 17)
+         Service: 100% (6.3MB-6.5MB-6.8MB/5.9MB-6.0MB-6.1MB over 17)
+  * com.sdu.didi.psnger / u0a116 / v113:
+           TOTAL: 100% (21MB-25MB-27MB/25MB-26MB-27MB over 14)
+         Service: 100% (21MB-25MB-27MB/25MB-26MB-27MB over 14)
+  * com.push.Youku_PushService / u0a92 / v63:
+           TOTAL: 100% (7.9MB-19MB-23MB/20MB-23MB-24MB over 14)
+         Service: 100% (7.9MB-19MB-23MB/20MB-23MB-24MB over 14)
+  * com.google.android.gms.persistent / u0a306 / v8489238:
+           TOTAL: 100% (15MB-16MB-19MB/18MB-20MB-22MB over 14)
+          Imp Fg: 0.46%
+          Imp Bg: 100% (15MB-16MB-19MB/18MB-20MB-22MB over 14)
+  * com.qihoo.appstore:PluginP06 / u0a72 / v300030535:
+           TOTAL: 100% (6.2MB-6.5MB-6.9MB/6.0MB-9.2MB-10MB over 17)
+         Service: 100% (6.2MB-6.5MB-6.9MB/6.0MB-9.2MB-10MB over 17)
+  * com.ycp.yuanchuangpai:pushservice / u0a128 / v612:
+           TOTAL: 100% (58MB-59MB-62MB/58MB-58MB-61MB over 14)
+         Service: 100% (58MB-59MB-62MB/58MB-58MB-61MB over 14)
+  * com.tencent.qlauncher.lite:tcm_service / u0a339 / v63160107:
+           TOTAL: 100% (9.0MB-10MB-18MB/8.6MB-9.3MB-14MB over 15)
+         Service: 100% (9.0MB-10MB-18MB/8.6MB-9.3MB-14MB over 15)
+      Service Rs: 0.04%
+  * dopool.player:push / u0a89 / v114:
+           TOTAL: 100% (18MB-20MB-36MB/18MB-19MB-32MB over 13)
+         Service: 100% (18MB-20MB-36MB/18MB-19MB-32MB over 13)
+      Service Rs: 0.03%
+  * com.lenovo.lasf.tts / u0a79 / v2212:
+           TOTAL: 100% (14MB-15MB-16MB/14MB-14MB-15MB over 15)
+         Service: 100% (14MB-15MB-16MB/14MB-14MB-15MB over 15)
+      Service Rs: 0.03%
+  * com.mediatek.atci.service / 1000 / v1:
+           TOTAL: 100% (3.9MB-4.1MB-4.5MB/3.5MB-3.6MB-3.6MB over 13)
+         Service: 100% (3.9MB-4.1MB-4.5MB/3.5MB-3.6MB-3.6MB over 13)
+      Service Rs: 0.03%
+        (Cached): 0.00%
+  * com.google.process.gapps / u0a306 / v16:
+           TOTAL: 100% (5.0MB-5.2MB-6.3MB/4.6MB-4.7MB-4.9MB over 14)
+          Imp Fg: 0.01%
+         Service: 100% (5.0MB-5.2MB-6.3MB/4.6MB-4.7MB-4.9MB over 14)
+      Service Rs: 0.03%
+  * android.process.media / u0a5 / v704:
+           TOTAL: 100% (5.2MB-6.2MB-8.1MB/5.0MB-5.4MB-6.2MB over 14)
+          Imp Fg: 0.04%
+         Service: 100% (5.2MB-6.2MB-8.1MB/5.0MB-5.4MB-6.2MB over 14)
+      Service Rs: 0.04%
+  * com.tencent.mm / u0a99 / v700:
+           TOTAL: 100% (77MB-83MB-107MB/76MB-99MB-116MB over 32)
+             Top: 58% (77MB-84MB-107MB/86MB-109MB-116MB over 21)
+          Imp Fg: 42% (77MB-82MB-86MB/76MB-80MB-83MB over 11)
+         Service: 0.05%
+      Service Rs: 0.00%
+        Receiver: 0.03%
+  * com.tencent.mm:push / u0a99 / v700:
+           TOTAL: 99% (14MB-16MB-20MB/14MB-15MB-16MB over 14)
+          Imp Fg: 99% (14MB-16MB-20MB/14MB-15MB-16MB over 14)
+         Service: 0.01%
+      Service Rs: 0.01%
+  * com.jinzht.pro / u0a347 / v10:
+           TOTAL: 89% (8.5MB-42MB-75MB/7.5MB-38MB-70MB over 19)
+             Top: 40% (43MB-61MB-75MB/38MB-56MB-70MB over 12)
+         Service: 50% (8.5MB-8.7MB-9.2MB/7.5MB-7.7MB-8.1MB over 7)
+      Service Rs: 0.00%
+  * com.lenovo.updateassist / u0a68 / v2060288:
+           TOTAL: 88% (11MB-12MB-13MB/9.6MB-11MB-11MB over 47)
+             Top: 0.01%
+          Imp Fg: 0.61%
+         Service: 88% (11MB-12MB-13MB/9.6MB-11MB-11MB over 47)
+        Receiver: 0.00%
+        (Cached): 12% (14MB-15MB-15MB/12MB-13MB-13MB over 6)
+  * com.tencent.mobileqq:MSF / u0a100 / v320:
+           TOTAL: 50% (15MB-16MB-16MB/20MB-20MB-20MB over 7)
+          Imp Fg: 50% (15MB-16MB-16MB/20MB-20MB-20MB over 7)
+         Service: 0.00%
+      Service Rs: 0.00%
+  * com.tencent.mobileqq / u0a100 / v320:
+           TOTAL: 50% (54MB-58MB-61MB/53MB-58MB-69MB over 52)
+          Imp Fg: 50% (54MB-58MB-61MB/53MB-58MB-69MB over 52)
+         Service: 0.00%
+      Service Rs: 0.00%
+  * com.youlian.dgj.activity / u0a351 / v16:
+           TOTAL: 50% (9.6MB-11MB-16MB/9.1MB-9.7MB-12MB over 6)
+         Service: 50% (9.6MB-11MB-16MB/9.1MB-9.7MB-12MB over 6)
+      Service Rs: 0.03%
+  * com.lenovo.launcher / u0a20 / v6501160:
+           TOTAL: 41% (23MB-30MB-35MB/45MB-50MB-54MB over 14)
+             Top: 41% (23MB-30MB-35MB/45MB-50MB-54MB over 14)
+        Receiver: 0.15%
+          (Home): 59% (23MB-24MB-25MB/45MB-46MB-47MB over 9)
+  * com.google.android.gms / u0a306 / v8489238:
+           TOTAL: 40% (14MB-16MB-21MB/16MB-17MB-21MB over 11)
+             Top: 39% (14MB-16MB-21MB/16MB-17MB-21MB over 11)
+          Imp Fg: 0.26%
+         Service: 0.09%
+        (Cached): 60% (9.1MB-12MB-18MB/11MB-13MB-18MB over 11)
+  * com.lenovo.leos.appstore / u0a1 / v70320:
+           TOTAL: 2.4% (24MB-30MB-34MB/21MB-26MB-29MB over 4)
+         Service: 2.2% (24MB-30MB-34MB/21MB-26MB-29MB over 4)
+        Receiver: 0.16%
+        (Cached): 0.27%
+  * com.lenovo.deskclock / 1000 / v20030150:
+           TOTAL: 1.2% (25MB-25MB-25MB/21MB-21MB-21MB over 1)
+             Top: 1.2% (25MB-25MB-25MB/21MB-21MB-21MB over 1)
+        Receiver: 0.01%
+        (Cached): 16% (5.7MB-16MB-21MB/4.5MB-13MB-17MB over 4)
+  * com.android.defcontainer / u0a4 / v21:
+           TOTAL: 0.73%
+          Imp Fg: 0.72%
+         Service: 0.01%
+        (Cached): 7.2% (5.0MB-5.0MB-5.0MB/4.0MB-4.0MB-4.0MB over 1)
+  * com.lenovo.leos.appstore:baidu / u0a1 / v70320:
+           TOTAL: 0.44% (11MB-11MB-11MB/6.5MB-6.5MB-6.5MB over 1)
+         Service: 0.44% (11MB-11MB-11MB/6.5MB-6.5MB-6.5MB over 1)
+        (Cached): 2.0% (6.3MB-12MB-17MB/4.8MB-8.7MB-13MB over 4)
+  * dopool.player / u0a89 / v114:
+           TOTAL: 0.40%
+        Receiver: 0.40%
+        (Cached): 72% (14MB-18MB-23MB/14MB-16MB-22MB over 11)
+  * android.process.acore / u0a14 / v20000151:
+           TOTAL: 0.35%
+             Top: 0.01%
+         Service: 0.32%
+        Receiver: 0.02%
+          (Home): 0.00%
+        (Cached): 50% (11MB-12MB-18MB/10MB-11MB-17MB over 13)
+  * com.cmbchina.ccd.pluto.cmbActivity / u0a220 / v39:
+           TOTAL: 0.31%
+        Receiver: 0.31%
+        (Cached): 56% (21MB-24MB-30MB/21MB-23MB-28MB over 11)
+  * com.lenovo.leos.appstore:SettingProvider / u0a1 / v70320:
+           TOTAL: 0.27%
+         Service: 0.13%
+        Receiver: 0.14%
+        (Cached): 3.4% (5.5MB-7.1MB-10MB/4.2MB-5.4MB-8.6MB over 5)
+  * com.tencent.qlauncher.lite / u0a339 / v63160107:
+           TOTAL: 0.17%
+         Service: 0.02%
+        Receiver: 0.15%
+        (Cached): 39% (8.7MB-13MB-16MB/7.5MB-9.9MB-13MB over 6)
+  * com.lenovo.mbg.cloud.sync / u0a73 / v3950026:
+           TOTAL: 0.16%
+        Receiver: 0.16%
+        (Cached): 0.32%
+  * com.hunantv.imgo.activity / u0a352 / v69:
+           TOTAL: 0.14%
+        Receiver: 0.14%
+        (Cached): 67% (6.0MB-10MB-15MB/5.0MB-8.5MB-12MB over 10)
+  * com.tencent.mm:tools / u0a99 / v700:
+           TOTAL: 0.12%
+        Receiver: 0.12%
+        (Cached): 10% (19MB-24MB-31MB/17MB-19MB-24MB over 3)
+  * com.ycp.yuanchuangpai / u0a128 / v612:
+           TOTAL: 0.08%
+         Service: 0.00%
+        Receiver: 0.08%
+        (Cached): 25% (39MB-41MB-46MB/38MB-39MB-42MB over 4)
+  * com.lenovo.browser / u0a12 / v60030017:
+           TOTAL: 0.07%
+         Service: 0.05%
+        Receiver: 0.01%
+        (Cached): 7.3% (8.5MB-8.5MB-8.5MB/7.0MB-7.0MB-7.0MB over 1)
+  * com.ycp.yuanchuangpai:ipc / u0a128 / v612:
+           TOTAL: 0.06% (44MB-44MB-44MB/38MB-38MB-38MB over 1)
+         Service: 0.06% (44MB-44MB-44MB/38MB-38MB-38MB over 1)
+        Receiver: 0.01%
+        (Cached): 25% (37MB-39MB-44MB/37MB-38MB-41MB over 3)
+  * com.android.providers.calendar / u0a3 / v21:
+           TOTAL: 0.03%
+         Service: 0.03%
+        (Cached): 0.16%
+  * com.lenovo.fm / 1000 / v30010160:
+           TOTAL: 0.02%
+        Receiver: 0.02%
+        (Cached): 39% (4.3MB-4.7MB-5.5MB/3.8MB-3.9MB-4.1MB over 5)
+  * com.lenovo.ota / u0a22 / v13040576:
+           TOTAL: 0.02%
+        Receiver: 0.02%
+        (Cached): 7.3% (6.9MB-6.9MB-6.9MB/5.1MB-5.1MB-5.1MB over 1)
+  * com.android.keychain / 1000 / v21:
+           TOTAL: 0.01%
+         Service: 0.00%
+        Receiver: 0.01%
+        (Cached): 7.1% (4.6MB-4.6MB-4.6MB/3.5MB-3.5MB-3.5MB over 1)
+  * com.svox.pico / u0a66 / v1:
+           TOTAL: 0.00%
+        Receiver: 0.00%
+        (Cached): 7.0% (4.0MB-4.0MB-4.0MB/3.1MB-3.1MB-3.1MB over 1)
+
+Run time Stats:
+  SOff/Norm: +7m32s788ms
+       Mod : +6m27s63ms (running)
+       Low : +24m36s75ms
+       Crit: +3m50s209ms
+  SOn /Norm: +2m10s842ms
+       Mod : +3m6s330ms
+       Low : +2m7s880ms
+       Crit: +23s3ms
+      TOTAL: +50m14s190ms
+
+Memory usage:
+  Kernel : 189MB (52 samples)
+  Native : 35MB (52 samples)
+  Persist: 186MB (312 samples)
+  Top    : 95MB (574 samples)
+  ImpFg  : 141MB (1257 samples)
+  ImpBg  : 41MB (113 samples)
+  Service: 422MB (1347 samples)
+  Receivr: 382KB (838 samples)
+  Home   : 14MB (53 samples)
+  CchEmty: 84MB (364 samples)
+  Cached : 188MB (52 samples)
+  Free   : 220MB (52 samples)
+  Z-Ram   : 131MB (52 samples)
+  TOTAL  : 1.7GB
+  ServRst: 40KB (263 samples)
+
+          Start time: 2016-01-18 11:07:59
+  Total elapsed time: +50m14s838ms (partial) libart.so
